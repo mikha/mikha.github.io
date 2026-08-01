@@ -818,7 +818,7 @@ function $c_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$() {
   this.I = null;
   $n_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$ = this;
   this.B = $m_Lcom_dewdrop_loliga_model_Team$().aE("\u0410\u0442\u043b\u0435\u0442\u0438\u043a \u0411\u0438\u043b\u044c\u0431\u0430\u043e", $m_Lcom_dewdrop_loliga_model_Link$().aD("k", 792, "d89f5fb16937bf7422d14ff627b98956"), false, false);
-  this.C = $m_Lcom_dewdrop_loliga_model_Team$().aE("\u0410\u0442\u043b\u0435\u0442\u0438\u043a\u043e \u041c\u0430\u0434\u0440\u0438\u0434", $m_Lcom_dewdrop_loliga_model_Link$().aD("k", 793, "b4b7dd00ecd23896be7cbf417b05a814"), false, false);
+  this.C = $m_Lcom_dewdrop_loliga_model_Team$().aE("\u0410\u0442\u043b\u0435\u0442\u0438\u043a\u043e \u041c\u0430\u0434\u0440\u0438\u0434", $m_Lcom_dewdrop_loliga_model_Link$().aD("k", 793, "b4b7dd00ecd23896be7cbf417b05a814"), true, false);
   this.D = $m_Lcom_dewdrop_loliga_model_Team$().aE("\u0411\u0430\u0440\u0441\u0435\u043b\u043e\u043d\u0430", $m_Lcom_dewdrop_loliga_model_Link$().aD("k", 795, "681f94e463bd2ae01791e493c5a4bfc7"), true, false);
   this.E = $m_Lcom_dewdrop_loliga_model_Team$().aE("\u0411\u0435\u0442\u0438\u0441", $m_Lcom_dewdrop_loliga_model_Link$().aD("k", 796, "9abe7d8e6a577a7cdf7c3f0b58cc500a"), false, false);
   this.U = $m_Lcom_dewdrop_loliga_model_Team$().aE("\u0412\u0430\u043b\u0435\u043d\u0441\u0438\u044f", $m_Lcom_dewdrop_loliga_model_Link$().aD("k", 826, "4922099bb4660233682c3ad5ee406398"), true, false);
@@ -5189,7 +5189,7 @@ function $c_Lcom_dewdrop_loliga_model_Data$SeasonData$() {
   this.fo = null;
   $n_Lcom_dewdrop_loliga_model_Data$SeasonData$ = this;
   this.hk = "LOLiga: 24-\u0439 \u0441\u0435\u0437\u043e\u043d";
-  this.hl = "3.1";
+  this.hl = "3.2";
   this.eH = false;
   this.bM = $m_Lcom_dewdrop_loliga_model_Team$().h8("\u0418\u0441\u043f\u0430\u043d\u0438\u044f", $m_Lcom_dewdrop_loliga_model_Link$().jG(172, "f4ae367fc9c7fdaa0f0c5ba76e60a6e2"));
   this.cR = $m_Lcom_dewdrop_loliga_model_Team$().h8("\u0418\u0441\u043f\u0430\u043d\u0438\u044f (\u043c\u043e\u043b.)", $m_Lcom_dewdrop_loliga_model_Link$().jG(1172, "e776025c328869de54cc135992d1b34d"));
