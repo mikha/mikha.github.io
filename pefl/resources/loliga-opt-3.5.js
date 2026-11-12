@@ -197,7 +197,7 @@ function $dp_getChars__I__I__AC__I__V(instance, x0, x1, x2, x3) {
   if (((typeof instance) === "string")) {
     return $f_T__getChars__I__I__AC__I__V(instance, x0, x1, x2, x3);
   } else {
-    return instance.jD(x0, x1, x2, x3);
+    return instance.jE(x0, x1, x2, x3);
   }
 }
 function $dp_hashCode__I(instance) {
@@ -821,20 +821,20 @@ function $c_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$() {
   this.C = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0410\u0442\u043b\u0435\u0442\u0438\u043a\u043e \u041c\u0430\u0434\u0440\u0438\u0434", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 793, "b4b7dd00ecd23896be7cbf417b05a814"), true, false);
   this.D = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0411\u0430\u0440\u0441\u0435\u043b\u043e\u043d\u0430", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 795, "681f94e463bd2ae01791e493c5a4bfc7"), true, false);
   this.E = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0411\u0435\u0442\u0438\u0441", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 796, "9abe7d8e6a577a7cdf7c3f0b58cc500a"), false, false);
-  this.U = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0412\u0430\u043b\u0435\u043d\u0441\u0438\u044f", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 826, "4922099bb4660233682c3ad5ee406398"), true, false).jM(11);
+  this.U = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0412\u0430\u043b\u0435\u043d\u0441\u0438\u044f", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 826, "4922099bb4660233682c3ad5ee406398"), true, false).fm(11);
   this.H = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0414\u0435\u043f\u043e\u0440\u0442\u0438\u0432\u043e", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 800, "5290c3ac1819cf6051d732f2df1b7484"), false, false);
   this.G = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u041a\u043e\u043c\u043f\u043e\u0441\u0442\u0435\u043b\u0430", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 799, "91c0f46a5dd8425ad62fefaad68e2035"), false, false);
   this.O = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u041b\u0430\u0441 \u041f\u0430\u043b\u044c\u043c\u0430\u0441", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 807, "1f0b7594a04292d10f25ce0607c6a3b2"), false, false);
   this.K = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u041b\u0435\u0432\u0430\u043d\u0442\u0435", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 809, "fae70910c570081ec974c7d139b8b34c"), false, false);
-  this.L = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u041c\u0430\u043b\u0430\u0433\u0430", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 810, "0a981fec6985c2273b206fe62f192aee"), true, false);
+  this.L = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u041c\u0430\u043b\u0430\u0433\u0430", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 810, "0a981fec6985c2273b206fe62f192aee"), true, false).fm(25);
   this.M = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u041c\u0430\u043b\u044c\u043e\u0440\u043a\u0430", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 811, "0295cbc439503a3257ab3807555bda07"), false, false);
   this.N = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u041e\u0441\u0430\u0441\u0443\u043d\u0430", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 814, "dc5e42bdcd014dd50b4565c4befc9f1f"), false, false);
   this.P = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0420\u0430\u0439\u043e \u0412\u0430\u043b\u044c\u0435\u043a\u0430\u043d\u043e", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 817, "582ec131d7b8994660f2898a62589f30"), false, false);
-  this.Q = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0420\u0435\u0430\u043b \u041c\u0430\u0434\u0440\u0438\u0434", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 818, "534bfaa8d12b5650da603d7b207fd8e8"), true, false);
+  this.Q = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0420\u0435\u0430\u043b \u041c\u0430\u0434\u0440\u0438\u0434", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 818, "534bfaa8d12b5650da603d7b207fd8e8"), true, false).fm(25);
   this.S = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0420\u0435\u0430\u043b \u0421\u043e\u0441\u044c\u0435\u0434\u0430\u0434", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 819, "798a87a66ea104894b7fdd4dd8421eb5"), false, false);
   this.R = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0421\u0435\u0432\u0438\u043b\u044c\u044f", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 822, "192038a87c9d2a4feb812b2ef9f09d3f"), false, false);
   this.F = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0421\u0435\u043b\u044c\u0442\u0430", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 797, "34c0d53160b454e243beb4e33f34c326"), false, false);
-  this.T = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0422\u0435\u043d\u0435\u0440\u0438\u0444\u0435", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 824, "2dfcbe307e5882a3cf6daa5c432389fa"), true, false).jM(24);
+  this.T = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0422\u0435\u043d\u0435\u0440\u0438\u0444\u0435", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 824, "2dfcbe307e5882a3cf6daa5c432389fa"), true, false).fm(24);
   this.J = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u0423\u044d\u0441\u043a\u0430", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 821, "d0e0f758987648135d418c3904f2ed86"), false, false);
   this.I = $m_Lcom_dewdrop_loliga_model_Team$().aG("\u042d\u0441\u043f\u0430\u043d\u044c\u043e\u043b", $m_Lcom_dewdrop_loliga_model_Link$().aF("k", 804, "51c788a7a8e248390ab972bce9b26854"), false, false);
 }
@@ -907,7 +907,7 @@ $p.W = (function(t, j, n, z) {
 $p.kK = (function(t, k, j, f, z) {
   return new $c_Lcom_dewdrop_loliga_model_Link$PlugLink($m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_T2("t", t), new $c_T2("k", ("" + k)), new $c_T2("j", ("" + j)), new $c_T2("f", ("" + f)), new $c_T2("z", z)])));
 });
-$p.jL = (function(j, z) {
+$p.jM = (function(j, z) {
   return $ct_Lcom_dewdrop_loliga_model_Link$LinkImpl__T__sci_Seq__(new $c_Lcom_dewdrop_loliga_model_Link$LinkImpl(), "plug.php", $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_T2("p", "nation"), new $c_T2("t", "k"), new $c_T2("n", "i"), new $c_T2("j", ("" + j)), new $c_T2("z", z)])));
 });
 var $d_Lcom_dewdrop_loliga_model_Link$ = new $TypeData().i($c_Lcom_dewdrop_loliga_model_Link$, "com.dewdrop.loliga.model.Link$", ({
@@ -921,7 +921,7 @@ function $m_Lcom_dewdrop_loliga_model_Link$() {
   return $n_Lcom_dewdrop_loliga_model_Link$;
 }
 function $f_Lcom_dewdrop_loliga_model_Season__teams__sci_Seq($thiz) {
-  return $f_sc_SeqOps__sortBy__F1__s_math_Ordering__O($f_sc_SeqOps__distinct__O($thiz.fs.b8(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$1$2$2) => x$1$2$2.b1))).b8(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((f$2$2) => $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [f$2$2.aY, f$2$2.bh]))))).ba()).aN(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((t$2$2) => {
+  return $f_sc_SeqOps__sortBy__F1__s_math_Ordering__O($f_sc_SeqOps__distinct__O($thiz.ft.b8(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$1$2$2) => x$1$2$2.b1))).b8(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((f$2$2) => $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [f$2$2.aY, f$2$2.bh]))))).ba()).aN(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((t$2$2) => {
     var x = t$2$2.cd;
     var x$2 = $m_Lcom_dewdrop_loliga_model_Link$NoLink$();
     if ((!((x !== null) && x.e(x$2)))) {
@@ -929,7 +929,7 @@ function $f_Lcom_dewdrop_loliga_model_Season__teams__sci_Seq($thiz) {
     } else {
       return false;
     }
-  }))).aN(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((t$2$2$1) => ((!$thiz.eK) || t$2$2$1.hc())))).dk(), new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$2$2$2) => x$2$2$2.aT)), $m_s_math_Ordering$String$());
+  }))).aN(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((t$2$2$1) => ((!$thiz.eK) || t$2$2$1.hd())))).dk(), new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$2$2$2) => x$2$2$2.aT)), $m_s_math_Ordering$String$());
 }
 function $p_jl_System$SystemProperties$__loadSystemProperties__O($thiz) {
   var result = ({});
@@ -949,11 +949,11 @@ function $p_jl_System$SystemProperties$__loadSystemProperties__O($thiz) {
 }
 /** @constructor */
 function $c_jl_System$SystemProperties$() {
-  this.fI = null;
-  this.hu = null;
+  this.fJ = null;
+  this.hv = null;
   $n_jl_System$SystemProperties$ = this;
-  this.fI = $p_jl_System$SystemProperties$__loadSystemProperties__O(this);
-  this.hu = null;
+  this.fJ = $p_jl_System$SystemProperties$__loadSystemProperties__O(this);
+  this.hv = null;
 }
 $p = $c_jl_System$SystemProperties$.prototype = new $h_O();
 $p.constructor = $c_jl_System$SystemProperties$;
@@ -961,12 +961,12 @@ $p.constructor = $c_jl_System$SystemProperties$;
 function $h_jl_System$SystemProperties$() {
 }
 $h_jl_System$SystemProperties$.prototype = $p;
-$p.jE = (function(key, default$1) {
-  if ((this.fI !== null)) {
-    var dict = this.fI;
+$p.jF = (function(key, default$1) {
+  if ((this.fJ !== null)) {
+    var dict = this.fJ;
     return ((!(!$m_jl_Utils$Cache$().dY.call(dict, key))) ? dict[key] : default$1);
   } else {
-    return this.hu.jE(key, default$1);
+    return this.hv.jF(key, default$1);
   }
 });
 var $d_jl_System$SystemProperties$ = new $TypeData().i($c_jl_System$SystemProperties$, "java.lang.System$SystemProperties$", ({
@@ -1261,7 +1261,7 @@ $p.kR = (function(a, key) {
     }
   }
 });
-$p.js = (function(a, b) {
+$p.jt = (function(a, b) {
   if ((a === b)) {
     return true;
   }
@@ -1291,76 +1291,7 @@ $p.js = (function(a, b) {
   }
   return true;
 });
-$p.jr = (function(a, b) {
-  if ((a === b)) {
-    return true;
-  }
-  if (((a === null) || (b === null))) {
-    return false;
-  }
-  var len = a.a.length;
-  if ((b.a.length !== len)) {
-    return false;
-  }
-  var i = 0;
-  while ((i !== len)) {
-    var i$1 = i;
-    var $x_1 = a.a[i$1];
-    var i$2 = i;
-    if ((!($x_1 === b.a[i$2]))) {
-      return false;
-    }
-    i = ((1 + i) | 0);
-  }
-  return true;
-});
-$p.jt = (function(a, b) {
-  if ((a === b)) {
-    return true;
-  }
-  if (((a === null) || (b === null))) {
-    return false;
-  }
-  var len = a.a.length;
-  if ((b.a.length !== len)) {
-    return false;
-  }
-  var i = 0;
-  while ((i !== len)) {
-    var i$1 = i;
-    var $x_1 = a.a[i$1];
-    var i$2 = i;
-    if ((!($x_1 === b.a[i$2]))) {
-      return false;
-    }
-    i = ((1 + i) | 0);
-  }
-  return true;
-});
-$p.jq = (function(a, b) {
-  if ((a === b)) {
-    return true;
-  }
-  if (((a === null) || (b === null))) {
-    return false;
-  }
-  var len = a.a.length;
-  if ((b.a.length !== len)) {
-    return false;
-  }
-  var i = 0;
-  while ((i !== len)) {
-    var i$1 = i;
-    var $x_1 = a.a[i$1];
-    var i$2 = i;
-    if ((!($x_1 === b.a[i$2]))) {
-      return false;
-    }
-    i = ((1 + i) | 0);
-  }
-  return true;
-});
-$p.jp = (function(a, b) {
+$p.js = (function(a, b) {
   if ((a === b)) {
     return true;
   }
@@ -1406,6 +1337,75 @@ $p.ju = (function(a, b) {
   }
   return true;
 });
+$p.jr = (function(a, b) {
+  if ((a === b)) {
+    return true;
+  }
+  if (((a === null) || (b === null))) {
+    return false;
+  }
+  var len = a.a.length;
+  if ((b.a.length !== len)) {
+    return false;
+  }
+  var i = 0;
+  while ((i !== len)) {
+    var i$1 = i;
+    var $x_1 = a.a[i$1];
+    var i$2 = i;
+    if ((!($x_1 === b.a[i$2]))) {
+      return false;
+    }
+    i = ((1 + i) | 0);
+  }
+  return true;
+});
+$p.jq = (function(a, b) {
+  if ((a === b)) {
+    return true;
+  }
+  if (((a === null) || (b === null))) {
+    return false;
+  }
+  var len = a.a.length;
+  if ((b.a.length !== len)) {
+    return false;
+  }
+  var i = 0;
+  while ((i !== len)) {
+    var i$1 = i;
+    var $x_1 = a.a[i$1];
+    var i$2 = i;
+    if ((!($x_1 === b.a[i$2]))) {
+      return false;
+    }
+    i = ((1 + i) | 0);
+  }
+  return true;
+});
+$p.jv = (function(a, b) {
+  if ((a === b)) {
+    return true;
+  }
+  if (((a === null) || (b === null))) {
+    return false;
+  }
+  var len = a.a.length;
+  if ((b.a.length !== len)) {
+    return false;
+  }
+  var i = 0;
+  while ((i !== len)) {
+    var i$1 = i;
+    var $x_1 = a.a[i$1];
+    var i$2 = i;
+    if ((!($x_1 === b.a[i$2]))) {
+      return false;
+    }
+    i = ((1 + i) | 0);
+  }
+  return true;
+});
 $p.l8 = (function(a, value) {
   var toIndex = a.a.length;
   var i = 0;
@@ -1415,7 +1415,7 @@ $p.l8 = (function(a, value) {
     i = ((1 + i) | 0);
   }
 });
-$p.gX = (function(original, newLength) {
+$p.gY = (function(original, newLength) {
   var b = original.a.length;
   var copyLength = ((newLength < b) ? newLength : b);
   var ret = $objectGetClass(original).q.Q().q.U(newLength);
@@ -1429,35 +1429,35 @@ $p.fa = (function(original, newLength, newType) {
   original.au(0, ret, 0, copyLength);
   return ret;
 });
-$p.jh = (function(original, newLength) {
+$p.ji = (function(original, newLength) {
   var b = original.a.length;
   var copyLength = ((newLength < b) ? newLength : b);
   var ret = new $ac_B(newLength);
   original.au(0, ret, 0, copyLength);
   return ret;
 });
-$p.jl = (function(original, newLength) {
+$p.jm = (function(original, newLength) {
   var b = original.a.length;
   var copyLength = ((newLength < b) ? newLength : b);
   var ret = new $ac_S(newLength);
   original.au(0, ret, 0, copyLength);
   return ret;
 });
-$p.jj = (function(original, newLength) {
+$p.jk = (function(original, newLength) {
   var b = original.a.length;
   var copyLength = ((newLength < b) ? newLength : b);
   var ret = new $ac_I(newLength);
   original.au(0, ret, 0, copyLength);
   return ret;
 });
-$p.jk = (function(original, newLength) {
+$p.jl = (function(original, newLength) {
   var b = ((original.a.length >>> 1) | 0);
   var copyLength = ((newLength < b) ? newLength : b);
   var ret = new $ac_J(newLength);
   original.au(0, ret, 0, copyLength);
   return ret;
 });
-$p.ji = (function(original, newLength) {
+$p.jj = (function(original, newLength) {
   var b = original.a.length;
   var copyLength = ((newLength < b) ? newLength : b);
   var ret = new $ac_C(newLength);
@@ -1478,7 +1478,7 @@ $p.kY = (function(original, newLength) {
   original.au(0, ret, 0, copyLength);
   return ret;
 });
-$p.jm = (function(original, newLength) {
+$p.jn = (function(original, newLength) {
   var b = original.a.length;
   var copyLength = ((newLength < b) ? newLength : b);
   var ret = new $ac_Z(newLength);
@@ -1503,11 +1503,11 @@ function $isArrayOf_ju_Formattable(obj, depth) {
 }
 /** @constructor */
 function $c_ju_Formatter$() {
+  this.hC = null;
   this.hB = null;
-  this.hA = null;
   $n_ju_Formatter$ = this;
-  this.hB = new RegExp("(?:(\\d+)\\$)?([-#+ 0,\\(<]*)(\\d+)?(?:\\.(\\d+))?[%A-Za-z]", "g");
-  this.hA = new $ac_I(new Int32Array([96, 126, 638, 770, 32, 256, 2, 126, (-1), (-1), (-1), (-1), (-1), (-1), 800, (-1), (-1), (-1), 124, (-1), (-1), (-1), (-1), 544, (-1), (-1)]));
+  this.hC = new RegExp("(?:(\\d+)\\$)?([-#+ 0,\\(<]*)(\\d+)?(?:\\.(\\d+))?[%A-Za-z]", "g");
+  this.hB = new $ac_I(new Int32Array([96, 126, 638, 770, 32, 256, 2, 126, (-1), (-1), (-1), (-1), (-1), (-1), 800, (-1), (-1), (-1), 124, (-1), (-1), (-1), (-1), 544, (-1), (-1)]));
 }
 $p = $c_ju_Formatter$.prototype = new $h_O();
 $p.constructor = $c_ju_Formatter$;
@@ -1515,7 +1515,7 @@ $p.constructor = $c_ju_Formatter$;
 function $h_ju_Formatter$() {
 }
 $h_ju_Formatter$.prototype = $p;
-$p.h8 = (function(count) {
+$p.h9 = (function(count) {
   if ((count <= 20)) {
     return "00000000000000000000".substring(0, count);
   } else {
@@ -1623,7 +1623,7 @@ $p.constructor = $c_ju_Formatter$Decimal;
 function $h_ju_Formatter$Decimal() {
 }
 $h_ju_Formatter$Decimal.prototype = $p;
-$p.jH = (function() {
+$p.jI = (function() {
   return (this.ch === "0");
 });
 $p.jQ = (function(precision) {
@@ -1637,10 +1637,10 @@ $p.mb = (function(newScale) {
   var roundingPos = ((((this.ch.length + newScale) | 0) - this.c2) | 0);
   var rounded = $p_ju_Formatter$Decimal__roundAtPos__I__ju_Formatter$Decimal(this, roundingPos);
   $m_ju_Formatter$();
-  if ((!(rounded.jH() || (rounded.c2 <= newScale)))) {
+  if ((!(rounded.jI() || (rounded.c2 <= newScale)))) {
     throw new $c_jl_AssertionError("roundAtPos returned a non-zero value with a scale too large");
   }
-  return ((rounded.jH() || (rounded.c2 === newScale)) ? rounded : new $c_ju_Formatter$Decimal(this.cg, (("" + rounded.ch) + $m_ju_Formatter$().h8(((newScale - rounded.c2) | 0))), newScale));
+  return ((rounded.jI() || (rounded.c2 === newScale)) ? rounded : new $c_ju_Formatter$Decimal(this.cg, (("" + rounded.ch) + $m_ju_Formatter$().h9(((newScale - rounded.c2) | 0))), newScale));
 });
 $p.m = (function() {
   return (((((("Decimal(" + this.cg) + ", ") + this.ch) + ", ") + this.c2) + ")");
@@ -1661,7 +1661,7 @@ function $p_ju_regex_PatternCompiler__parseError__T__E($thiz, desc) {
   throw new $c_ju_regex_PatternSyntaxException(desc, $thiz.av, $thiz.b);
 }
 function $p_ju_regex_PatternCompiler__processLeadingEmbeddedFlags__V($thiz) {
-  var m = $m_ju_regex_PatternCompiler$().hX.exec($thiz.av);
+  var m = $m_ju_regex_PatternCompiler$().hY.exec($thiz.av);
   if ((m !== null)) {
     var x = m[1];
     if ((x !== (void 0))) {
@@ -1669,7 +1669,7 @@ function $p_ju_regex_PatternCompiler__processLeadingEmbeddedFlags__V($thiz) {
       var i = 0;
       while ((i < end)) {
         var value = i;
-        $thiz.a5 = ($thiz.a5 | $m_ju_regex_PatternCompiler$().jJ(x.charCodeAt(value)));
+        $thiz.a5 = ($thiz.a5 | $m_ju_regex_PatternCompiler$().jK(x.charCodeAt(value)));
         i = ((1 + i) | 0);
       }
     }
@@ -1682,7 +1682,7 @@ function $p_ju_regex_PatternCompiler__processLeadingEmbeddedFlags__V($thiz) {
       var i$1 = 0;
       while ((i$1 < end$1)) {
         var value$1 = i$1;
-        $thiz.a5 = ($thiz.a5 & (~$m_ju_regex_PatternCompiler$().jJ(x$1.charCodeAt(value$1))));
+        $thiz.a5 = ($thiz.a5 & (~$m_ju_regex_PatternCompiler$().jK(x$1.charCodeAt(value$1))));
         i$1 = ((1 + i$1) | 0);
       }
     }
@@ -1746,7 +1746,7 @@ function $p_ju_regex_PatternCompiler__skipComments__V($thiz) {
           break;
         }
         case 35: {
-          $thiz.ha();
+          $thiz.hb();
           continue;
           break;
         }
@@ -1844,7 +1844,7 @@ function $p_ju_regex_PatternCompiler__buildPossessiveQuantifier__I__T__T__T($thi
     }
     i = ((1 + i) | 0);
   }
-  var amendedToken = compiledToken.replace($m_ju_regex_PatternCompiler$().hY, ((arg1$2, arg2$2, arg3$2) => {
+  var amendedToken = compiledToken.replace($m_ju_regex_PatternCompiler$().hZ, ((arg1$2, arg2$2, arg3$2) => {
     var num = arg2$2.length;
     var t = ((num >>> 31) | 0);
     if (((((1 & ((num + t) | 0)) - t) | 0) === 0)) {
@@ -2186,27 +2186,27 @@ function $p_ju_regex_PatternCompiler__parsePredefinedCharacterClass__C__ju_regex
   switch (dispatchChar) {
     case 100:
     case 68: {
-      var positive = $m_ju_regex_PatternCompiler$().hS;
+      var positive = $m_ju_regex_PatternCompiler$().hT;
       break;
     }
     case 104:
     case 72: {
-      var positive = $m_ju_regex_PatternCompiler$().hV;
+      var positive = $m_ju_regex_PatternCompiler$().hW;
       break;
     }
     case 115:
     case 83: {
-      var positive = $m_ju_regex_PatternCompiler$().hT;
+      var positive = $m_ju_regex_PatternCompiler$().hU;
       break;
     }
     case 118:
     case 86: {
-      var positive = $m_ju_regex_PatternCompiler$().hW;
+      var positive = $m_ju_regex_PatternCompiler$().hX;
       break;
     }
     case 119:
     case 87: {
-      var positive = $m_ju_regex_PatternCompiler$().hU;
+      var positive = $m_ju_regex_PatternCompiler$().hV;
       break;
     }
     case 112:
@@ -2238,12 +2238,12 @@ function $p_ju_regex_PatternCompiler__parsePCharacterClass__ju_regex_PatternComp
   } else {
     var property = pattern.substring(start, ((1 + start) | 0));
   }
-  var dict = $m_ju_regex_PatternCompiler$().fN;
+  var dict = $m_ju_regex_PatternCompiler$().fO;
   if ((!(!(!$m_jl_Utils$Cache$().dY.call(dict, property))))) {
     $thiz.dM("Unicode character family", "2018");
   }
   var property2 = ((((66 & $thiz.a5) === 2) && ((property === "Lower") || (property === "Upper"))) ? "Alpha" : property);
-  var dict$1 = $m_ju_regex_PatternCompiler$().fN;
+  var dict$1 = $m_ju_regex_PatternCompiler$().fO;
   var result = dict$1[property2];
   $thiz.b = ((1 + $thiz.b) | 0);
   return result;
@@ -2340,7 +2340,7 @@ function $p_ju_regex_PatternCompiler__compileCharacterClass__T($thiz) {
         }
         case 35: {
           if (((4 & $thiz.a5) !== 0)) {
-            $thiz.ha();
+            $thiz.hb();
             break matchResult;
           }
           break;
@@ -2506,7 +2506,7 @@ $p.kV = (function() {
     }
     var jsPattern = this.eF(false);
   }
-  var baseJSFlags = ($m_ju_regex_PatternCompiler$().fM ? "us" : "u");
+  var baseJSFlags = ($m_ju_regex_PatternCompiler$().fN ? "us" : "u");
   var jsFlags = (((66 & this.a5) === 66) ? (baseJSFlags + "i") : baseJSFlags);
   return new $c_ju_regex_Pattern(this.av, this.a5, jsPattern, jsFlags, this.eU, (((this.bl.length | 0) - 1) | 0), this.bl, this.dZ);
 });
@@ -2552,7 +2552,7 @@ $p.eF = (function(insideGroup) {
         }
         case 35: {
           if (((4 & this.a5) !== 0)) {
-            this.ha();
+            this.hb();
             break matchResult;
           }
           break;
@@ -2608,7 +2608,7 @@ $p.eF = (function(insideGroup) {
   }
   return result;
 });
-$p.ha = (function() {
+$p.hb = (function() {
   var pattern = this.av;
   var len = pattern.length;
   while (true) {
@@ -2639,35 +2639,35 @@ function $p_ju_regex_PatternCompiler$__featureTest__T__Z($thiz, flags) {
 }
 /** @constructor */
 function $c_ju_regex_PatternCompiler$() {
-  this.hX = null;
   this.hY = null;
+  this.hZ = null;
   this.kb = false;
   this.ka = false;
-  this.fM = false;
-  this.hS = null;
-  this.k7 = null;
-  this.hV = null;
+  this.fN = false;
   this.hT = null;
-  this.k8 = null;
+  this.k7 = null;
   this.hW = null;
   this.hU = null;
+  this.k8 = null;
+  this.hX = null;
+  this.hV = null;
   this.k9 = null;
-  this.fN = null;
+  this.fO = null;
   this.kc = null;
   $n_ju_regex_PatternCompiler$ = this;
-  this.hX = new RegExp("^\\(\\?([idmsuxU]*)(?:-([idmsuxU]*))?\\)");
-  this.hY = new RegExp("(\\\\+)(\\d+)", "g");
+  this.hY = new RegExp("^\\(\\?([idmsuxU]*)(?:-([idmsuxU]*))?\\)");
+  this.hZ = new RegExp("(\\\\+)(\\d+)", "g");
   this.kb = true;
   this.ka = true;
-  this.fM = $p_ju_regex_PatternCompiler$__featureTest__T__Z(this, "us");
+  this.fN = $p_ju_regex_PatternCompiler$__featureTest__T__Z(this, "us");
   $p_ju_regex_PatternCompiler$__featureTest__T__Z(this, "d");
-  this.hS = new $c_ju_regex_PatternCompiler$CompiledCharClass(2, "0-9");
+  this.hT = new $c_ju_regex_PatternCompiler$CompiledCharClass(2, "0-9");
   this.k7 = new $c_ju_regex_PatternCompiler$CompiledCharClass(0, "Nd");
-  this.hV = new $c_ju_regex_PatternCompiler$CompiledCharClass(2, "\t \u00a0\u1680\u180e\u2000-\u200a\u202f\u205f\u3000");
-  this.hT = new $c_ju_regex_PatternCompiler$CompiledCharClass(2, "\t-\r ");
+  this.hW = new $c_ju_regex_PatternCompiler$CompiledCharClass(2, "\t \u00a0\u1680\u180e\u2000-\u200a\u202f\u205f\u3000");
+  this.hU = new $c_ju_regex_PatternCompiler$CompiledCharClass(2, "\t-\r ");
   this.k8 = new $c_ju_regex_PatternCompiler$CompiledCharClass(0, "White_Space");
-  this.hW = new $c_ju_regex_PatternCompiler$CompiledCharClass(2, "\n-\r\u0085\u2028\u2029");
-  this.hU = new $c_ju_regex_PatternCompiler$CompiledCharClass(2, "a-zA-Z_0-9");
+  this.hX = new $c_ju_regex_PatternCompiler$CompiledCharClass(2, "\n-\r\u0085\u2028\u2029");
+  this.hV = new $c_ju_regex_PatternCompiler$CompiledCharClass(2, "a-zA-Z_0-9");
   this.k9 = new $c_ju_regex_PatternCompiler$CompiledCharClass(2, "\\p{Alphabetic}\\p{Mn}\\p{Me}\\p{Mc}\\p{Nd}\\p{Pc}\\p{Join_Control}");
   var r = ({});
   var value = new $c_ju_regex_PatternCompiler$CompiledCharClass(2, "a-z");
@@ -2696,7 +2696,7 @@ function $c_ju_regex_PatternCompiler$() {
   r.XDigit = value$11;
   var value$12 = new $c_ju_regex_PatternCompiler$CompiledCharClass(2, "\t-\r ");
   r.Space = value$12;
-  this.fN = r;
+  this.fO = r;
   this.kc = new RegExp("(?:^|_)[a-z]", "g");
 }
 $p = $c_ju_regex_PatternCompiler$.prototype = new $h_O();
@@ -2708,7 +2708,7 @@ $h_ju_regex_PatternCompiler$.prototype = $p;
 $p.kU = (function(regex, flags) {
   return new $c_ju_regex_PatternCompiler(regex, flags).kV();
 });
-$p.jJ = (function(c) {
+$p.jK = (function(c) {
   switch (c) {
     case 105: {
       return 2;
@@ -2744,7 +2744,7 @@ $p.jJ = (function(c) {
   }
 });
 $p.fi = (function(characters) {
-  return ((characters !== "") ? (("[^" + characters) + "]") : ($m_ju_regex_PatternCompiler$().fM ? "." : "[\\d\\D]"));
+  return ((characters !== "") ? (("[^" + characters) + "]") : ($m_ju_regex_PatternCompiler$().fN ? "." : "[\\d\\D]"));
 });
 $p.di = (function(codePoint) {
   return String.fromCodePoint(codePoint);
@@ -2767,7 +2767,7 @@ function $p_ju_regex_PatternCompiler$CharacterClassBuilder__addAlternative__T__V
   }
 }
 function $p_ju_regex_PatternCompiler$CharacterClassBuilder__conjunctResult__T($thiz) {
-  if ($thiz.fP) {
+  if ($thiz.fQ) {
     var negThisSegment = $m_ju_regex_PatternCompiler$().fi($thiz.aa);
     return (($thiz.bA === "") ? negThisSegment : (((("(?:(?!" + $thiz.bA) + ")") + negThisSegment) + ")"));
   } else {
@@ -2780,13 +2780,13 @@ function $p_ju_regex_PatternCompiler$CharacterClassBuilder__literalCodePoint__I_
 }
 /** @constructor */
 function $c_ju_regex_PatternCompiler$CharacterClassBuilder(asciiCaseInsensitive, isNegated) {
-  this.fO = false;
   this.fP = false;
+  this.fQ = false;
   this.e0 = null;
   this.bA = null;
   this.aa = null;
-  this.fO = asciiCaseInsensitive;
-  this.fP = isNegated;
+  this.fP = asciiCaseInsensitive;
+  this.fQ = isNegated;
   this.e0 = "";
   this.bA = "";
   this.aa = "";
@@ -2803,7 +2803,7 @@ $p.lc = (function() {
 });
 $p.ml = (function() {
   var conjunct = $p_ju_regex_PatternCompiler$CharacterClassBuilder__conjunctResult__T(this);
-  this.e0 = (this.e0 + (this.fP ? (conjunct + "|") : (("(?=" + conjunct) + ")")));
+  this.e0 = (this.e0 + (this.fQ ? (conjunct + "|") : (("(?=" + conjunct) + ")")));
   this.bA = "";
   this.aa = "";
 });
@@ -2846,7 +2846,7 @@ $p.f8 = (function(codePoint) {
   } else {
     this.aa = (("" + this.aa) + s);
   }
-  if (this.fO) {
+  if (this.fP) {
     if (((((codePoint - 65) | 0) >>> 0) <= 25)) {
       this.aa = (("" + this.aa) + $m_ju_regex_PatternCompiler$().di(((32 + codePoint) | 0)));
     } else if (((((codePoint - 97) | 0) >>> 0) <= 25)) {
@@ -2861,7 +2861,7 @@ $p.kA = (function(startCodePoint, endCodePoint) {
   } else {
     this.aa = (this.aa + s);
   }
-  if (this.fO) {
+  if (this.fP) {
     var start = ((startCodePoint > 65) ? startCodePoint : 65);
     var end = ((endCodePoint < 90) ? endCodePoint : 90);
     if ((start <= end)) {
@@ -2884,18 +2884,18 @@ var $d_ju_regex_PatternCompiler$CharacterClassBuilder = new $TypeData().i($c_ju_
   d4: 1
 }));
 function $p_ju_regex_PatternCompiler$CompiledCharClass__negated$lzycompute__ju_regex_PatternCompiler$CompiledCharClass($thiz) {
-  if ((!$thiz.fQ)) {
-    $thiz.fR = new $c_ju_regex_PatternCompiler$CompiledCharClass((1 ^ $thiz.eV), $thiz.c3);
-    $thiz.fQ = true;
+  if ((!$thiz.fR)) {
+    $thiz.fS = new $c_ju_regex_PatternCompiler$CompiledCharClass((1 ^ $thiz.eV), $thiz.c3);
+    $thiz.fR = true;
   }
-  return $thiz.fR;
+  return $thiz.fS;
 }
 /** @constructor */
 function $c_ju_regex_PatternCompiler$CompiledCharClass(kind, data) {
-  this.fR = null;
+  this.fS = null;
   this.eV = 0;
   this.c3 = null;
-  this.fQ = false;
+  this.fR = false;
   this.eV = kind;
   this.c3 = data;
 }
@@ -2906,29 +2906,29 @@ function $h_ju_regex_PatternCompiler$CompiledCharClass() {
 }
 $h_ju_regex_PatternCompiler$CompiledCharClass.prototype = $p;
 $p.lJ = (function() {
-  return ((!this.fQ) ? $p_ju_regex_PatternCompiler$CompiledCharClass__negated$lzycompute__ju_regex_PatternCompiler$CompiledCharClass(this) : this.fR);
+  return ((!this.fR) ? $p_ju_regex_PatternCompiler$CompiledCharClass__negated$lzycompute__ju_regex_PatternCompiler$CompiledCharClass(this) : this.fS);
 });
 var $d_ju_regex_PatternCompiler$CompiledCharClass = new $TypeData().i($c_ju_regex_PatternCompiler$CompiledCharClass, "java.util.regex.PatternCompiler$CompiledCharClass", ({
   d5: 1
 }));
 function $p_Lorg_scalajs_dom_package$__window$lzycompute__Lorg_scalajs_dom_raw_Window($thiz) {
   if (((33554432 & $thiz.cB) === 0)) {
-    $thiz.fT = window;
+    $thiz.fU = window;
     $thiz.cB = (33554432 | $thiz.cB);
   }
-  return $thiz.fT;
+  return $thiz.fU;
 }
 function $p_Lorg_scalajs_dom_package$__document$lzycompute__Lorg_scalajs_dom_raw_HTMLDocument($thiz) {
   if (((67108864 & $thiz.cB) === 0)) {
-    $thiz.fS = $thiz.mx().document;
+    $thiz.fT = $thiz.mx().document;
     $thiz.cB = (67108864 | $thiz.cB);
   }
-  return $thiz.fS;
+  return $thiz.fT;
 }
 /** @constructor */
 function $c_Lorg_scalajs_dom_package$() {
+  this.fU = null;
   this.fT = null;
-  this.fS = null;
   this.cB = 0;
 }
 $p = $c_Lorg_scalajs_dom_package$.prototype = new $h_O();
@@ -2938,10 +2938,10 @@ function $h_Lorg_scalajs_dom_package$() {
 }
 $h_Lorg_scalajs_dom_package$.prototype = $p;
 $p.mx = (function() {
-  return (((33554432 & this.cB) === 0) ? $p_Lorg_scalajs_dom_package$__window$lzycompute__Lorg_scalajs_dom_raw_Window(this) : this.fT);
+  return (((33554432 & this.cB) === 0) ? $p_Lorg_scalajs_dom_package$__window$lzycompute__Lorg_scalajs_dom_raw_Window(this) : this.fU);
 });
 $p.fb = (function() {
-  return (((67108864 & this.cB) === 0) ? $p_Lorg_scalajs_dom_package$__document$lzycompute__Lorg_scalajs_dom_raw_HTMLDocument(this) : this.fS);
+  return (((67108864 & this.cB) === 0) ? $p_Lorg_scalajs_dom_package$__document$lzycompute__Lorg_scalajs_dom_raw_HTMLDocument(this) : this.fT);
 });
 var $d_Lorg_scalajs_dom_package$ = new $TypeData().i($c_Lorg_scalajs_dom_package$, "org.scalajs.dom.package$", ({
   d7: 1
@@ -2972,7 +2972,7 @@ function $s_RTLong__fromDoubleBits__D__O__J(value, fpBitsDataView) {
   return $bL(lo, hi);
 }
 function $s_RTLong__fromDouble__D__J(value) {
-  return $m_RTLong$().jB(value);
+  return $m_RTLong$().jC(value);
 }
 function $s_RTLong__fromUnsignedInt__I__J(value) {
   return $bL(value, 0);
@@ -2994,7 +2994,7 @@ function $s_RTLong__toInt__I__I__I(lo, hi) {
   return lo;
 }
 function $s_RTLong__toString__I__I__T(lo, hi) {
-  return $m_RTLong$().hk(lo, hi);
+  return $m_RTLong$().hl(lo, hi);
 }
 function $s_RTLong__bitsToDouble__I__I__O__D(lo, hi, fpBitsDataView) {
   fpBitsDataView.setInt32(0, lo, true);
@@ -3093,7 +3093,7 @@ $p.constructor = $c_RTLong$;
 function $h_RTLong$() {
 }
 $h_RTLong$.prototype = $p;
-$p.hk = (function(lo, hi) {
+$p.hl = (function(lo, hi) {
   if ((hi === (lo >> 31))) {
     return ("" + lo);
   } else if ((((-2097152) & (hi ^ (hi >> 10))) === 0)) {
@@ -3121,7 +3121,7 @@ $p.hk = (function(lo, hi) {
     return ((hi < 0) ? ("-" + s) : s);
   }
 });
-$p.jB = (function(value) {
+$p.jC = (function(value) {
   if ((value < (-9.223372036854776E18))) {
     return $bL(0, (-2147483648));
   } else if ((value >= 9.223372036854776E18)) {
@@ -3181,7 +3181,7 @@ $p.l1 = (function(alo, ahi, blo, bhi) {
       var absR_$_hi = hi;
     }
   } else {
-    var $x_1 = this.fm(rlo, rhi, rlo$1, rhi$1, true);
+    var $x_1 = this.fn(rlo, rhi, rlo$1, rhi$1, true);
     var absR_$_lo = $x_1.l;
     var absR_$_hi = $x_1.h;
   }
@@ -3229,7 +3229,7 @@ $p.l2 = (function(alo, ahi, blo, bhi) {
       return $bL(lo, hi);
     }
   } else {
-    return this.fm(alo, ahi, blo, bhi, true);
+    return this.fn(alo, ahi, blo, bhi, true);
   }
 });
 $p.m0 = (function(alo, ahi, blo, bhi) {
@@ -3280,7 +3280,7 @@ $p.m0 = (function(alo, ahi, blo, bhi) {
       var absR_$_hi = hi$2;
     }
   } else {
-    var $x_1 = this.fm(rlo, rhi, rlo$1, rhi$1, false);
+    var $x_1 = this.fn(rlo, rhi, rlo$1, rhi$1, false);
     var absR_$_lo = $x_1.l;
     var absR_$_hi = $x_1.h;
   }
@@ -3328,10 +3328,10 @@ $p.m1 = (function(alo, ahi, blo, bhi) {
       return $bL(lo$2, hi$2);
     }
   } else {
-    return this.fm(alo, ahi, blo, bhi, false);
+    return this.fn(alo, ahi, blo, bhi, false);
   }
 });
-$p.fm = (function(alo, ahi, blo, bhi, askQuotient) {
+$p.fn = (function(alo, ahi, blo, bhi, askQuotient) {
   var quot1 = 0;
   if ((bhi >= 0)) {
     var lo = (blo << 1);
@@ -3379,8 +3379,8 @@ function $m_RTLong$() {
 }
 function $ps_sc_ArrayOps$__boxed$1__I__O__s_math_Ordering__O(len$1, \u03b4this$2, ord$1) {
   if ((len$1 < 300)) {
-    var a = $m_sr_ScalaRunTime$().jc(\u03b4this$2);
-    $m_s_util_Sorting$().hi(a, 0, $m_jl_reflect_Array$().aq(a), ord$1);
+    var a = $m_sr_ScalaRunTime$().jd(\u03b4this$2);
+    $m_s_util_Sorting$().hj(a, 0, $m_jl_reflect_Array$().aq(a), ord$1);
     return a;
   } else {
     if ($d_O.R($objectGetClass(\u03b4this$2).q.Q().q)) {
@@ -3396,9 +3396,9 @@ function $ps_sc_ArrayOps$__boxed$1__I__O__s_math_Ordering__O(len$1, \u03b4this$2
 }
 /** @constructor */
 function $c_sc_ArrayOps$() {
-  this.i2 = null;
+  this.i3 = null;
   $n_sc_ArrayOps$ = this;
-  this.i2 = new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$1$2$2) => $m_sc_ArrayOps$().i2));
+  this.i3 = new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$1$2$2) => $m_sc_ArrayOps$().i3));
 }
 $p = $c_sc_ArrayOps$.prototype = new $h_O();
 $p.constructor = $c_sc_ArrayOps$;
@@ -3409,14 +3409,14 @@ $h_sc_ArrayOps$.prototype = $p;
 $p.mk = (function(this$, ord) {
   var len = $m_jl_reflect_Array$().aq(this$);
   if ((len <= 1)) {
-    return $m_sr_ScalaRunTime$().jc(this$);
+    return $m_sr_ScalaRunTime$().jd(this$);
   } else if ((this$ instanceof $ac_O)) {
-    var a = $m_ju_Arrays$().gX(this$, len);
+    var a = $m_ju_Arrays$().gY(this$, len);
     $m_ju_Arrays$().dP(a, ord);
     return a;
   } else if ((this$ instanceof $ac_I)) {
     if ((ord === $m_s_math_Ordering$Int$())) {
-      var a$2 = $m_ju_Arrays$().jj(this$, len);
+      var a$2 = $m_ju_Arrays$().jk(this$, len);
       $m_ju_Arrays$().jY(a$2);
       return a$2;
     } else {
@@ -3424,7 +3424,7 @@ $p.mk = (function(this$, ord) {
     }
   } else if ((this$ instanceof $ac_J)) {
     if ((ord === $m_s_math_Ordering$Long$())) {
-      var a$3 = $m_ju_Arrays$().jk(this$, len);
+      var a$3 = $m_ju_Arrays$().jl(this$, len);
       $m_ju_Arrays$().jZ(a$3);
       return a$3;
     } else {
@@ -3432,7 +3432,7 @@ $p.mk = (function(this$, ord) {
     }
   } else if ((this$ instanceof $ac_C)) {
     if ((ord === $m_s_math_Ordering$Char$())) {
-      var a$4 = $m_ju_Arrays$().ji(this$, len);
+      var a$4 = $m_ju_Arrays$().jj(this$, len);
       $m_ju_Arrays$().jX(a$4);
       return a$4;
     } else {
@@ -3440,7 +3440,7 @@ $p.mk = (function(this$, ord) {
     }
   } else if ((this$ instanceof $ac_B)) {
     if ((ord === $m_s_math_Ordering$Byte$())) {
-      var a$5 = $m_ju_Arrays$().jh(this$, len);
+      var a$5 = $m_ju_Arrays$().ji(this$, len);
       $m_ju_Arrays$().jW(a$5);
       return a$5;
     } else {
@@ -3448,7 +3448,7 @@ $p.mk = (function(this$, ord) {
     }
   } else if ((this$ instanceof $ac_S)) {
     if ((ord === $m_s_math_Ordering$Short$())) {
-      var a$6 = $m_ju_Arrays$().jl(this$, len);
+      var a$6 = $m_ju_Arrays$().jm(this$, len);
       $m_ju_Arrays$().k0(a$6);
       return a$6;
     } else {
@@ -3456,8 +3456,8 @@ $p.mk = (function(this$, ord) {
     }
   } else if ((this$ instanceof $ac_Z)) {
     if ((ord === $m_s_math_Ordering$Boolean$())) {
-      var a$7 = $m_ju_Arrays$().jm(this$, len);
-      $m_s_util_Sorting$().hi(a$7, 0, a$7.a.length, $m_s_math_Ordering$Boolean$());
+      var a$7 = $m_ju_Arrays$().jn(this$, len);
+      $m_s_util_Sorting$().hj(a$7, 0, a$7.a.length, $m_s_math_Ordering$Boolean$());
       return a$7;
     } else {
       return $ps_sc_ArrayOps$__boxed$1__I__O__s_math_Ordering__O(len, this$, ord);
@@ -3622,9 +3622,9 @@ function $p_sc_IterableOnceOps__loop$1__I__I__O__F2__sc_IndexedSeq__O($thiz, at,
 }
 /** @constructor */
 function $c_sc_Iterator$ConcatIteratorCell(head, tail) {
-  this.id = null;
+  this.ie = null;
   this.e3 = null;
-  this.id = head;
+  this.ie = head;
   this.e3 = tail;
 }
 $p = $c_sc_Iterator$ConcatIteratorCell.prototype = new $h_O();
@@ -3634,16 +3634,16 @@ function $h_sc_Iterator$ConcatIteratorCell() {
 }
 $h_sc_Iterator$ConcatIteratorCell.prototype = $p;
 $p.lr = (function() {
-  return this.id.bO().f();
+  return this.ie.bO().f();
 });
 var $d_sc_Iterator$ConcatIteratorCell = new $TypeData().i($c_sc_Iterator$ConcatIteratorCell, "scala.collection.Iterator$ConcatIteratorCell", ({
   dK: 1
 }));
 /** @constructor */
 function $c_sc_StringOps$() {
-  this.ie = null;
+  this.ig = null;
   $n_sc_StringOps$ = this;
-  this.ie = new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$1$2$2) => $m_sc_StringOps$().ie));
+  this.ig = new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$1$2$2) => $m_sc_StringOps$().ig));
 }
 $p = $c_sc_StringOps$.prototype = new $h_O();
 $p.constructor = $c_sc_StringOps$;
@@ -3676,7 +3676,7 @@ $p.constructor = $c_scg_CommonErrors$;
 function $h_scg_CommonErrors$() {
 }
 $h_scg_CommonErrors$.prototype = $p;
-$p.jG = (function(index, max) {
+$p.jH = (function(index, max) {
   return new $c_jl_IndexOutOfBoundsException((((index + " is out of bounds (min 0, max ") + max) + ")"));
 });
 var $d_scg_CommonErrors$ = new $TypeData().i($c_scg_CommonErrors$, "scala.collection.generic.CommonErrors$", ({
@@ -3691,7 +3691,7 @@ function $m_scg_CommonErrors$() {
 }
 function $ps_sci_IndexedSeqDefaults$__liftedTree1$1__I() {
   try {
-    return $m_jl_Integer$().lu($m_jl_System$SystemProperties$().jE("scala.collection.immutable.IndexedSeq.defaultApplyPreferredMaxLength", "64"), 10, 214748364);
+    return $m_jl_Integer$().lu($m_jl_System$SystemProperties$().jF("scala.collection.immutable.IndexedSeq.defaultApplyPreferredMaxLength", "64"), 10, 214748364);
   } catch (e) {
     if (false) {
       return 64;
@@ -3702,9 +3702,9 @@ function $ps_sci_IndexedSeqDefaults$__liftedTree1$1__I() {
 }
 /** @constructor */
 function $c_sci_IndexedSeqDefaults$() {
-  this.il = 0;
+  this.im = 0;
   $n_sci_IndexedSeqDefaults$ = this;
-  this.il = $ps_sci_IndexedSeqDefaults$__liftedTree1$1__I();
+  this.im = $ps_sci_IndexedSeqDefaults$__liftedTree1$1__I();
 }
 $p = $c_sci_IndexedSeqDefaults$.prototype = new $h_O();
 $p.constructor = $c_sci_IndexedSeqDefaults$;
@@ -3743,7 +3743,7 @@ function $m_sci_LazyList$EmptyMarker$() {
 }
 /** @constructor */
 function $c_sci_LazyList$LazyBuilder$DeferredState() {
-  this.gk = null;
+  this.gl = null;
 }
 $p = $c_sci_LazyList$LazyBuilder$DeferredState.prototype = new $h_O();
 $p.constructor = $c_sci_LazyList$LazyBuilder$DeferredState;
@@ -3751,18 +3751,18 @@ $p.constructor = $c_sci_LazyList$LazyBuilder$DeferredState;
 function $h_sci_LazyList$LazyBuilder$DeferredState() {
 }
 $h_sci_LazyList$LazyBuilder$DeferredState.prototype = $p;
-$p.h1 = (function() {
-  var state = this.gk;
+$p.h2 = (function() {
+  var state = this.gl;
   if ((state === null)) {
     throw $ct_jl_IllegalStateException__T__(new $c_jl_IllegalStateException(), "uninitialized");
   }
   return state.bO();
 });
-$p.h7 = (function(state) {
-  if ((this.gk !== null)) {
+$p.h8 = (function(state) {
+  if ((this.gl !== null)) {
     throw $ct_jl_IllegalStateException__T__(new $c_jl_IllegalStateException(), "already initialized");
   }
-  this.gk = state;
+  this.gl = state;
 });
 var $d_sci_LazyList$LazyBuilder$DeferredState = new $TypeData().i($c_sci_LazyList$LazyBuilder$DeferredState, "scala.collection.immutable.LazyList$LazyBuilder$DeferredState", ({
   e6: 1
@@ -3828,7 +3828,7 @@ $p.constructor = $c_scm_MutationTracker$;
 function $h_scm_MutationTracker$() {
 }
 $h_scm_MutationTracker$.prototype = $p;
-$p.gW = (function(expectedCount, actualCount, message) {
+$p.gX = (function(expectedCount, actualCount, message) {
   if ((actualCount !== expectedCount)) {
     throw new $c_ju_ConcurrentModificationException(message);
   }
@@ -4005,7 +4005,7 @@ $p.aH = (function(xs, idx, value) {
     throw new $c_s_MatchError(xs);
   }
 });
-$p.jc = (function(xs) {
+$p.jd = (function(xs) {
   if ((xs instanceof $ac_O)) {
     return xs.af();
   } else if ((xs instanceof $ac_I)) {
@@ -4086,7 +4086,7 @@ $p.bX = (function(dv) {
   if ((iv === dv)) {
     return iv;
   } else {
-    var $x_1 = $m_RTLong$().jB(dv);
+    var $x_1 = $m_RTLong$().jC(dv);
     var lv_$_lo = $x_1.l;
     var lv_$_hi = $x_1.h;
     if ((((4.294967296E9 * lv_$_hi) + (lv_$_lo >>> 0.0)) === dv)) {
@@ -4263,7 +4263,7 @@ $p.m9 = (function(a, from, until) {
     i = ((1 + i) | 0);
   }
 });
-$p.hi = (function(a, from, until, evidence$4) {
+$p.hj = (function(a, from, until, evidence$4) {
   if ((a instanceof $ac_O)) {
     if ((($m_jl_reflect_Array$().aq(a) > 1) && (evidence$4 === null))) {
       throw $ct_jl_NullPointerException__T__(new $c_jl_NullPointerException(), "Ordering");
@@ -4631,7 +4631,7 @@ $p.lW = (function(xs, seed) {
   }
   return this.bg(this.c(this.c(h0, rangeDiff), prev));
 });
-$p.j2 = (function(a, seed) {
+$p.j3 = (function(a, seed) {
   var h = seed;
   var l = $m_jl_reflect_Array$().aq(a);
   switch (l) {
@@ -4747,7 +4747,7 @@ $p.lz = (function(xs, seed) {
   }
   return ((rangeState === 2) ? this.lY(initial, rangeDiff, prev, seed) : this.w(h, n));
 });
-$p.jb = (function(a, seed) {
+$p.jc = (function(a, seed) {
   var h = seed;
   var l = a.a.length;
   switch (l) {
@@ -4774,44 +4774,6 @@ $p.jb = (function(a, seed) {
           i = ((1 + i) | 0);
           while ((i < l)) {
             h = this.c(h, (a.a[i] ? 1231 : 1237));
-            i = ((1 + i) | 0);
-          }
-          return this.w(h, l);
-        }
-        prev = hash;
-        i = ((1 + i) | 0);
-      }
-      return this.bg(this.c(this.c(h0, rangeDiff), prev));
-    }
-  }
-});
-$p.j3 = (function(a, seed) {
-  var h = seed;
-  var l = a.a.length;
-  switch (l) {
-    case 0: {
-      return this.w(h, 0);
-      break;
-    }
-    case 1: {
-      return this.w(this.c(h, a.a[0]), 1);
-      break;
-    }
-    default: {
-      var initial = a.a[0];
-      h = this.c(h, initial);
-      var h0 = h;
-      var prev = a.a[1];
-      var rangeDiff = ((prev - initial) | 0);
-      var i = 2;
-      while ((i < l)) {
-        h = this.c(h, prev);
-        var hash = a.a[i];
-        if (((rangeDiff !== ((hash - prev) | 0)) || (rangeDiff === 0))) {
-          h = this.c(h, hash);
-          i = ((1 + i) | 0);
-          while ((i < l)) {
-            h = this.c(h, a.a[i]);
             i = ((1 + i) | 0);
           }
           return this.w(h, l);
@@ -4870,24 +4832,24 @@ $p.j5 = (function(a, seed) {
       break;
     }
     case 1: {
-      return this.w(this.c(h, $m_sr_Statics$().bX(a.a[0])), 1);
+      return this.w(this.c(h, a.a[0]), 1);
       break;
     }
     default: {
-      var initial = $m_sr_Statics$().bX(a.a[0]);
+      var initial = a.a[0];
       h = this.c(h, initial);
       var h0 = h;
-      var prev = $m_sr_Statics$().bX(a.a[1]);
+      var prev = a.a[1];
       var rangeDiff = ((prev - initial) | 0);
       var i = 2;
       while ((i < l)) {
         h = this.c(h, prev);
-        var hash = $m_sr_Statics$().bX(a.a[i]);
+        var hash = a.a[i];
         if (((rangeDiff !== ((hash - prev) | 0)) || (rangeDiff === 0))) {
           h = this.c(h, hash);
           i = ((1 + i) | 0);
           while ((i < l)) {
-            h = this.c(h, $m_sr_Statics$().bX(a.a[i]));
+            h = this.c(h, a.a[i]);
             i = ((1 + i) | 0);
           }
           return this.w(h, l);
@@ -4946,6 +4908,44 @@ $p.j7 = (function(a, seed) {
       break;
     }
     case 1: {
+      return this.w(this.c(h, $m_sr_Statics$().bX(a.a[0])), 1);
+      break;
+    }
+    default: {
+      var initial = $m_sr_Statics$().bX(a.a[0]);
+      h = this.c(h, initial);
+      var h0 = h;
+      var prev = $m_sr_Statics$().bX(a.a[1]);
+      var rangeDiff = ((prev - initial) | 0);
+      var i = 2;
+      while ((i < l)) {
+        h = this.c(h, prev);
+        var hash = $m_sr_Statics$().bX(a.a[i]);
+        if (((rangeDiff !== ((hash - prev) | 0)) || (rangeDiff === 0))) {
+          h = this.c(h, hash);
+          i = ((1 + i) | 0);
+          while ((i < l)) {
+            h = this.c(h, $m_sr_Statics$().bX(a.a[i]));
+            i = ((1 + i) | 0);
+          }
+          return this.w(h, l);
+        }
+        prev = hash;
+        i = ((1 + i) | 0);
+      }
+      return this.bg(this.c(this.c(h0, rangeDiff), prev));
+    }
+  }
+});
+$p.j8 = (function(a, seed) {
+  var h = seed;
+  var l = a.a.length;
+  switch (l) {
+    case 0: {
+      return this.w(h, 0);
+      break;
+    }
+    case 1: {
       return this.w(this.c(h, a.a[0]), 1);
       break;
     }
@@ -4975,7 +4975,7 @@ $p.j7 = (function(a, seed) {
     }
   }
 });
-$p.j8 = (function(a, seed) {
+$p.j9 = (function(a, seed) {
   var h = seed;
   var l = ((a.a.length >>> 1) | 0);
   switch (l) {
@@ -5037,7 +5037,7 @@ $p.j8 = (function(a, seed) {
     }
   }
 });
-$p.j9 = (function(a, seed) {
+$p.ja = (function(a, seed) {
   var h = seed;
   var l = a.a.length;
   switch (l) {
@@ -5075,7 +5075,7 @@ $p.j9 = (function(a, seed) {
     }
   }
 });
-$p.ja = (function(a, seed) {
+$p.jb = (function(a, seed) {
   var h = seed;
   var l = a.a.length;
   switch (l) {
@@ -5113,9 +5113,9 @@ $p.ja = (function(a, seed) {
 });
 /** @constructor */
 function $c_Lscalatags_Escaping$() {
-  this.iN = null;
+  this.iO = null;
   $n_Lscalatags_Escaping$ = this;
-  this.iN = $ct_s_util_matching_Regex__T__sci_Seq__(new $c_s_util_matching_Regex(), "^[a-z][:\\w0-9-]*$", $m_sci_Nil$());
+  this.iO = $ct_s_util_matching_Regex__T__sci_Seq__(new $c_s_util_matching_Regex(), "^[a-z][:\\w0-9-]*$", $m_sci_Nil$());
 }
 $p = $c_Lscalatags_Escaping$.prototype = new $h_O();
 $p.constructor = $c_Lscalatags_Escaping$;
@@ -5124,7 +5124,7 @@ function $h_Lscalatags_Escaping$() {
 }
 $h_Lscalatags_Escaping$.prototype = $p;
 $p.mu = (function(s) {
-  return (!this.iN.mr(s).l());
+  return (!this.iO.mr(s).l());
 });
 $p.mt = (function(s) {
   var len = s.length;
@@ -5180,21 +5180,21 @@ function $m_Lscalatags_generic_Namespace$() {
 }
 /** @constructor */
 function $c_Lcom_dewdrop_loliga_model_Data$SeasonData$() {
-  this.ho = null;
   this.hp = null;
+  this.hq = null;
   this.eK = false;
   this.bU = null;
   this.cX = null;
   this.aX = null;
-  this.fs = null;
+  this.ft = null;
   $n_Lcom_dewdrop_loliga_model_Data$SeasonData$ = this;
-  this.ho = "LOLiga: 24-\u0439 \u0441\u0435\u0437\u043e\u043d";
-  this.hp = "3.4";
+  this.hp = "LOLiga: 24-\u0439 \u0441\u0435\u0437\u043e\u043d";
+  this.hq = "3.5";
   this.eK = false;
-  this.bU = $m_Lcom_dewdrop_loliga_model_Team$().hb("\u0418\u0441\u043f\u0430\u043d\u0438\u044f", $m_Lcom_dewdrop_loliga_model_Link$().jL(172, "f4ae367fc9c7fdaa0f0c5ba76e60a6e2"));
-  this.cX = $m_Lcom_dewdrop_loliga_model_Team$().hb("\u0418\u0441\u043f\u0430\u043d\u0438\u044f (\u043c\u043e\u043b.)", $m_Lcom_dewdrop_loliga_model_Link$().jL(1172, "e776025c328869de54cc135992d1b34d"));
-  this.aX = $m_Lcom_dewdrop_loliga_model_Team$().hb("\u0414\u0440\u0443\u0433\u0438\u0435", $m_Lcom_dewdrop_loliga_model_Link$NoLink$());
-  this.fs = $f_sc_SeqOps__sortBy__F1__s_math_Ordering__O($m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), $m_sjsr_package$().lZ(new ($d_T2.r().C)([new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 1, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 1), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 1, "ef8238784b40512d1613b653486567ff")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 3), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 2, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 6), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 2, "c8ce87920b98bc2b3c17e8aaf00b2c46")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 8), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 3, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 10), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 3, "660435b343787249437f31264d0c6310")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 13), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 14), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 15), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 4, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 17), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 4, "1eb2b5cbd72808f07839f032ae6a11c0")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 5, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 20), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 5, "8b4696a58b8b6f01442f74a44abeb057")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 22), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 6, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 24), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 6, "022b0d82ea3bd7db3a9b087d36095e55")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 7, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 27), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 7, "f70cbf989a577873e48756a07e7dfd5c")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 28), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 29), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 8, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 31), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 8, "085ff76b4b3c4ec9fc1ba887a07bc05c")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 9, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 3), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 9, "353b0c1da34e6dc071e2910e9948570b")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 5), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 7), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 10, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 10), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 10, "caac75443a60bc021ad100c47bf0e692")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 11), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX), new $c_Lcom_dewdrop_loliga_model_Fixture(this.cX, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 12), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 11, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 14), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 11, "464eac516b36f5fcfe4c458bb0b66606")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 12, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 17), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 12, "54c1a4ba1e92fca5d50a781d6211503c")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 19), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 13, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 21), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 13, "cba2174e22d84ecee4f35ffb53c1a9a1")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 24), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 25), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX), new $c_Lcom_dewdrop_loliga_model_Fixture(this.cX, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 26), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 14, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 28), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 14, "5d597f3888a92a18aaea5347096e6302")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 31), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 15, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 2), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 15, "20cb752e435b6226893e1341216fbc48")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 4), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 7), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 8), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 16, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 9), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 16, "3565b9413f7fc6ecfddabbb90b94dd27")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 11), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 14), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 17, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 16), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 17, "98daeaa98b1a4b137fe0330c6d20ea68")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 18), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 21), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 22), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.cX, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 18, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 23), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 18, "039b62edc03ebf874aa94384a228980b")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 19, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 25), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 19, "082d3bfb3dae291c25fc90ecbfd6c65f")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 28), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 30), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 20, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 2), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 20, "c54995a10b4602f3f33efe3b06a6efb5")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 5), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 6), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX), new $c_Lcom_dewdrop_loliga_model_Fixture(this.cX, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 7), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 21, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 9), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 21, "9c95978287651bbb2fd47804dc4e18e7")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 12), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 14), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 22, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 16), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 22, "2ba9b7c4302404b9a9835f9b0c493a3d")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 23, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 19), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 23, "e68f86870ed797cd22cd2409dc73b2e2")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 20), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 21), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 23), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 24, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 26), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 24, "1eb29c96fbd2456948e918a2ac2bf0f8")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 28), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 30), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 25, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 2), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 25, "61a11106e44ab2c07e4c86043cf13d32")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 3), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX), new $c_Lcom_dewdrop_loliga_model_Fixture(this.cX, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 4), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 26, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 6), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 26, "cc0acf9464434394cc1e82b629937d90")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 9), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 11), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 27, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 13), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 27, "becd34100435ae0dc733e63ea2be1749")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 28, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 16), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 28, "2be54b100fa510e808475bab87b9d9b8")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 17), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 18), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 29, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 20), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 29, "cc6d44a81423cfb511876d86f5637793")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 30, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 23), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 30, "1e87c32a7aabf4a74806a71401c22199")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 25), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 27), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 31, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 30), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 31, "8a2e2e77533374504b96f735df6425d6")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 1), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX), new $c_Lcom_dewdrop_loliga_model_Fixture(this.cX, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 32, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 2), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 32, "04fd6e4d8a02177b9785ac592e25168e")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 4), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 7), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 33, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 9), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 33, "4e5b978f3a209176fab7378411b799c1")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 34, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 11), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 34, "76a30bf0fccf1856aa76f8faf7406f88")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 14), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 15), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 35, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 16), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 35, "a747d358541042b7bcf51dc31cc47d9a")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 18), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 36, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 21), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 36, "2d617e9acae82d79c4f53d8a21890a72")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 23), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 37, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 25), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 37, "f23f2742a1de15c86f7d954fe567a3d0")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 38, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 28), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 38, "7b925f8a1b9ef7360dded6574b9dabe4")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 30), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2027, 1, 11), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2027, 1, 13), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2027, 1, 15), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2027, 1, 18), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2027, 1, 19), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2027, 1, 20), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2027, 1, 22), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$()))])))), new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$1$2$2) => x$1$2$2.b0.aO)), new $c_s_math_LowPriorityOrderingImplicits$$anon$2($m_s_math_Ordering$(), $m_s_$less$colon$less$().c4));
+  this.bU = $m_Lcom_dewdrop_loliga_model_Team$().hc("\u0418\u0441\u043f\u0430\u043d\u0438\u044f", $m_Lcom_dewdrop_loliga_model_Link$().jM(172, "f4ae367fc9c7fdaa0f0c5ba76e60a6e2"));
+  this.cX = $m_Lcom_dewdrop_loliga_model_Team$().hc("\u0418\u0441\u043f\u0430\u043d\u0438\u044f (\u043c\u043e\u043b.)", $m_Lcom_dewdrop_loliga_model_Link$().jM(1172, "e776025c328869de54cc135992d1b34d"));
+  this.aX = $m_Lcom_dewdrop_loliga_model_Team$().hc("\u0414\u0440\u0443\u0433\u0438\u0435", $m_Lcom_dewdrop_loliga_model_Link$NoLink$());
+  this.ft = $f_sc_SeqOps__sortBy__F1__s_math_Ordering__O($m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), $m_sjsr_package$().lZ(new ($d_T2.r().C)([new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 1, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 1), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 1, "ef8238784b40512d1613b653486567ff")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 3), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 2, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 6), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 2, "c8ce87920b98bc2b3c17e8aaf00b2c46")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 8), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 3, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 10), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 3, "660435b343787249437f31264d0c6310")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 13), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 14), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 15), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 4, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 17), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 4, "1eb2b5cbd72808f07839f032ae6a11c0")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 5, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 20), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 5, "8b4696a58b8b6f01442f74a44abeb057")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 22), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 6, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 24), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 6, "022b0d82ea3bd7db3a9b087d36095e55")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 7, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 27), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 7, "f70cbf989a577873e48756a07e7dfd5c")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 28), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 29), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 8, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 7, 31), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 8, "085ff76b4b3c4ec9fc1ba887a07bc05c")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 9, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 3), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 9, "353b0c1da34e6dc071e2910e9948570b")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 5), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 7), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 10, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 10), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 10, "caac75443a60bc021ad100c47bf0e692")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 11), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX), new $c_Lcom_dewdrop_loliga_model_Fixture(this.cX, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 12), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 11, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 14), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 11, "464eac516b36f5fcfe4c458bb0b66606")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 12, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 17), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 12, "54c1a4ba1e92fca5d50a781d6211503c")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 19), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 13, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 21), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 13, "cba2174e22d84ecee4f35ffb53c1a9a1")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 24), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 25), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX), new $c_Lcom_dewdrop_loliga_model_Fixture(this.cX, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 26), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 14, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 28), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 14, "5d597f3888a92a18aaea5347096e6302")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 8, 31), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 15, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 2), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 15, "20cb752e435b6226893e1341216fbc48")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 4), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 7), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 8), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 16, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 9), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 16, "3565b9413f7fc6ecfddabbb90b94dd27")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 11), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 14), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 17, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 16), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 17, "98daeaa98b1a4b137fe0330c6d20ea68")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 18), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 21), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 22), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.cX, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 18, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 23), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 18, "039b62edc03ebf874aa94384a228980b")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 19, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 25), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 19, "082d3bfb3dae291c25fc90ecbfd6c65f")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 28), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 9, 30), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 20, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 2), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 20, "c54995a10b4602f3f33efe3b06a6efb5")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 5), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 6), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX), new $c_Lcom_dewdrop_loliga_model_Fixture(this.cX, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 7), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 21, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 9), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 21, "9c95978287651bbb2fd47804dc4e18e7")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 12), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 14), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 22, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 16), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 22, "2ba9b7c4302404b9a9835f9b0c493a3d")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 23, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 19), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 23, "e68f86870ed797cd22cd2409dc73b2e2")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 20), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 21), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 23), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 24, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 26), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 24, "1eb29c96fbd2456948e918a2ac2bf0f8")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 28), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 10, 30), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 25, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 2), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 25, "61a11106e44ab2c07e4c86043cf13d32")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 3), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX), new $c_Lcom_dewdrop_loliga_model_Fixture(this.cX, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 4), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 26, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 6), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 26, "cc0acf9464434394cc1e82b629937d90")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 9), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 11), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 27, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 13), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 27, "becd34100435ae0dc733e63ea2be1749")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 28, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 16), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 28, "2be54b100fa510e808475bab87b9d9b8")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 17), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 18), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 29, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 20), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 29, "cc6d44a81423cfb511876d86f5637793")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 30, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 23), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 30, "1e87c32a7aabf4a74806a71401c22199")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 25), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 27), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 31, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 11, 30), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 31, "8a2e2e77533374504b96f735df6425d6")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 1), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX), new $c_Lcom_dewdrop_loliga_model_Fixture(this.cX, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 32, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 2), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 32, "04fd6e4d8a02177b9785ac592e25168e")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 4), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 7), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 33, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 9), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 33, "4e5b978f3a209176fab7378411b799c1")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 34, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 11), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 34, "76a30bf0fccf1856aa76f8faf7406f88")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 14), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 15), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 35, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 16), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 35, "a747d358541042b7bcf51dc31cc47d9a")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 18), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 36, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 21), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 36, "2d617e9acae82d79c4f53d8a21890a72")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 23), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 37, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 25), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 37, "f23f2742a1de15c86f7d954fe567a3d0")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().y, 38, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 28), $m_Lcom_dewdrop_loliga_model_Link$().W("x", 49, 38, "7b925f8a1b9ef7360dded6574b9dabe4")), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().O, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().H), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().B, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().P), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().Q, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().F), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().U, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().I), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().D, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().K), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().J, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().L), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().E, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().M), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().S, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().C), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().N, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().R), new $c_Lcom_dewdrop_loliga_model_Fixture($m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().G, $m_Lcom_dewdrop_loliga_model_Data$SeasonData$TeamsWithMinutes$().T)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2026, 12, 30), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2027, 1, 11), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2027, 1, 13), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2027, 1, 15), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2027, 1, 18), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b6, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2027, 1, 19), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_Fixture(this.bU, this.aX)]))), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2027, 1, 20), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$())), new $c_T2(new $c_Lcom_dewdrop_loliga_model_TournamentRound($m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad, 0, new $c_Lcom_dewdrop_loliga_model_LocalDate(2027, 1, 22), $m_Lcom_dewdrop_loliga_model_Link$NoLink$()), $m_sci_Seq$().d($m_sci_Nil$()))])))), new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$1$2$2) => x$1$2$2.b0.aO)), new $c_s_math_LowPriorityOrderingImplicits$$anon$2($m_s_math_Ordering$(), $m_s_$less$colon$less$().c4));
 }
 $p = $c_Lcom_dewdrop_loliga_model_Data$SeasonData$.prototype = new $h_O();
 $p.constructor = $c_Lcom_dewdrop_loliga_model_Data$SeasonData$;
@@ -5214,14 +5214,14 @@ function $m_Lcom_dewdrop_loliga_model_Data$SeasonData$() {
   return $n_Lcom_dewdrop_loliga_model_Data$SeasonData$;
 }
 function $ct_Lcom_dewdrop_loliga_model_Link$LinkImpl__T__sci_Seq__($thiz, script, params) {
-  $thiz.fw = script;
-  $thiz.fv = params;
+  $thiz.fx = script;
+  $thiz.fw = params;
   return $thiz;
 }
 /** @constructor */
 function $c_Lcom_dewdrop_loliga_model_Link$LinkImpl() {
+  this.fx = null;
   this.fw = null;
-  this.fv = null;
 }
 $p = $c_Lcom_dewdrop_loliga_model_Link$LinkImpl.prototype = new $h_O();
 $p.constructor = $c_Lcom_dewdrop_loliga_model_Link$LinkImpl;
@@ -5230,8 +5230,8 @@ function $h_Lcom_dewdrop_loliga_model_Link$LinkImpl() {
 }
 $h_Lcom_dewdrop_loliga_model_Link$LinkImpl.prototype = $p;
 $p.ep = (function() {
-  var paramsStr = $f_sc_IterableOnceOps__mkString__T__T__T__T(this.fv.a7(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((e$2$2) => ((e$2$2.b0 + "=") + e$2$2.b1)))), "?", "&", "");
-  return (("https://pefl.ru/" + this.fw) + paramsStr);
+  var paramsStr = $f_sc_IterableOnceOps__mkString__T__T__T__T(this.fw.a7(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((e$2$2) => ((e$2$2.b0 + "=") + e$2$2.b1)))), "?", "&", "");
+  return (("https://pefl.ru/" + this.fx) + paramsStr);
 });
 var $d_Lcom_dewdrop_loliga_model_Link$LinkImpl = new $TypeData().i($c_Lcom_dewdrop_loliga_model_Link$LinkImpl, "com.dewdrop.loliga.model.Link$LinkImpl", ({
   aH: 1,
@@ -5308,7 +5308,7 @@ $h_Lcom_dewdrop_loliga_model_Team$.prototype = $p;
 $p.aG = (function(name, link, euroPlayer, participate) {
   return new $c_Lcom_dewdrop_loliga_model_Team(name, link, false, $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_RoundEuroPlayer(1, euroPlayer)])), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_RoundParticipate(1, participate)])), $m_s_None$());
 });
-$p.hb = (function(name, link) {
+$p.hc = (function(name, link) {
   return new $c_Lcom_dewdrop_loliga_model_Team(name, link, true, $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_RoundEuroPlayer(1, false)])), $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lcom_dewdrop_loliga_model_RoundParticipate(1, false)])), $m_s_None$());
 });
 var $d_Lcom_dewdrop_loliga_model_Team$ = new $TypeData().i($c_Lcom_dewdrop_loliga_model_Team$, "com.dewdrop.loliga.model.Team$", ({
@@ -5324,9 +5324,9 @@ function $m_Lcom_dewdrop_loliga_model_Team$() {
 }
 /** @constructor */
 function $c_jl_Character$() {
-  this.fH = null;
+  this.fI = null;
   $n_jl_Character$ = this;
-  this.fH = new $ac_I(new Int32Array([1632, 1776, 1984, 2406, 2534, 2662, 2790, 2918, 3046, 3174, 3302, 3430, 3558, 3664, 3792, 3872, 4160, 4240, 6112, 6160, 6470, 6608, 6784, 6800, 6992, 7088, 7232, 7248, 42528, 43216, 43264, 43472, 43504, 43600, 44016, 65296, 66720, 68912, 69734, 69872, 69942, 70096, 70384, 70736, 70864, 71248, 71360, 71472, 71904, 72016, 72784, 73040, 73120, 73552, 92768, 92864, 93008, 120782, 120792, 120802, 120812, 120822, 123200, 123632, 124144, 125264, 130032]));
+  this.fI = new $ac_I(new Int32Array([1632, 1776, 1984, 2406, 2534, 2662, 2790, 2918, 3046, 3174, 3302, 3430, 3558, 3664, 3792, 3872, 4160, 4240, 6112, 6160, 6470, 6608, 6784, 6800, 6992, 7088, 7232, 7248, 42528, 43216, 43264, 43472, 43504, 43600, 44016, 65296, 66720, 68912, 69734, 69872, 69942, 70096, 70384, 70736, 70864, 71248, 71360, 71472, 71904, 72016, 72784, 73040, 73120, 73552, 92768, 92864, 93008, 120782, 120792, 120802, 120812, 120822, 123200, 123632, 124144, 125264, 130032]));
 }
 $p = $c_jl_Character$.prototype = new $h_O();
 $p.constructor = $c_jl_Character$;
@@ -5334,7 +5334,7 @@ $p.constructor = $c_jl_Character$;
 function $h_jl_Character$() {
 }
 $h_jl_Character$.prototype = $p;
-$p.hl = (function(codePoint) {
+$p.hm = (function(codePoint) {
   if (((codePoint >>> 0) > 1114111)) {
     throw $ct_jl_IllegalArgumentException__(new $c_jl_IllegalArgumentException());
   }
@@ -5348,12 +5348,12 @@ $p.l0 = (function(codePoint, radix) {
   } else if (((((codePoint - 65345) | 0) >>> 0) <= 25)) {
     var value = ((codePoint - 65335) | 0);
   } else {
-    var p = $m_ju_Arrays$().kR(this.fH, codePoint);
+    var p = $m_ju_Arrays$().kR(this.fI, codePoint);
     var zeroCodePointIndex = ((p < 0) ? (((-2) - p) | 0) : p);
     if ((zeroCodePointIndex < 0)) {
       var value = (-1);
     } else {
-      var v = ((codePoint - this.fH.a[zeroCodePointIndex]) | 0);
+      var v = ((codePoint - this.fI.a[zeroCodePointIndex]) | 0);
       var value = ((v > 9) ? (-1) : v);
     }
   }
@@ -5379,7 +5379,7 @@ $p.constructor = $c_jl_Double$;
 function $h_jl_Double$() {
 }
 $h_jl_Double$.prototype = $p;
-$p.jf = (function(a, b) {
+$p.jg = (function(a, b) {
   if ((a !== a)) {
     return ((b !== b) ? 0 : 1);
   } else if ((b !== b)) {
@@ -5472,7 +5472,7 @@ $p.constructor = $c_jl_Long$;
 function $h_jl_Long$() {
 }
 $h_jl_Long$.prototype = $p;
-$p.jI = (function(lo, hi) {
+$p.jJ = (function(lo, hi) {
   if ((hi !== 0)) {
     var $x_1 = (hi >>> 0.0).toString(16);
     var s = (lo >>> 0.0).toString(16);
@@ -5563,7 +5563,7 @@ function $m_jl_String$() {
   return $n_jl_String$;
 }
 function $ct_jl_Throwable__T__jl_Throwable__Z__Z__($thiz, s, e, enableSuppression, writableStackTrace) {
-  $thiz.hv = s;
+  $thiz.hw = s;
   if (writableStackTrace) {
     $thiz.l9();
   }
@@ -5572,10 +5572,10 @@ function $ct_jl_Throwable__T__jl_Throwable__Z__Z__($thiz, s, e, enableSuppressio
 class $c_jl_Throwable extends Error {
   constructor() {
     super();
-    this.hv = null;
+    this.hw = null;
   }
   b9() {
-    return this.hv;
+    return this.hw;
   }
   l9() {
     var reference = (false ? this.mA : this);
@@ -5695,12 +5695,12 @@ function $p_ju_regex_Matcher__ensureLastMatch__O($thiz) {
 /** @constructor */
 function $c_ju_regex_Matcher(pattern0, input0) {
   this.eT = null;
-  this.hM = null;
   this.hN = null;
+  this.hO = null;
   this.dw = null;
   this.eT = pattern0;
-  this.hM = input0;
-  this.hN = this.hM;
+  this.hN = input0;
+  this.hO = this.hN;
   this.dw = null;
 }
 $p = $c_ju_regex_Matcher.prototype = new $h_O();
@@ -5711,7 +5711,7 @@ function $h_ju_regex_Matcher() {
 $h_ju_regex_Matcher.prototype = $p;
 $p.lF = (function() {
   $p_ju_regex_Matcher__resetMatch__ju_regex_Matcher(this);
-  this.dw = this.eT.l7(this.hN);
+  this.dw = this.eT.l7(this.hO);
   return (this.dw !== null);
 });
 $p.ln = (function(group) {
@@ -5724,19 +5724,19 @@ var $d_ju_regex_Matcher = new $TypeData().i($c_ju_regex_Matcher, "java.util.rege
 }));
 /** @constructor */
 function $c_ju_regex_Pattern(_pattern, _flags, jsPattern, jsFlags, sticky, groupCount, groupNumberMap, namedGroups) {
-  this.fK = null;
+  this.fL = null;
+  this.hQ = null;
+  this.hR = false;
+  this.fM = 0;
   this.hP = null;
-  this.hQ = false;
-  this.fL = 0;
-  this.hO = null;
-  this.hR = null;
-  this.fK = _pattern;
-  this.hP = jsFlags;
-  this.hQ = sticky;
-  this.fL = groupCount;
-  this.hO = groupNumberMap;
-  new RegExp(jsPattern, (this.hP + (this.hQ ? "gy" : "g")));
-  this.hR = new RegExp((("^(?:" + jsPattern) + ")$"), jsFlags);
+  this.hS = null;
+  this.fL = _pattern;
+  this.hQ = jsFlags;
+  this.hR = sticky;
+  this.fM = groupCount;
+  this.hP = groupNumberMap;
+  new RegExp(jsPattern, (this.hQ + (this.hR ? "gy" : "g")));
+  this.hS = new RegExp((("^(?:" + jsPattern) + ")$"), jsFlags);
 }
 $p = $c_ju_regex_Pattern.prototype = new $h_O();
 $p.constructor = $c_ju_regex_Pattern;
@@ -5745,16 +5745,16 @@ function $h_ju_regex_Pattern() {
 }
 $h_ju_regex_Pattern.prototype = $p;
 $p.l7 = (function(input) {
-  return this.hR.exec(input);
+  return this.hS.exec(input);
 });
 $p.lV = (function(group) {
-  if (((group < 0) || (group > this.fL))) {
+  if (((group < 0) || (group > this.fM))) {
     throw new $c_jl_IndexOutOfBoundsException(("" + group));
   }
-  return (this.hO[group] | 0);
+  return (this.hP[group] | 0);
 });
 $p.m = (function() {
-  return this.fK;
+  return this.fL;
 });
 var $d_ju_regex_Pattern = new $TypeData().i($c_ju_regex_Pattern, "java.util.regex.Pattern", ({
   d1: 1,
@@ -5807,7 +5807,7 @@ $p.constructor = $c_s_Array$;
 function $h_s_Array$() {
 }
 $h_s_Array$.prototype = $p;
-$p.jy = (function(it, evidence$3) {
+$p.jz = (function(it, evidence$3) {
   var n = it.s();
   if ((n > (-1))) {
     var elements = evidence$3.aR(n);
@@ -5849,23 +5849,23 @@ $p.cs = (function(original, newLength) {
   if ($isArrayOf_jl_Void(original, 1)) {
     return $p_s_Array$__newUnitArray__I__Ajl_Void(this, newLength);
   } else if ((original instanceof $ac_O)) {
-    return $m_ju_Arrays$().gX(original, newLength);
+    return $m_ju_Arrays$().gY(original, newLength);
   } else if ((original instanceof $ac_I)) {
-    return $m_ju_Arrays$().jj(original, newLength);
+    return $m_ju_Arrays$().jk(original, newLength);
   } else if ((original instanceof $ac_D)) {
     return $m_ju_Arrays$().kY(original, newLength);
   } else if ((original instanceof $ac_J)) {
-    return $m_ju_Arrays$().jk(original, newLength);
+    return $m_ju_Arrays$().jl(original, newLength);
   } else if ((original instanceof $ac_F)) {
     return $m_ju_Arrays$().kZ(original, newLength);
   } else if ((original instanceof $ac_C)) {
-    return $m_ju_Arrays$().ji(original, newLength);
+    return $m_ju_Arrays$().jj(original, newLength);
   } else if ((original instanceof $ac_B)) {
-    return $m_ju_Arrays$().jh(original, newLength);
+    return $m_ju_Arrays$().ji(original, newLength);
   } else if ((original instanceof $ac_S)) {
-    return $m_ju_Arrays$().jl(original, newLength);
-  } else if ((original instanceof $ac_Z)) {
     return $m_ju_Arrays$().jm(original, newLength);
+  } else if ((original instanceof $ac_Z)) {
+    return $m_ju_Arrays$().jn(original, newLength);
   } else {
     throw new $c_s_MatchError(original);
   }
@@ -5882,7 +5882,7 @@ $p.kX = (function(original, newLength, ct) {
     return dest;
   }
 });
-$p.jv = (function(xs, ys) {
+$p.jw = (function(xs, ys) {
   if ((xs === ys)) {
     return true;
   }
@@ -6094,13 +6094,13 @@ var $d_sr_ObjectRef = new $TypeData().i($c_sr_ObjectRef, "scala.runtime.ObjectRe
 /** @constructor */
 function $c_s_util_hashing_MurmurHash3$() {
   this.am = 0;
-  this.iL = 0;
   this.iM = 0;
+  this.iN = 0;
   $n_s_util_hashing_MurmurHash3$ = this;
   this.am = $f_T__hashCode__I("Seq");
-  this.iL = $f_T__hashCode__I("Map");
-  this.iM = $f_T__hashCode__I("Set");
-  this.k2($m_sci_Nil$(), this.iL);
+  this.iM = $f_T__hashCode__I("Map");
+  this.iN = $f_T__hashCode__I("Set");
+  this.k2($m_sci_Nil$(), this.iM);
 }
 $p = $c_s_util_hashing_MurmurHash3$.prototype = new $h_s_util_hashing_MurmurHash3();
 $p.constructor = $c_s_util_hashing_MurmurHash3$;
@@ -6123,7 +6123,7 @@ function $m_s_util_hashing_MurmurHash3$() {
   return $n_s_util_hashing_MurmurHash3$;
 }
 function $ct_s_util_matching_Regex__ju_regex_Pattern__sci_Seq__($thiz, pattern, groupNames) {
-  $thiz.gv = pattern;
+  $thiz.gw = pattern;
   return $thiz;
 }
 function $ct_s_util_matching_Regex__T__sci_Seq__($thiz, regex, groupNames) {
@@ -6132,7 +6132,7 @@ function $ct_s_util_matching_Regex__T__sci_Seq__($thiz, regex, groupNames) {
 }
 /** @constructor */
 function $c_s_util_matching_Regex() {
-  this.gv = null;
+  this.gw = null;
 }
 $p = $c_s_util_matching_Regex.prototype = new $h_O();
 $p.constructor = $c_s_util_matching_Regex;
@@ -6141,22 +6141,22 @@ function $h_s_util_matching_Regex() {
 }
 $h_s_util_matching_Regex.prototype = $p;
 $p.mr = (function(s) {
-  var m = new $c_ju_regex_Matcher(this.gv, $dp_toString__T(s));
+  var m = new $c_ju_regex_Matcher(this.gw, $dp_toString__T(s));
   if (m.lF()) {
-    var n = m.eT.fL;
+    var n = m.eT.fM;
     var b = new $c_scm_ListBuffer();
     var i = 0;
     while ((i < n)) {
-      b.iZ(m.ln(((1 + i) | 0)));
+      b.j0(m.ln(((1 + i) | 0)));
       i = ((1 + i) | 0);
     }
-    return new $c_s_Some(b.hj());
+    return new $c_s_Some(b.hk());
   } else {
     return $m_s_None$();
   }
 });
 $p.m = (function() {
-  return this.gv.fK;
+  return this.gw.fL;
 });
 var $d_s_util_matching_Regex = new $TypeData().i($c_s_util_matching_Regex, "scala.util.matching.Regex", ({
   fL: 1,
@@ -6195,8 +6195,8 @@ var $d_Lscalatags_JsDom$GenericAttr = new $TypeData().i($c_Lscalatags_JsDom$Gene
 }));
 /** @constructor */
 function $c_Lscalatags_JsDom$GenericPixelStyle(ev) {
-  this.iQ = null;
-  this.iQ = ev;
+  this.iR = null;
+  this.iR = ev;
 }
 $p = $c_Lscalatags_JsDom$GenericPixelStyle.prototype = new $h_O();
 $p.constructor = $c_Lscalatags_JsDom$GenericPixelStyle;
@@ -6205,7 +6205,7 @@ function $h_Lscalatags_JsDom$GenericPixelStyle() {
 }
 $h_Lscalatags_JsDom$GenericPixelStyle.prototype = $p;
 $p.kO = (function(s, v) {
-  return new $c_Lscalatags_generic_StylePair(s, v, this.iQ);
+  return new $c_Lscalatags_generic_StylePair(s, v, this.iR);
 });
 var $d_Lscalatags_JsDom$GenericPixelStyle = new $TypeData().i($c_Lscalatags_JsDom$GenericPixelStyle, "scalatags.JsDom$GenericPixelStyle", ({
   fS: 1,
@@ -6232,9 +6232,9 @@ var $d_Lscalatags_JsDom$GenericStyle = new $TypeData().i($c_Lscalatags_JsDom$Gen
 }));
 function $f_Lscalatags_generic_Aggregate__$init$__V($thiz) {
   $thiz.p = new $c_Lscalatags_JsDom$GenericAttr();
-  $thiz.iS = new $c_Lscalatags_JsDom$GenericStyle();
+  $thiz.iT = new $c_Lscalatags_JsDom$GenericStyle();
   $thiz.kr = new $c_Lscalatags_JsDom$GenericStyle();
-  $thiz.iR = new $c_Lscalatags_JsDom$GenericPixelStyle($thiz.iS);
+  $thiz.iS = new $c_Lscalatags_JsDom$GenericPixelStyle($thiz.iT);
 }
 /** @constructor */
 function $c_Lscalatags_generic_Namespace$$anon$1() {
@@ -6260,10 +6260,10 @@ function $f_Lscalatags_generic_Util__OptionNode__s_Option__F1__Lscalatags_generi
 }
 /** @constructor */
 function $c_Lscalatags_generic_Util$SeqNode(outer, xs, ev) {
+  this.iW = null;
   this.iV = null;
-  this.iU = null;
-  this.iV = xs;
-  this.iU = ev;
+  this.iW = xs;
+  this.iV = ev;
   if ((outer === null)) {
   }
 }
@@ -6274,8 +6274,8 @@ function $h_Lscalatags_generic_Util$SeqNode() {
 }
 $h_Lscalatags_generic_Util$SeqNode.prototype = $p;
 $p.cr = (function(t) {
-  this.iV.eC(new $c_sjsr_AnonFunction1_$$Lambda$412915ce24663401f4bc24349a746e1dbd693dc1(((x$1$2) => {
-    this.iU.k(x$1$2).cr(t);
+  this.iW.eC(new $c_sjsr_AnonFunction1_$$Lambda$412915ce24663401f4bc24349a746e1dbd693dc1(((x$1$2) => {
+    this.iV.k(x$1$2).cr(t);
   })));
 });
 var $d_Lscalatags_generic_Util$SeqNode = new $TypeData().i($c_Lscalatags_generic_Util$SeqNode, "scalatags.generic.Util$SeqNode", ({
@@ -6343,16 +6343,16 @@ function $h_sc_ClassTagIterableFactory$AnyIterableDelegate() {
 }
 $h_sc_ClassTagIterableFactory$AnyIterableDelegate.prototype = $p;
 $p.be = (function() {
-  return this.dy.jo($m_s_reflect_ManifestFactory$AnyManifest$());
+  return this.dy.jp($m_s_reflect_ManifestFactory$AnyManifest$());
 });
 $p.aI = (function(it) {
-  return this.dy.h3(it, $m_s_reflect_ManifestFactory$AnyManifest$());
+  return this.dy.h4(it, $m_s_reflect_ManifestFactory$AnyManifest$());
 });
 $p.ar = (function() {
   return this.dy.fl($m_s_reflect_ManifestFactory$AnyManifest$());
 });
 $p.cU = (function(elems) {
-  return this.dy.h3(elems, $m_s_reflect_ManifestFactory$AnyManifest$());
+  return this.dy.h4(elems, $m_s_reflect_ManifestFactory$AnyManifest$());
 });
 function $ct_sc_IterableFactory$Delegate__sc_IterableFactory__($thiz, delegate) {
   $thiz.dz = delegate;
@@ -6470,7 +6470,7 @@ function $h_sc_View$() {
 }
 $h_sc_View$.prototype = $p;
 $p.fe = (function(it) {
-  return ($is_sc_View(it) ? it : ($is_sc_Iterable(it) ? new $c_sc_View$$anon$1(new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c(((x3) => (() => x3.f()))(it))) : $ct_sc_SeqView$Id__sc_SeqOps__(new $c_sc_SeqView$Id(), $m_sci_LazyList$().h5(it))));
+  return ($is_sc_View(it) ? it : ($is_sc_Iterable(it) ? new $c_sc_View$$anon$1(new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c(((x3) => (() => x3.f()))(it))) : $ct_sc_SeqView$Id__sc_SeqOps__(new $c_sc_SeqView$Id(), $m_sci_LazyList$().h6(it))));
 });
 $p.ar = (function() {
   return new $c_scm_Builder$$anon$1(($m_scm_ArrayBuffer$(), new $c_scm_ArrayBuffer$$anon$1()), new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((it$2$2) => $m_sc_View$().fe(it$2$2))));
@@ -6511,7 +6511,7 @@ function $h_scm_HashSet$() {
 $h_scm_HashSet$.prototype = $p;
 $p.ll = (function(it) {
   var k = it.s();
-  return $ct_scm_HashSet__I__D__(new $c_scm_HashSet(), ((k > 0) ? $doubleToInt((((1 + k) | 0) / 0.75)) : 16), 0.75).iX(it);
+  return $ct_scm_HashSet__I__D__(new $c_scm_HashSet(), ((k > 0) ? $doubleToInt((((1 + k) | 0) / 0.75)) : 16), 0.75).iY(it);
 });
 $p.ar = (function() {
   return new $c_scm_HashSet$$anon$4(16, 0.75);
@@ -6560,8 +6560,8 @@ function $isArrayOf_s_math_ScalaNumber(obj, depth) {
 }
 /** @constructor */
 function $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c(f) {
-  this.iF = null;
-  this.iF = f;
+  this.iG = null;
+  this.iG = f;
 }
 $p = $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c.prototype = new $h_sr_AbstractFunction0();
 $p.constructor = $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c;
@@ -6570,7 +6570,7 @@ function $h_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad17
 }
 $h_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c.prototype = $p;
 $p.bO = (function() {
-  return (0, this.iF)();
+  return (0, this.iG)();
 });
 var $d_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c = new $TypeData().i($c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c, "scala.runtime.AbstractFunction0.$$Lambda$07eded5776954a9c145e92c329afd52873ad179c", ({
   fo: 1,
@@ -6579,8 +6579,8 @@ var $d_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c = 
 }));
 /** @constructor */
 function $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(f) {
-  this.iG = null;
-  this.iG = f;
+  this.iH = null;
+  this.iH = f;
 }
 $p = $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919.prototype = new $h_sr_AbstractFunction1();
 $p.constructor = $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919;
@@ -6589,7 +6589,7 @@ function $h_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa9
 }
 $h_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919.prototype = $p;
 $p.k = (function(x0) {
-  return (0, this.iG)(x0);
+  return (0, this.iH)(x0);
 });
 var $d_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919 = new $TypeData().i($c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919, "scala.runtime.AbstractFunction1.$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919", ({
   fp: 1,
@@ -6598,8 +6598,8 @@ var $d_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919 = 
 }));
 /** @constructor */
 function $c_sr_AbstractFunction2_$$Lambda$b4228bd32034ae3b2f0c5fc896319aa4b79b55f8(f) {
-  this.iH = null;
-  this.iH = f;
+  this.iI = null;
+  this.iI = f;
 }
 $p = $c_sr_AbstractFunction2_$$Lambda$b4228bd32034ae3b2f0c5fc896319aa4b79b55f8.prototype = new $h_sr_AbstractFunction2();
 $p.constructor = $c_sr_AbstractFunction2_$$Lambda$b4228bd32034ae3b2f0c5fc896319aa4b79b55f8;
@@ -6608,7 +6608,7 @@ function $h_sr_AbstractFunction2_$$Lambda$b4228bd32034ae3b2f0c5fc896319aa4b79b55
 }
 $h_sr_AbstractFunction2_$$Lambda$b4228bd32034ae3b2f0c5fc896319aa4b79b55f8.prototype = $p;
 $p.cT = (function(x0, x1) {
-  return (0, this.iH)(x0, x1);
+  return (0, this.iI)(x0, x1);
 });
 var $d_sr_AbstractFunction2_$$Lambda$b4228bd32034ae3b2f0c5fc896319aa4b79b55f8 = new $TypeData().i($c_sr_AbstractFunction2_$$Lambda$b4228bd32034ae3b2f0c5fc896319aa4b79b55f8, "scala.runtime.AbstractFunction2.$$Lambda$b4228bd32034ae3b2f0c5fc896319aa4b79b55f8", ({
   fr: 1,
@@ -6633,10 +6633,10 @@ function $f_Lscalatags_JsDom$Aggregate__$init$__V($thiz) {
 }
 /** @constructor */
 function $c_Lscalatags_JsDom$Cap$SeqFrag(outer, xs, ev) {
+  this.iQ = null;
   this.iP = null;
-  this.iO = null;
-  this.iP = xs;
-  this.iO = ev;
+  this.iQ = xs;
+  this.iP = ev;
   if ((outer === null)) {
   }
 }
@@ -6646,13 +6646,13 @@ $p.constructor = $c_Lscalatags_JsDom$Cap$SeqFrag;
 function $h_Lscalatags_JsDom$Cap$SeqFrag() {
 }
 $h_Lscalatags_JsDom$Cap$SeqFrag.prototype = $p;
-$p.gU = (function(t) {
-  this.iP.eC(new $c_sjsr_AnonFunction1_$$Lambda$412915ce24663401f4bc24349a746e1dbd693dc1(((x$4$2) => {
-    this.iO.k(x$4$2).cr(t);
+$p.gV = (function(t) {
+  this.iQ.eC(new $c_sjsr_AnonFunction1_$$Lambda$412915ce24663401f4bc24349a746e1dbd693dc1(((x$4$2) => {
+    this.iP.k(x$4$2).cr(t);
   })));
 });
 $p.cr = (function(t) {
-  this.gU(t);
+  this.gV(t);
 });
 var $d_Lscalatags_JsDom$Cap$SeqFrag = new $TypeData().i($c_Lscalatags_JsDom$Cap$SeqFrag, "scalatags.JsDom$Cap$SeqFrag", ({
   fQ: 1,
@@ -6661,8 +6661,8 @@ var $d_Lscalatags_JsDom$Cap$SeqFrag = new $TypeData().i($c_Lscalatags_JsDom$Cap$
 }));
 /** @constructor */
 function $c_Lscalatags_LowPriorityImplicits$bindNode(outer, e) {
-  this.iT = null;
-  this.iT = e;
+  this.iU = null;
+  this.iU = e;
   if ((outer === null)) {
   }
 }
@@ -6672,11 +6672,11 @@ $p.constructor = $c_Lscalatags_LowPriorityImplicits$bindNode;
 function $h_Lscalatags_LowPriorityImplicits$bindNode() {
 }
 $h_Lscalatags_LowPriorityImplicits$bindNode.prototype = $p;
-$p.gU = (function(t) {
-  t.appendChild(this.iT);
+$p.gV = (function(t) {
+  t.appendChild(this.iU);
 });
 $p.cr = (function(t) {
-  this.gU(t);
+  this.gV(t);
 });
 var $d_Lscalatags_LowPriorityImplicits$bindNode = new $TypeData().i($c_Lscalatags_LowPriorityImplicits$bindNode, "scalatags.LowPriorityImplicits$bindNode", ({
   fW: 1,
@@ -6722,18 +6722,18 @@ function $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Name
   return new $c_Lscalatags_JsDom$TypedTag(s, $m_sci_Nil$(), void$1, ns);
 }
 function $p_Lcom_dewdrop_loliga_model_Fixture__hasParticipant$lzycompute__Z($thiz) {
-  if ((!$thiz.ft)) {
-    $thiz.fu = ($thiz.aY.hc() || $thiz.bh.hc());
-    $thiz.ft = true;
+  if ((!$thiz.fu)) {
+    $thiz.fv = ($thiz.aY.hd() || $thiz.bh.hd());
+    $thiz.fu = true;
   }
-  return $thiz.fu;
+  return $thiz.fv;
 }
 /** @constructor */
 function $c_Lcom_dewdrop_loliga_model_Fixture(host, visitor) {
-  this.fu = false;
+  this.fv = false;
   this.aY = null;
   this.bh = null;
-  this.ft = false;
+  this.fu = false;
   this.aY = host;
   this.bh = visitor;
 }
@@ -6744,10 +6744,10 @@ function $h_Lcom_dewdrop_loliga_model_Fixture() {
 }
 $h_Lcom_dewdrop_loliga_model_Fixture.prototype = $p;
 $p.eH = (function(round) {
-  return ((this.aY.eH(round) && this.bh.eH(round)) && (this.aY.h0(round) || this.bh.h0(round)));
+  return ((this.aY.eH(round) && this.bh.eH(round)) && (this.aY.h1(round) || this.bh.h1(round)));
 });
 $p.lp = (function() {
-  return ((!this.ft) ? $p_Lcom_dewdrop_loliga_model_Fixture__hasParticipant$lzycompute__Z(this) : this.fu);
+  return ((!this.fu) ? $p_Lcom_dewdrop_loliga_model_Fixture__hasParticipant$lzycompute__Z(this) : this.fv);
 });
 $p.a2 = (function() {
   return "Fixture";
@@ -6925,36 +6925,36 @@ var $d_Lcom_dewdrop_loliga_model_RoundParticipate = new $TypeData().i($c_Lcom_de
 }));
 function $p_Lcom_dewdrop_loliga_model_Team__roundParticipateDesc$lzycompute__sci_Seq($thiz) {
   if (((((1 & $thiz.bx) << 24) >> 24) === 0)) {
-    $thiz.fz = $f_sc_SeqOps__sortBy__F1__s_math_Ordering__O($thiz.cy, new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$1$2$2) => x$1$2$2.cZ)), $m_s_math_Ordering$Int$()).aB();
+    $thiz.fA = $f_sc_SeqOps__sortBy__F1__s_math_Ordering__O($thiz.cy, new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$1$2$2) => x$1$2$2.cZ)), $m_s_math_Ordering$Int$()).aB();
     $thiz.bx = (((1 | $thiz.bx) << 24) >> 24);
   }
-  return $thiz.fz;
+  return $thiz.fA;
 }
 function $p_Lcom_dewdrop_loliga_model_Team__roundParticipateDesc__sci_Seq($thiz) {
-  return (((((1 & $thiz.bx) << 24) >> 24) === 0) ? $p_Lcom_dewdrop_loliga_model_Team__roundParticipateDesc$lzycompute__sci_Seq($thiz) : $thiz.fz);
+  return (((((1 & $thiz.bx) << 24) >> 24) === 0) ? $p_Lcom_dewdrop_loliga_model_Team__roundParticipateDesc$lzycompute__sci_Seq($thiz) : $thiz.fA);
 }
 function $p_Lcom_dewdrop_loliga_model_Team__roundEuroPlayerDesc$lzycompute__sci_Seq($thiz) {
   if (((((2 & $thiz.bx) << 24) >> 24) === 0)) {
-    $thiz.fy = $f_sc_SeqOps__sortBy__F1__s_math_Ordering__O($thiz.d2, new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$2$2$2) => x$2$2$2.cY)), $m_s_math_Ordering$Int$()).aB();
+    $thiz.fz = $f_sc_SeqOps__sortBy__F1__s_math_Ordering__O($thiz.d2, new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$2$2$2) => x$2$2$2.cY)), $m_s_math_Ordering$Int$()).aB();
     $thiz.bx = (((2 | $thiz.bx) << 24) >> 24);
   }
-  return $thiz.fy;
+  return $thiz.fz;
 }
 function $p_Lcom_dewdrop_loliga_model_Team__roundEuroPlayerDesc__sci_Seq($thiz) {
-  return (((((2 & $thiz.bx) << 24) >> 24) === 0) ? $p_Lcom_dewdrop_loliga_model_Team__roundEuroPlayerDesc$lzycompute__sci_Seq($thiz) : $thiz.fy);
+  return (((((2 & $thiz.bx) << 24) >> 24) === 0) ? $p_Lcom_dewdrop_loliga_model_Team__roundEuroPlayerDesc$lzycompute__sci_Seq($thiz) : $thiz.fz);
 }
 function $p_Lcom_dewdrop_loliga_model_Team__participant$lzycompute__Z($thiz) {
   if (((((4 & $thiz.bx) << 24) >> 24) === 0)) {
-    $thiz.fx = $thiz.cy.ct(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$7$2$2) => x$7$2$2.d0)));
+    $thiz.fy = $thiz.cy.ct(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$7$2$2) => x$7$2$2.d0)));
     $thiz.bx = (((4 | $thiz.bx) << 24) >> 24);
   }
-  return $thiz.fx;
+  return $thiz.fy;
 }
 /** @constructor */
 function $c_Lcom_dewdrop_loliga_model_Team(name, link, nationTeam, roundEuroPlayer, roundParticipate, extraNote) {
+  this.fA = null;
   this.fz = null;
-  this.fy = null;
-  this.fx = false;
+  this.fy = false;
   this.aT = null;
   this.cd = null;
   this.cx = false;
@@ -6979,7 +6979,7 @@ $p.eH = (function(round) {
   var this$1 = $p_Lcom_dewdrop_loliga_model_Team__roundParticipateDesc__sci_Seq(this).eB(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$3$2$2) => (x$3$2$2.cZ <= round))));
   return ((!this$1.l()) && this$1.dh().d0);
 });
-$p.h0 = (function(round) {
+$p.h1 = (function(round) {
   var this$1 = $p_Lcom_dewdrop_loliga_model_Team__roundEuroPlayerDesc__sci_Seq(this).eB(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$5$2$2) => (x$5$2$2.cY <= round))));
   return ((!this$1.l()) && this$1.dh().dn);
 });
@@ -7003,10 +7003,10 @@ $p.lH = (function(includeNode) {
     return new $c_s_Some($m_Lscalatags_JsDom$all$().dj().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().mo().r($f_T__trim__T(x0$1), $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(" *"))])));
   }
 });
-$p.hc = (function() {
-  return (((((4 & this.bx) << 24) >> 24) === 0) ? $p_Lcom_dewdrop_loliga_model_Team__participant$lzycompute__Z(this) : this.fx);
+$p.hd = (function() {
+  return (((((4 & this.bx) << 24) >> 24) === 0) ? $p_Lcom_dewdrop_loliga_model_Team__participant$lzycompute__Z(this) : this.fy);
 });
-$p.jM = (function(round) {
+$p.fm = (function(round) {
   var x$1 = this.d2.bN(new $c_Lcom_dewdrop_loliga_model_RoundEuroPlayer(round, false));
   return new $c_Lcom_dewdrop_loliga_model_Team(this.aT, this.cd, this.cx, x$1, this.cy, this.d1);
 });
@@ -7365,7 +7365,7 @@ $p.constructor = $c_jl_StringBuilder;
 function $h_jl_StringBuilder() {
 }
 $h_jl_StringBuilder.prototype = $p;
-$p.j0 = (function(str) {
+$p.j1 = (function(str) {
   var str$1 = $m_jl_String$().lK(str, 0, str.a.length);
   this.j = (("" + this.j) + str$1);
   return this;
@@ -7376,10 +7376,10 @@ $p.m = (function() {
 $p.i = (function() {
   return this.j.length;
 });
-$p.je = (function(index) {
+$p.jf = (function(index) {
   return this.j.charCodeAt(index);
 });
-$p.jD = (function(srcBegin, srcEnd, dst, dstBegin) {
+$p.jE = (function(srcBegin, srcEnd, dst, dstBegin) {
   $f_T__getChars__I__I__AC__I__V(this.j, srcBegin, srcEnd, dst, dstBegin);
 });
 var $d_jl_StringBuilder = new $TypeData().i($c_jl_StringBuilder, "java.lang.StringBuilder", ({
@@ -7432,7 +7432,7 @@ function $p_ju_Formatter__sendToDestSlowPath__O__V($thiz, ss) {
   }
 }
 function $p_ju_Formatter__format__ju_Formatter$LocaleInfo__T__AO__ju_Formatter($thiz, localeInfo, format, args) {
-  if ($thiz.fJ) {
+  if ($thiz.fK) {
     throw new $c_ju_FormatterClosedException();
   }
   var lastImplicitArgIndex = 0;
@@ -7450,7 +7450,7 @@ function $p_ju_Formatter__format__ju_Formatter$LocaleInfo__T__AO__ju_Formatter($
     var beginIndex$1 = fmtIndex;
     $p_ju_Formatter__sendToDest__T__V($thiz, format.substring(beginIndex$1, nextPercentIndex));
     var formatSpecifierIndex = ((1 + nextPercentIndex) | 0);
-    var re = $m_ju_Formatter$().hB;
+    var re = $m_ju_Formatter$().hC;
     re.lastIndex = formatSpecifierIndex;
     var execResult = re.exec(format);
     if (((execResult === null) || ((execResult.index | 0) !== formatSpecifierIndex))) {
@@ -7476,7 +7476,7 @@ function $p_ju_Formatter__format__ju_Formatter$LocaleInfo__T__AO__ju_Formatter($
         $p_ju_Formatter__throwIllegalFormatWidthException__I__E($thiz, width);
       }
       if ((flags !== 0)) {
-        $thiz.h9(flags);
+        $thiz.ha(flags);
       }
       $p_ju_Formatter__sendToDest__T__V($thiz, "\n");
     } else if ((conversion$2 === 37)) {
@@ -7484,7 +7484,7 @@ function $p_ju_Formatter__format__ju_Formatter$LocaleInfo__T__AO__ju_Formatter($
         $p_ju_Formatter__throwIllegalFormatPrecisionException__I__E($thiz, precision);
       }
       if ((((17 & flags) === 17) || ((12 & flags) === 12))) {
-        $thiz.h9(flags);
+        $thiz.ha(flags);
       }
       if ((((1 & flags) !== 0) && (width === (-1)))) {
         $p_ju_Formatter__throwMissingFormatWidthException__T__E($thiz, $ps_ju_Formatter__fullFormatSpecifier$1__O__T(execResult));
@@ -7495,7 +7495,7 @@ function $p_ju_Formatter__format__ju_Formatter$LocaleInfo__T__AO__ju_Formatter($
       $p_ju_Formatter__padAndSendToDestNoZeroPad__I__I__T__V($thiz, flags, width, "%");
     } else {
       var conversionLower = (((256 & flags) !== 0) ? (65535 & ((32 + conversion$2) | 0)) : conversion$2);
-      var illegalFlags = $m_ju_Formatter$().hA.a[((conversionLower - 97) | 0)];
+      var illegalFlags = $m_ju_Formatter$().hB.a[((conversionLower - 97) | 0)];
       if (((illegalFlags === (-1)) || (((256 & flags) & illegalFlags) !== 0))) {
         $p_ju_Formatter__throwUnknownFormatConversionException__C__E($thiz, conversion$2);
       }
@@ -7503,7 +7503,7 @@ function $p_ju_Formatter__format__ju_Formatter$LocaleInfo__T__AO__ju_Formatter($
         $p_ju_Formatter__throwMissingFormatWidthException__T__E($thiz, $ps_ju_Formatter__fullFormatSpecifier$1__O__T(execResult));
       }
       if ((((17 & flags) === 17) || ((12 & flags) === 12))) {
-        $thiz.h9(flags);
+        $thiz.ha(flags);
       }
       if (((precision !== (-1)) && ((512 & illegalFlags) !== 0))) {
         $p_ju_Formatter__throwIllegalFormatPrecisionException__I__E($thiz, precision);
@@ -7635,7 +7635,7 @@ function $p_ju_Formatter__formatArg__ju_Formatter$LocaleInfo__O__C__I__I__I__V($
         if (((x3 >>> 0) > 1114111)) {
           $p_ju_Formatter__throwIllegalFormatCodePointException__I__E($thiz, x3);
         }
-        var $x_2 = $m_jl_Character$().hl(x3);
+        var $x_2 = $m_jl_Character$().hm(x3);
       }
       $p_ju_Formatter__formatNonNumericString__ju_Formatter$LocaleInfo__I__I__I__T__V($thiz, localeInfo, flags, width, (-1), $x_2);
       break;
@@ -7647,7 +7647,7 @@ function $p_ju_Formatter__formatArg__ju_Formatter$LocaleInfo__O__C__I__I__I__V($
         var $x_4 = $uJ(arg);
         var x3$2_$_lo = $x_4.l;
         var x3$2_$_hi = $x_4.h;
-        var $x_3 = $m_RTLong$().hk(x3$2_$_lo, x3$2_$_hi);
+        var $x_3 = $m_RTLong$().hl(x3$2_$_lo, x3$2_$_hi);
       } else {
         if ((!false)) {
           $thiz.eE(conversionLower, arg);
@@ -7663,7 +7663,7 @@ function $p_ju_Formatter__formatArg__ju_Formatter$LocaleInfo__O__C__I__I__I__V($
       var prefix = (((2 & flags) === 0) ? "" : (isOctal ? "0" : (((256 & flags) !== 0) ? "0X" : "0x")));
       if (false) {
         var radix = (isOctal ? 8 : 16);
-        $p_ju_Formatter__formatNumericString__ju_Formatter$LocaleInfo__I__I__T__T__V($thiz, $m_ju_Formatter$RootLocaleInfo$(), flags, width, arg.hl(radix), prefix);
+        $p_ju_Formatter__formatNumericString__ju_Formatter$LocaleInfo__I__I__T__T__V($thiz, $m_ju_Formatter$RootLocaleInfo$(), flags, width, arg.hm(radix), prefix);
       } else {
         if ($isInt(arg)) {
           var x2$5 = (arg | 0);
@@ -7675,7 +7675,7 @@ function $p_ju_Formatter__formatArg__ju_Formatter$LocaleInfo__O__C__I__I__I__V($
           var $x_5 = $uJ(arg);
           var x3$3_$_lo = $x_5.l;
           var x3$3_$_hi = $x_5.h;
-          var str$6 = (isOctal ? $m_jl_Long$().lv(x3$3_$_lo, x3$3_$_hi) : $m_jl_Long$().jI(x3$3_$_lo, x3$3_$_hi));
+          var str$6 = (isOctal ? $m_jl_Long$().lv(x3$3_$_lo, x3$3_$_hi) : $m_jl_Long$().jJ(x3$3_$_lo, x3$3_$_hi));
         }
         if (((76 & flags) !== 0)) {
           $thiz.fh(conversionLower, flags, 76);
@@ -7724,7 +7724,7 @@ function $p_ju_Formatter__computerizedScientificNotation__ju_Formatter$Decimal__
   var fractionalDigitCount = ((intStr.length - 1) | 0);
   var missingZeros = ((digitsAfterDot - fractionalDigitCount) | 0);
   var integerPart = intStr.substring(0, 1);
-  var fractionalPart = (("" + intStr.substring(1)) + $m_ju_Formatter$().h8(missingZeros));
+  var fractionalPart = (("" + intStr.substring(1)) + $m_ju_Formatter$().h9(missingZeros));
   var significandStr = (((fractionalPart === "") && (!forceDecimalSep)) ? integerPart : ((integerPart + ".") + fractionalPart));
   var exponent = ((fractionalDigitCount - rounded.c2) | 0);
   var exponentSign = ((exponent < 0) ? "-" : "+");
@@ -7740,7 +7740,7 @@ function $p_ju_Formatter__decimalNotation__ju_Formatter$Decimal__I__Z__T($thiz, 
   var intStr = rounded.ch;
   var intStrLen = intStr.length;
   var minDigits = ((1 + scale) | 0);
-  var expandedIntStr = ((intStrLen >= minDigits) ? intStr : (("" + $m_ju_Formatter$().h8(((minDigits - intStrLen) | 0))) + intStr));
+  var expandedIntStr = ((intStrLen >= minDigits) ? intStr : (("" + $m_ju_Formatter$().h9(((minDigits - intStrLen) | 0))) + intStr));
   var dotPos = ((expandedIntStr.length - scale) | 0);
   var integerPart = (signStr + expandedIntStr.substring(0, dotPos));
   return (((scale === 0) && (!forceDecimalSep)) ? integerPart : ((integerPart + ".") + expandedIntStr.substring(dotPos)));
@@ -7835,7 +7835,7 @@ function $p_ju_Formatter__formatHexFloatingPoint__I__I__I__D__V($thiz, flags, wi
         var roundedMantissa_$_hi = hi$12;
       }
     }
-    var baseStr = $m_jl_Long$().jI(roundedMantissa_$_lo, roundedMantissa_$_hi);
+    var baseStr = $m_jl_Long$().jJ(roundedMantissa_$_lo, roundedMantissa_$_hi);
     var beginIndex = baseStr.length;
     var padded = (("" + "0000000000000".substring(beginIndex)) + baseStr);
     $m_ju_Formatter$();
@@ -7994,9 +7994,9 @@ function $p_ju_Formatter__formatDecimal$1__ju_Formatter$Decimal__I__I__C__ju_For
 }
 function $ct_ju_Formatter__jl_Appendable__ju_Formatter$LocaleInfo__($thiz, dest, formatterLocaleInfo) {
   $thiz.d6 = dest;
-  $thiz.hz = formatterLocaleInfo;
+  $thiz.hA = formatterLocaleInfo;
   $thiz.cA = "";
-  $thiz.fJ = false;
+  $thiz.fK = false;
   return $thiz;
 }
 function $ct_ju_Formatter__($thiz) {
@@ -8006,9 +8006,9 @@ function $ct_ju_Formatter__($thiz) {
 /** @constructor */
 function $c_ju_Formatter() {
   this.d6 = null;
-  this.hz = null;
+  this.hA = null;
   this.cA = null;
-  this.fJ = false;
+  this.fK = false;
 }
 $p = $c_ju_Formatter.prototype = new $h_O();
 $p.constructor = $c_ju_Formatter;
@@ -8017,15 +8017,15 @@ function $h_ju_Formatter() {
 }
 $h_ju_Formatter.prototype = $p;
 $p.lh = (function(format, args) {
-  return $p_ju_Formatter__format__ju_Formatter$LocaleInfo__T__AO__ju_Formatter(this, this.hz, format, args);
+  return $p_ju_Formatter__format__ju_Formatter$LocaleInfo__T__AO__ju_Formatter(this, this.hA, format, args);
 });
 $p.m = (function() {
-  if (this.fJ) {
+  if (this.fK) {
     throw new $c_ju_FormatterClosedException();
   }
   return ((this.d6 === null) ? this.cA : this.d6.j);
 });
-$p.h9 = (function(flags) {
+$p.ha = (function(flags) {
   throw new $c_ju_IllegalFormatFlagsException($p_ju_Formatter__flagsToString__I__T(this, flags));
 });
 $p.fh = (function(conversionLower, flags, illegalFlags) {
@@ -8307,7 +8307,7 @@ $h_sc_SeqFactory$Delegate.prototype = $p;
 $p.d = (function(elems) {
   return this.cE.cU(elems);
 });
-$p.gY = (function() {
+$p.gZ = (function() {
   return this.cE.be();
 });
 $p.fd = (function(it) {
@@ -8320,7 +8320,7 @@ $p.aI = (function(source) {
   return this.fd(source);
 });
 $p.be = (function() {
-  return this.gY();
+  return this.gZ();
 });
 $p.cU = (function(elems) {
   return this.d(elems);
@@ -8458,9 +8458,9 @@ function $h_sci_LazyList$() {
 }
 $h_sci_LazyList$.prototype = $p;
 $p.cU = (function(elems) {
-  return this.h5(elems);
+  return this.h6(elems);
 });
-$p.hg = (function(ll, p, isFlipped) {
+$p.hh = (function(ll, p, isFlipped) {
   return $ct_sci_LazyList__O__(new $c_sci_LazyList(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c(((restRef) => (() => {
     var elem = null;
     var found = false;
@@ -8471,7 +8471,7 @@ $p.hg = (function(ll, p, isFlipped) {
       rest = rest.al();
       restRef.as = rest;
     }
-    return (found ? ($m_sci_LazyList$(), $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), elem, $m_sci_LazyList$().hg(rest, p, isFlipped))) : $m_sci_LazyList$().x);
+    return (found ? ($m_sci_LazyList$(), $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), elem, $m_sci_LazyList$().hh(rest, p, isFlipped))) : $m_sci_LazyList$().x);
   }))(new $c_sr_ObjectRef(ll))));
 });
 $p.jS = (function(ll, f) {
@@ -8492,7 +8492,7 @@ $p.jS = (function(ll, f) {
       rest.as = rest.as.al();
       restRef.as = rest.as;
       $m_sci_LazyList$();
-      return $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), head, ($m_sci_LazyList$(), $ct_sci_LazyList__O__(new $c_sci_LazyList(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => $m_sci_LazyList$().hf(it.as, new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => $m_sci_LazyList$().jS(rest.as, f)))))))));
+      return $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), head, ($m_sci_LazyList$(), $ct_sci_LazyList__O__(new $c_sci_LazyList(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => $m_sci_LazyList$().hg(it.as, new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => $m_sci_LazyList$().jS(rest.as, f)))))))));
     } else {
       return $m_sci_LazyList$().x;
     }
@@ -8511,14 +8511,14 @@ $p.m8 = (function(ll, n) {
     return rest;
   }))(new $c_sr_ObjectRef(ll), new $c_sr_IntRef(n))));
 });
-$p.h5 = (function(coll) {
-  return ((coll instanceof $c_sci_LazyList) ? coll : ((coll.s() === 0) ? this.x : $ct_sci_LazyList__O__(new $c_sci_LazyList(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => $m_sci_LazyList$().he(coll.f()))))));
+$p.h6 = (function(coll) {
+  return ((coll instanceof $c_sci_LazyList) ? coll : ((coll.s() === 0) ? this.x : $ct_sci_LazyList__O__(new $c_sci_LazyList(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => $m_sci_LazyList$().hf(coll.f()))))));
 });
-$p.hf = (function(it, suffix) {
-  return (it.h() ? $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), it.g(), $ct_sci_LazyList__O__(new $c_sci_LazyList(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => $m_sci_LazyList$().hf(it, suffix))))) : suffix.bO());
+$p.hg = (function(it, suffix) {
+  return (it.h() ? $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), it.g(), $ct_sci_LazyList__O__(new $c_sci_LazyList(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => $m_sci_LazyList$().hg(it, suffix))))) : suffix.bO());
 });
-$p.he = (function(it) {
-  return (it.h() ? $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), it.g(), $ct_sci_LazyList__O__(new $c_sci_LazyList(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => $m_sci_LazyList$().he(it))))) : this.x);
+$p.hf = (function(it) {
+  return (it.h() ? $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), it.g(), $ct_sci_LazyList__O__(new $c_sci_LazyList(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => $m_sci_LazyList$().hf(it))))) : this.x);
 });
 $p.ar = (function() {
   return new $c_sci_LazyList$LazyBuilder();
@@ -8527,7 +8527,7 @@ $p.be = (function() {
   return this.x;
 });
 $p.aI = (function(source) {
-  return this.h5(source);
+  return this.h6(source);
 });
 var $d_sci_LazyList$ = new $TypeData().i($c_sci_LazyList$, "scala.collection.immutable.LazyList$", ({
   e3: 1,
@@ -8545,9 +8545,9 @@ function $m_sci_LazyList$() {
 /** @constructor */
 function $c_scm_Builder$$anon$1(outer, f$1) {
   this.e9 = null;
-  this.it = null;
+  this.iu = null;
   this.e9 = outer;
-  this.it = f$1;
+  this.iu = f$1;
 }
 $p = $c_scm_Builder$$anon$1.prototype = new $h_O();
 $p.constructor = $c_scm_Builder$$anon$1;
@@ -8567,7 +8567,7 @@ $p.b3 = (function(size) {
   this.e9.b3(size);
 });
 $p.at = (function() {
-  return this.it.k(this.e9.at());
+  return this.iu.k(this.e9.at());
 });
 $p.aU = (function(elems) {
   return this.kw(elems);
@@ -8622,8 +8622,8 @@ var $d_scm_GrowableBuilder = new $TypeData().i($c_scm_GrowableBuilder, "scala.co
 }));
 /** @constructor */
 function $c_sjsr_AnonFunction1_$$Lambda$412915ce24663401f4bc24349a746e1dbd693dc1(f) {
-  this.iK = null;
-  this.iK = f;
+  this.iL = null;
+  this.iL = f;
 }
 $p = $c_sjsr_AnonFunction1_$$Lambda$412915ce24663401f4bc24349a746e1dbd693dc1.prototype = new $h_sjsr_AnonFunction1();
 $p.constructor = $c_sjsr_AnonFunction1_$$Lambda$412915ce24663401f4bc24349a746e1dbd693dc1;
@@ -8632,7 +8632,7 @@ function $h_sjsr_AnonFunction1_$$Lambda$412915ce24663401f4bc24349a746e1dbd693dc1
 }
 $h_sjsr_AnonFunction1_$$Lambda$412915ce24663401f4bc24349a746e1dbd693dc1.prototype = $p;
 $p.k = (function(x0) {
-  return (0, this.iK)(x0);
+  return (0, this.iL)(x0);
 });
 var $d_sjsr_AnonFunction1_$$Lambda$412915ce24663401f4bc24349a746e1dbd693dc1 = new $TypeData().i($c_sjsr_AnonFunction1_$$Lambda$412915ce24663401f4bc24349a746e1dbd693dc1, "scala.scalajs.runtime.AnonFunction1.$$Lambda$412915ce24663401f4bc24349a746e1dbd693dc1", ({
   fE: 1,
@@ -8727,14 +8727,14 @@ var $d_Lscalatags_generic_Attr = new $TypeData().i($c_Lscalatags_generic_Attr, "
 function $ct_Lscalatags_generic_PixelStyle__T__T__($thiz, jsName, cssName) {
   $thiz.ek = jsName;
   $thiz.ej = cssName;
-  $thiz.gS = new $c_Lscalatags_generic_Style(jsName, cssName);
+  $thiz.gT = new $c_Lscalatags_generic_Style(jsName, cssName);
   return $thiz;
 }
 /** @constructor */
 function $c_Lscalatags_generic_PixelStyle() {
   this.ek = null;
   this.ej = null;
-  this.gS = null;
+  this.gT = null;
 }
 $p = $c_Lscalatags_generic_PixelStyle.prototype = new $h_O();
 $p.constructor = $c_Lscalatags_generic_PixelStyle;
@@ -8743,7 +8743,7 @@ function $h_Lscalatags_generic_PixelStyle() {
 }
 $h_Lscalatags_generic_PixelStyle.prototype = $p;
 $p.kt = (function(v, ev) {
-  return ev.kO(this.gS, v);
+  return ev.kO(this.gT, v);
 });
 $p.a2 = (function() {
   return "PixelStyle";
@@ -8901,7 +8901,7 @@ $h_Lcom_dewdrop_loliga_model_LocalDate.prototype = $p;
 $p.m = (function() {
   return $m_sc_StringOps$().li("%02d-%02d-%04d", $ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [this.bi, this.bj, this.c1]));
 });
-$p.jg = (function(o) {
+$p.jh = (function(o) {
   var x1 = ((this.c1 - o.c1) | 0);
   if ((x1 === 0)) {
     var x1$2 = ((this.bj - o.bj) | 0);
@@ -8950,7 +8950,7 @@ $p.e = (function(x$1) {
   return ((this === x$1) || ((x$1 instanceof $c_Lcom_dewdrop_loliga_model_LocalDate) && (((this.c1 === x$1.c1) && (this.bj === x$1.bj)) && (this.bi === x$1.bi))));
 });
 $p.kT = (function(x$1) {
-  return this.jg(x$1);
+  return this.jh(x$1);
 });
 function $isArrayOf_Lcom_dewdrop_loliga_model_LocalDate(obj, depth) {
   return (!(!(((obj && obj.$classData) && (obj.$classData.D === depth)) && obj.$classData.B.n.aJ)));
@@ -9008,7 +9008,7 @@ function $p_Lcom_dewdrop_loliga_view_CondensedFixtureListView__renderFixtureRoun
         if ((x0$1$2$2 !== null)) {
           var teamLink$1 = x0$1$2$2.b0;
           var imgSrc$1 = x0$1$2$2.b1;
-          return $m_Lscalatags_JsDom$all$().dK().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().eD().r(teamLink$1, $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().fg().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().fr().r(imgSrc$1, $m_Lscalatags_JsDom$all$().p)])), $m_Lscalatags_JsDom$all$().lE().kt("5px", $m_Lscalatags_JsDom$all$().iR)]));
+          return $m_Lscalatags_JsDom$all$().dK().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().eD().r(teamLink$1, $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().fg().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().fs().r(imgSrc$1, $m_Lscalatags_JsDom$all$().p)])), $m_Lscalatags_JsDom$all$().lE().kt("5px", $m_Lscalatags_JsDom$all$().iS)]));
         } else {
           throw new $c_s_MatchError(x0$1$2$2);
         }
@@ -9016,17 +9016,17 @@ function $p_Lcom_dewdrop_loliga_view_CondensedFixtureListView__renderFixtureRoun
     } else {
       var x$5 = $m_Lcom_dewdrop_loliga_model_Data$Tournaments$().b7;
       if (((x$5 === null) ? (x1$2 === null) : x$5.e(x1$2))) {
-        return $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("list-group-item", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("row", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-2", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().dj().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(((round.aO.m() + " - ") + $m_Lcom_dewdrop_loliga_model_LocalDate$().eJ(round.aO.dm, false))))]))])), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-10", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().fg().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().fr().r("https://pefl.ru/system/img/g/ball1.gif", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().hn().r("15", $m_Lscalatags_JsDom$all$().p)]))]))]))]))]));
+        return $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("list-group-item", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("row", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-2", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().dj().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(((round.aO.m() + " - ") + $m_Lcom_dewdrop_loliga_model_LocalDate$().eJ(round.aO.dm, false))))]))])), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-10", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().fg().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().fs().r("https://pefl.ru/system/img/g/ball1.gif", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().ho().r("15", $m_Lscalatags_JsDom$all$().p)]))]))]))]))]));
       } else {
         var x$7 = $m_Lcom_dewdrop_loliga_model_Data$Tournaments$().bV;
         if (((x$7 === null) ? (x1$2 === null) : x$7.e(x1$2))) {
-          return $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("list-group-item", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("row", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-2", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().dj().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(((round.aO.m() + " - ") + $m_Lcom_dewdrop_loliga_model_LocalDate$().eJ(round.aO.dm, false))))]))])), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-10", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().fg().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().fr().r("https://pefl.ru/plugins/s/topcontributors/img/cup-1.gif", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().hn().r("15", $m_Lscalatags_JsDom$all$().p)]))]))]))]))]));
+          return $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("list-group-item", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("row", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-2", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().dj().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(((round.aO.m() + " - ") + $m_Lcom_dewdrop_loliga_model_LocalDate$().eJ(round.aO.dm, false))))]))])), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-10", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().fg().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().fs().r("https://pefl.ru/plugins/s/topcontributors/img/cup-1.gif", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().ho().r("15", $m_Lscalatags_JsDom$all$().p)]))]))]))]))]));
         } else {
           var x$9 = $m_Lcom_dewdrop_loliga_model_Data$Tournaments$().ad;
           if (((x$9 === null) ? (x1$2 === null) : x$9.e(x1$2))) {
-            return $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("list-group-item", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("row", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-2", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().dj().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(((round.aO.m() + " - ") + $m_Lcom_dewdrop_loliga_model_LocalDate$().eJ(round.aO.dm, false))))]))])), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-10", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().fg().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().fr().r("https://pefl.ru/system/img/g/e.gif", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().hn().r("15", $m_Lscalatags_JsDom$all$().p)]))]))]))]))]));
+            return $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("list-group-item", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("row", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-2", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().dj().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(((round.aO.m() + " - ") + $m_Lcom_dewdrop_loliga_model_LocalDate$().eJ(round.aO.dm, false))))]))])), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-10", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().fg().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().fs().r("https://pefl.ru/system/img/g/e.gif", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().ho().r("15", $m_Lscalatags_JsDom$all$().p)]))]))]))]))]));
           } else {
-            return $m_sci_Seq$().gY();
+            return $m_sci_Seq$().gZ();
           }
         }
       }
@@ -9151,18 +9151,18 @@ var $d_Lcom_dewdrop_loliga_view_CondensedFixtureListView = new $TypeData().i($c_
 function $c_Lcom_dewdrop_loliga_view_FixtureListView(fixtureList, participantsOnly) {
   this.dT = null;
   this.ds = false;
-  this.hq = null;
   this.hr = null;
+  this.hs = null;
   this.dT = fixtureList;
   this.ds = participantsOnly;
-  this.hq = fixtureList.a7(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x0$1$2$2) => {
+  this.hr = fixtureList.a7(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x0$1$2$2) => {
     if ((x0$1$2$2 !== null)) {
       return new $c_Lcom_dewdrop_loliga_view_TournamentRoundView(x0$1$2$2.b0, x0$1$2$2.b1.aN(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((f$2$2) => ((!this.ds) || f$2$2.lp())))));
     } else {
       throw new $c_s_MatchError(x0$1$2$2);
     }
   })));
-  this.hr = $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lscalatags_JsDom$Cap$SeqFrag($m_Lscalatags_JsDom$all$(), this.hq.a7(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((child$2$2) => child$2$2.fG))), $m_s_$less$colon$less$().c4)]));
+  this.hs = $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [new $c_Lscalatags_JsDom$Cap$SeqFrag($m_Lscalatags_JsDom$all$(), this.hr.a7(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((child$2$2) => child$2$2.fH))), $m_s_$less$colon$less$().c4)]));
 }
 $p = $c_Lcom_dewdrop_loliga_view_FixtureListView.prototype = new $h_O();
 $p.constructor = $c_Lcom_dewdrop_loliga_view_FixtureListView;
@@ -9171,7 +9171,7 @@ function $h_Lcom_dewdrop_loliga_view_FixtureListView() {
 }
 $h_Lcom_dewdrop_loliga_view_FixtureListView.prototype = $p;
 $p.aW = (function() {
-  return this.hr;
+  return this.hs;
 });
 $p.a2 = (function() {
   return "FixtureListView";
@@ -9233,29 +9233,29 @@ var $d_Lcom_dewdrop_loliga_view_FixtureListView = new $TypeData().i($c_Lcom_dewd
   a: 1
 }));
 function $p_Lcom_dewdrop_loliga_view_FixtureListWithPastView__pastFixturesIfPresent__sci_Seq($thiz) {
-  return ((!$thiz.eP.l()) ? $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("container-fluid", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().dK().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().lI().r("pastFixtures", $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(""))])), $m_Lscalatags_JsDom$all$().jF().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("pull-left", $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag("\u041f\u0440\u043e\u0448\u043b\u044b\u0435 \u0438\u0433\u0440\u044b"))])), $m_Lscalatags_JsDom$all$().jd()])), $thiz.fA.cT($thiz.eP.aB(), true).aW()])) : $m_sci_Seq$().gY());
+  return ((!$thiz.eP.l()) ? $m_sci_Seq$().d($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("container-fluid", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().dK().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().lI().r("pastFixtures", $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(""))])), $m_Lscalatags_JsDom$all$().jG().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("pull-left", $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag("\u041f\u0440\u043e\u0448\u043b\u044b\u0435 \u0438\u0433\u0440\u044b"))])), $m_Lscalatags_JsDom$all$().je()])), $thiz.fB.cT($thiz.eP.aB(), true).aW()])) : $m_sci_Seq$().gZ());
 }
 function $p_Lcom_dewdrop_loliga_view_FixtureListWithPastView__pastFixturesLinkIfPresent__s_Option($thiz) {
-  return ((!$thiz.eP.l()) ? new $c_s_Some($m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("container-fluid", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().jF().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("pull-right", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().dK().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().eD().r("#pastFixtures", $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag("\u041f\u0440\u043e\u0448\u043b\u044b\u0435 \u0438\u0433\u0440\u044b"))]))])), $m_Lscalatags_JsDom$all$().jd()]))) : $m_s_None$());
+  return ((!$thiz.eP.l()) ? new $c_s_Some($m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("container-fluid", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().jG().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("pull-right", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().dK().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().eD().r("#pastFixtures", $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag("\u041f\u0440\u043e\u0448\u043b\u044b\u0435 \u0438\u0433\u0440\u044b"))]))])), $m_Lscalatags_JsDom$all$().je()]))) : $m_s_None$());
 }
 /** @constructor */
 function $c_Lcom_dewdrop_loliga_view_FixtureListWithPastView(fixtureList, date, fixtureListView) {
   this.eO = null;
   this.dU = null;
-  this.fA = null;
   this.fB = null;
+  this.fC = null;
   this.eP = null;
-  this.hs = null;
+  this.ht = null;
   this.eO = fixtureList;
   this.dU = date;
-  this.fA = fixtureListView;
-  var x1 = fixtureList.fn(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$1$2$2) => (x$1$2$2.b0.aO.jg(this.dU) < 0))));
+  this.fB = fixtureListView;
+  var x1 = fixtureList.fo(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$1$2$2) => (x$1$2$2.b0.aO.jh(this.dU) < 0))));
   if ((x1 === null)) {
     throw new $c_s_MatchError(x1);
   }
-  this.fB = new $c_T2(x1.b0, x1.b1);
-  this.eP = this.fB.b0;
-  this.hs = this.fB.b1;
+  this.fC = new $c_T2(x1.b0, x1.b1);
+  this.eP = this.fC.b0;
+  this.ht = this.fC.b1;
 }
 $p = $c_Lcom_dewdrop_loliga_view_FixtureListWithPastView.prototype = new $h_O();
 $p.constructor = $c_Lcom_dewdrop_loliga_view_FixtureListWithPastView;
@@ -9264,7 +9264,7 @@ function $h_Lcom_dewdrop_loliga_view_FixtureListWithPastView() {
 }
 $h_Lcom_dewdrop_loliga_view_FixtureListWithPastView.prototype = $p;
 $p.aW = (function() {
-  return $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$f_Lscalatags_generic_Util__OptionNode__s_Option__F1__Lscalatags_generic_Util$SeqNode($m_Lscalatags_JsDom$all$(), $p_Lcom_dewdrop_loliga_view_FixtureListWithPastView__pastFixturesLinkIfPresent__s_Option(this), $m_s_$less$colon$less$().c4), this.fA.cT(this.hs, false).aW(), new $c_Lscalatags_JsDom$Cap$SeqFrag($m_Lscalatags_JsDom$all$(), $p_Lcom_dewdrop_loliga_view_FixtureListWithPastView__pastFixturesIfPresent__sci_Seq(this), $m_s_$less$colon$less$().c4)]));
+  return $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$f_Lscalatags_generic_Util__OptionNode__s_Option__F1__Lscalatags_generic_Util$SeqNode($m_Lscalatags_JsDom$all$(), $p_Lcom_dewdrop_loliga_view_FixtureListWithPastView__pastFixturesLinkIfPresent__s_Option(this), $m_s_$less$colon$less$().c4), this.fB.cT(this.ht, false).aW(), new $c_Lscalatags_JsDom$Cap$SeqFrag($m_Lscalatags_JsDom$all$(), $p_Lcom_dewdrop_loliga_view_FixtureListWithPastView__pastFixturesIfPresent__sci_Seq(this), $m_s_$less$colon$less$().c4)]));
 });
 $p.a2 = (function() {
   return "FixtureListWithPastView";
@@ -9325,50 +9325,50 @@ var $d_Lcom_dewdrop_loliga_view_FixtureListWithPastView = new $TypeData().i($c_L
 }));
 function $p_Lcom_dewdrop_loliga_view_FixtureView__coveredFixture$lzycompute__Z($thiz) {
   if (((((1 & $thiz.aZ) << 24) >> 24) === 0)) {
-    $thiz.fC = $thiz.d4.eH($thiz.d5.by);
+    $thiz.fD = $thiz.d4.eH($thiz.d5.by);
     $thiz.aZ = (((1 | $thiz.aZ) << 24) >> 24);
-  }
-  return $thiz.fC;
-}
-function $p_Lcom_dewdrop_loliga_view_FixtureView__coveredFixture__Z($thiz) {
-  return (((((1 & $thiz.aZ) << 24) >> 24) === 0) ? $p_Lcom_dewdrop_loliga_view_FixtureView__coveredFixture$lzycompute__Z($thiz) : $thiz.fC);
-}
-function $p_Lcom_dewdrop_loliga_view_FixtureView__host$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
-  if (((((2 & $thiz.aZ) << 24) >> 24) === 0)) {
-    $thiz.fE = $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-5 text-right", $m_Lscalatags_JsDom$all$().p), new $c_Lcom_dewdrop_loliga_view_TeamView($thiz.d4.aY, $thiz.d5.by, $p_Lcom_dewdrop_loliga_view_FixtureView__coveredFixture__Z($thiz)).aW()]));
-    $thiz.aZ = (((2 | $thiz.aZ) << 24) >> 24);
-  }
-  return $thiz.fE;
-}
-function $p_Lcom_dewdrop_loliga_view_FixtureView__host__Lscalatags_JsDom$TypedTag($thiz) {
-  return (((((2 & $thiz.aZ) << 24) >> 24) === 0) ? $p_Lcom_dewdrop_loliga_view_FixtureView__host$lzycompute__Lscalatags_JsDom$TypedTag($thiz) : $thiz.fE);
-}
-function $p_Lcom_dewdrop_loliga_view_FixtureView__visitor$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
-  if (((((4 & $thiz.aZ) << 24) >> 24) === 0)) {
-    $thiz.fF = $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-5", $m_Lscalatags_JsDom$all$().p), new $c_Lcom_dewdrop_loliga_view_TeamView($thiz.d4.bh, $thiz.d5.by, $p_Lcom_dewdrop_loliga_view_FixtureView__coveredFixture__Z($thiz)).aW()]));
-    $thiz.aZ = (((4 | $thiz.aZ) << 24) >> 24);
-  }
-  return $thiz.fF;
-}
-function $p_Lcom_dewdrop_loliga_view_FixtureView__visitor__Lscalatags_JsDom$TypedTag($thiz) {
-  return (((((4 & $thiz.aZ) << 24) >> 24) === 0) ? $p_Lcom_dewdrop_loliga_view_FixtureView__visitor$lzycompute__Lscalatags_JsDom$TypedTag($thiz) : $thiz.fF);
-}
-function $p_Lcom_dewdrop_loliga_view_FixtureView__elem$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
-  if (((((8 & $thiz.aZ) << 24) >> 24) === 0)) {
-    $thiz.fD = $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r(("list-group-item" + ($p_Lcom_dewdrop_loliga_view_FixtureView__coveredFixture__Z($thiz) ? " list-group-item-info" : "")), $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("row", $m_Lscalatags_JsDom$all$().p), $p_Lcom_dewdrop_loliga_view_FixtureView__host__Lscalatags_JsDom$TypedTag($thiz), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-1 text-center", $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(" - "))])), $p_Lcom_dewdrop_loliga_view_FixtureView__visitor__Lscalatags_JsDom$TypedTag($thiz)]))]));
-    $thiz.aZ = (((8 | $thiz.aZ) << 24) >> 24);
   }
   return $thiz.fD;
 }
+function $p_Lcom_dewdrop_loliga_view_FixtureView__coveredFixture__Z($thiz) {
+  return (((((1 & $thiz.aZ) << 24) >> 24) === 0) ? $p_Lcom_dewdrop_loliga_view_FixtureView__coveredFixture$lzycompute__Z($thiz) : $thiz.fD);
+}
+function $p_Lcom_dewdrop_loliga_view_FixtureView__host$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
+  if (((((2 & $thiz.aZ) << 24) >> 24) === 0)) {
+    $thiz.fF = $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-5 text-right", $m_Lscalatags_JsDom$all$().p), new $c_Lcom_dewdrop_loliga_view_TeamView($thiz.d4.aY, $thiz.d5.by, $p_Lcom_dewdrop_loliga_view_FixtureView__coveredFixture__Z($thiz)).aW()]));
+    $thiz.aZ = (((2 | $thiz.aZ) << 24) >> 24);
+  }
+  return $thiz.fF;
+}
+function $p_Lcom_dewdrop_loliga_view_FixtureView__host__Lscalatags_JsDom$TypedTag($thiz) {
+  return (((((2 & $thiz.aZ) << 24) >> 24) === 0) ? $p_Lcom_dewdrop_loliga_view_FixtureView__host$lzycompute__Lscalatags_JsDom$TypedTag($thiz) : $thiz.fF);
+}
+function $p_Lcom_dewdrop_loliga_view_FixtureView__visitor$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
+  if (((((4 & $thiz.aZ) << 24) >> 24) === 0)) {
+    $thiz.fG = $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-5", $m_Lscalatags_JsDom$all$().p), new $c_Lcom_dewdrop_loliga_view_TeamView($thiz.d4.bh, $thiz.d5.by, $p_Lcom_dewdrop_loliga_view_FixtureView__coveredFixture__Z($thiz)).aW()]));
+    $thiz.aZ = (((4 | $thiz.aZ) << 24) >> 24);
+  }
+  return $thiz.fG;
+}
+function $p_Lcom_dewdrop_loliga_view_FixtureView__visitor__Lscalatags_JsDom$TypedTag($thiz) {
+  return (((((4 & $thiz.aZ) << 24) >> 24) === 0) ? $p_Lcom_dewdrop_loliga_view_FixtureView__visitor$lzycompute__Lscalatags_JsDom$TypedTag($thiz) : $thiz.fG);
+}
+function $p_Lcom_dewdrop_loliga_view_FixtureView__elem$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
+  if (((((8 & $thiz.aZ) << 24) >> 24) === 0)) {
+    $thiz.fE = $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r(("list-group-item" + ($p_Lcom_dewdrop_loliga_view_FixtureView__coveredFixture__Z($thiz) ? " list-group-item-info" : "")), $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("row", $m_Lscalatags_JsDom$all$().p), $p_Lcom_dewdrop_loliga_view_FixtureView__host__Lscalatags_JsDom$TypedTag($thiz), $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("col-xs-1 text-center", $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(" - "))])), $p_Lcom_dewdrop_loliga_view_FixtureView__visitor__Lscalatags_JsDom$TypedTag($thiz)]))]));
+    $thiz.aZ = (((8 | $thiz.aZ) << 24) >> 24);
+  }
+  return $thiz.fE;
+}
 function $p_Lcom_dewdrop_loliga_view_FixtureView__elem__Lscalatags_JsDom$TypedTag($thiz) {
-  return (((((8 & $thiz.aZ) << 24) >> 24) === 0) ? $p_Lcom_dewdrop_loliga_view_FixtureView__elem$lzycompute__Lscalatags_JsDom$TypedTag($thiz) : $thiz.fD);
+  return (((((8 & $thiz.aZ) << 24) >> 24) === 0) ? $p_Lcom_dewdrop_loliga_view_FixtureView__elem$lzycompute__Lscalatags_JsDom$TypedTag($thiz) : $thiz.fE);
 }
 /** @constructor */
 function $c_Lcom_dewdrop_loliga_view_FixtureView(fixture, round) {
-  this.fC = false;
-  this.fE = null;
+  this.fD = false;
   this.fF = null;
-  this.fD = null;
+  this.fG = null;
+  this.fE = null;
   this.d4 = null;
   this.d5 = null;
   this.aZ = 0;
@@ -9455,7 +9455,7 @@ function $c_Lcom_dewdrop_loliga_view_SeasonView(season, tournament) {
   this.dV = null;
   this.cz = season;
   this.dt = tournament;
-  this.eQ = new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((eta$0$1, eta$1$1) => ((fixtureListView$2$2) => new $c_Lcom_dewdrop_loliga_view_FixtureListWithPastView(eta$0$1, eta$1$1, fixtureListView$2$2)))(season.fs, $m_Lcom_dewdrop_loliga_model_LocalDate$().kN(new Date((+Date.now())))));
+  this.eQ = new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((eta$0$1, eta$1$1) => ((fixtureListView$2$2) => new $c_Lcom_dewdrop_loliga_view_FixtureListWithPastView(eta$0$1, eta$1$1, fixtureListView$2$2)))(season.ft, $m_Lcom_dewdrop_loliga_model_LocalDate$().kN(new Date((+Date.now())))));
   this.eR = new $c_Lcom_dewdrop_loliga_view_TeamSelector($f_Lcom_dewdrop_loliga_model_Season__teams__sci_Seq(season)).aW().cv();
   this.dV = $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [this.eQ.k(new $c_sr_AbstractFunction2_$$Lambda$b4228bd32034ae3b2f0c5fc896319aa4b79b55f8(((fixtures$2$2, x$1$2$2) => new $c_Lcom_dewdrop_loliga_view_FixtureListView(fixtures$2$2.aN(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((fixture$2$2) => $p_Lcom_dewdrop_loliga_view_SeasonView__tournamentOnlyFixture__T2__Z(this, fixture$2$2)))), this.cz.eK)))).aW()])).cv();
 }
@@ -9475,7 +9475,7 @@ $p.aW = (function() {
     }))) : this.eQ.k(new $c_sr_AbstractFunction2_$$Lambda$b4228bd32034ae3b2f0c5fc896319aa4b79b55f8(((fixtures$2$2$1, x$3$2$2) => new $c_Lcom_dewdrop_loliga_view_FixtureListView(fixtures$2$2$1.aN(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((fixture$2$2) => $p_Lcom_dewdrop_loliga_view_SeasonView__tournamentOnlyFixture__T2__Z(this, fixture$2$2)))), this.cz.eK)))));
     return this.dV.appendChild(newView.aW().cv());
   });
-  return $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("container-fluid", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().lo().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(this.cz.ho)), $m_Lscalatags_JsDom$all$().mc().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("pull-right", $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(this.cz.hp))]))])), new $c_Lscalatags_LowPriorityImplicits$bindNode($m_Lscalatags_JsDom$all$(), this.eR), new $c_Lscalatags_LowPriorityImplicits$bindNode($m_Lscalatags_JsDom$all$(), this.dV)]));
+  return $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("container-fluid", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().lo().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(this.cz.hp)), $m_Lscalatags_JsDom$all$().mc().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("pull-right", $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(this.cz.hq))]))])), new $c_Lscalatags_LowPriorityImplicits$bindNode($m_Lscalatags_JsDom$all$(), this.eR), new $c_Lscalatags_LowPriorityImplicits$bindNode($m_Lscalatags_JsDom$all$(), this.dV)]));
 });
 $p.a2 = (function() {
   return "SeasonView";
@@ -9603,7 +9603,7 @@ function $h_Lcom_dewdrop_loliga_view_TeamView() {
 }
 $h_Lcom_dewdrop_loliga_view_TeamView.prototype = $p;
 $p.aW = (function() {
-  return $m_s_Option$().jO(this.cf.lH(this.du)).cV($m_Lscalatags_JsDom$all$().dK().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().eD().r(this.cf.cd.ep(), $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().z().r((this.cf.h0(this.dv) ? "text-success" : ""), $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(this.cf.aT))])), new $c_sr_AbstractFunction2_$$Lambda$b4228bd32034ae3b2f0c5fc896319aa4b79b55f8(((x0$1$2$2, x1$1$2$2) => $m_Lscalatags_JsDom$all$().dj().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [x0$1$2$2, x1$1$2$2])))));
+  return $m_s_Option$().jO(this.cf.lH(this.du)).cV($m_Lscalatags_JsDom$all$().dK().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().eD().r(this.cf.cd.ep(), $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().z().r((this.cf.h1(this.dv) ? "text-success" : ""), $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(this.cf.aT))])), new $c_sr_AbstractFunction2_$$Lambda$b4228bd32034ae3b2f0c5fc896319aa4b79b55f8(((x0$1$2$2, x1$1$2$2) => $m_Lscalatags_JsDom$all$().dj().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [x0$1$2$2, x1$1$2$2])))));
 });
 $p.a2 = (function() {
   return "TeamView";
@@ -9673,12 +9673,12 @@ var $d_Lcom_dewdrop_loliga_view_TeamView = new $TypeData().i($c_Lcom_dewdrop_lol
 function $c_Lcom_dewdrop_loliga_view_TournamentRoundView(round, fixtures) {
   this.dX = null;
   this.eS = null;
-  this.ht = null;
-  this.fG = null;
+  this.hu = null;
+  this.fH = null;
   this.dX = round;
   this.eS = fixtures;
-  this.ht = fixtures.a7(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$4$2$2) => new $c_Lcom_dewdrop_loliga_view_FixtureView(x$4$2$2, this.dX))));
-  this.fG = $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("list-group", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().dK().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("list-group-item list-group-item-action active", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().eD().r(round.d3.ep(), $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(((round.aO + " - ") + round)))])), new $c_Lscalatags_JsDom$Cap$SeqFrag($m_Lscalatags_JsDom$all$(), this.ht.a7(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((child$2$2) => $p_Lcom_dewdrop_loliga_view_FixtureView__elem__Lscalatags_JsDom$TypedTag(child$2$2)))), $m_s_$less$colon$less$().c4)]));
+  this.hu = fixtures.a7(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$4$2$2) => new $c_Lcom_dewdrop_loliga_view_FixtureView(x$4$2$2, this.dX))));
+  this.fH = $m_Lscalatags_JsDom$all$().V().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("list-group", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().dK().n($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$m_Lscalatags_JsDom$all$().z().r("list-group-item list-group-item-action active", $m_Lscalatags_JsDom$all$().p), $m_Lscalatags_JsDom$all$().eD().r(round.d3.ep(), $m_Lscalatags_JsDom$all$().p), ($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag(((round.aO + " - ") + round)))])), new $c_Lscalatags_JsDom$Cap$SeqFrag($m_Lscalatags_JsDom$all$(), this.hu.a7(new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((child$2$2) => $p_Lcom_dewdrop_loliga_view_FixtureView__elem__Lscalatags_JsDom$TypedTag(child$2$2)))), $m_s_$less$colon$less$().c4)]));
 }
 $p = $c_Lcom_dewdrop_loliga_view_TournamentRoundView.prototype = new $h_O();
 $p.constructor = $c_Lcom_dewdrop_loliga_view_TournamentRoundView;
@@ -9687,7 +9687,7 @@ function $h_Lcom_dewdrop_loliga_view_TournamentRoundView() {
 }
 $h_Lcom_dewdrop_loliga_view_TournamentRoundView.prototype = $p;
 $p.aW = (function() {
-  return this.fG;
+  return this.fH;
 });
 $p.a2 = (function() {
   return "TournamentRoundView";
@@ -9931,7 +9931,7 @@ var $d_s_$less$colon$less$$anon$1 = new $TypeData().i($c_s_$less$colon$less$$ano
   a: 1
 }));
 function $p_s_MatchError__objString$lzycompute__T($thiz) {
-  if ((!$thiz.fU)) {
+  if ((!$thiz.fV)) {
     if (($thiz.eW === null)) {
       var $x_1 = "null";
     } else {
@@ -9939,13 +9939,13 @@ function $p_s_MatchError__objString$lzycompute__T($thiz) {
       var cls = $objectGetClass(this$1);
       var $x_1 = $p_s_MatchError__liftedTree1$1__T__T($thiz, ((cls === null) ? "of a JS class" : ("of class " + cls.q.N)));
     }
-    $thiz.fV = $x_1;
-    $thiz.fU = true;
+    $thiz.fW = $x_1;
+    $thiz.fV = true;
   }
-  return $thiz.fV;
+  return $thiz.fW;
 }
 function $p_s_MatchError__objString__T($thiz) {
-  return ((!$thiz.fU) ? $p_s_MatchError__objString$lzycompute__T($thiz) : $thiz.fV);
+  return ((!$thiz.fV) ? $p_s_MatchError__objString$lzycompute__T($thiz) : $thiz.fW);
 }
 function $p_s_MatchError__liftedTree1$1__T__T($thiz, ofClass$1) {
   try {
@@ -9957,9 +9957,9 @@ function $p_s_MatchError__liftedTree1$1__T__T($thiz, ofClass$1) {
 class $c_s_MatchError extends $c_jl_RuntimeException {
   constructor(obj) {
     super();
-    this.fV = null;
+    this.fW = null;
     this.eW = null;
-    this.fU = false;
+    this.fV = false;
     this.eW = obj;
     $ct_jl_Throwable__T__jl_Throwable__Z__Z__(this, null, null, true, true);
   }
@@ -10078,17 +10078,17 @@ function $isArrayOf_sc_Iterable(obj, depth) {
 }
 function $p_sc_Iterator$$anon$10__nextCur__V($thiz) {
   $thiz.dA = $m_sc_Iterator$().Z;
-  $thiz.dA = $thiz.i5.k($thiz.g7.g()).f();
+  $thiz.dA = $thiz.i6.k($thiz.g8.g()).f();
   $thiz.d8 = (-1);
 }
 /** @constructor */
 function $c_sc_Iterator$$anon$10(outer, f$3) {
   this.dA = null;
   this.d8 = 0;
-  this.g7 = null;
-  this.i5 = null;
-  this.g7 = outer;
-  this.i5 = f$3;
+  this.g8 = null;
+  this.i6 = null;
+  this.g8 = outer;
+  this.i6 = f$3;
   this.dA = $m_sc_Iterator$().Z;
   this.d8 = (-1);
 }
@@ -10101,7 +10101,7 @@ $h_sc_Iterator$$anon$10.prototype = $p;
 $p.h = (function() {
   if ((this.d8 === (-1))) {
     while ((!this.dA.h())) {
-      if ((!this.g7.h())) {
+      if ((!this.g8.h())) {
         this.d8 = 0;
         this.dA = $m_sc_Iterator$().Z;
         return false;
@@ -10161,8 +10161,8 @@ var $d_sc_Iterator$$anon$19 = new $TypeData().i($c_sc_Iterator$$anon$19, "scala.
 /** @constructor */
 function $c_sc_Iterator$$anon$20(a$1) {
   this.e1 = false;
-  this.i6 = null;
-  this.i6 = a$1;
+  this.i7 = null;
+  this.i7 = a$1;
   this.e1 = false;
 }
 $p = $c_sc_Iterator$$anon$20.prototype = new $h_sc_AbstractIterator();
@@ -10179,7 +10179,7 @@ $p.g = (function() {
     return $m_sc_Iterator$().Z.g();
   } else {
     this.e1 = true;
-    return this.i6;
+    return this.i7;
   }
 });
 $p.dO = (function(from, until) {
@@ -10197,11 +10197,11 @@ function $c_sc_Iterator$$anon$6(outer, p$1, isFlipped$1) {
   this.eX = null;
   this.eY = false;
   this.e2 = null;
-  this.i8 = null;
-  this.i7 = false;
+  this.i9 = null;
+  this.i8 = false;
   this.e2 = outer;
-  this.i8 = p$1;
-  this.i7 = isFlipped$1;
+  this.i9 = p$1;
+  this.i8 = isFlipped$1;
   this.eY = false;
 }
 $p = $c_sc_Iterator$$anon$6.prototype = new $h_sc_AbstractIterator();
@@ -10218,7 +10218,7 @@ $p.h = (function() {
       return false;
     }
     this.eX = this.e2.g();
-    while (((!(!this.i8.k(this.eX))) === this.i7)) {
+    while (((!(!this.i9.k(this.eX))) === this.i8)) {
       if ((!this.e2.h())) {
         return false;
       }
@@ -10245,14 +10245,14 @@ var $d_sc_Iterator$$anon$6 = new $TypeData().i($c_sc_Iterator$$anon$6, "scala.co
 }));
 /** @constructor */
 function $c_sc_Iterator$$anon$8(outer, f$1) {
-  this.ib = null;
+  this.ic = null;
   this.eZ = false;
+  this.ib = null;
+  this.g9 = null;
   this.ia = null;
-  this.g8 = null;
-  this.i9 = null;
-  this.g8 = outer;
-  this.i9 = f$1;
-  this.ib = $ct_scm_HashSet__(new $c_scm_HashSet());
+  this.g9 = outer;
+  this.ia = f$1;
+  this.ic = $ct_scm_HashSet__(new $c_scm_HashSet());
   this.eZ = false;
 }
 $p = $c_sc_Iterator$$anon$8.prototype = new $h_sc_AbstractIterator();
@@ -10265,12 +10265,12 @@ $p.h = (function() {
   while (true) {
     if (this.eZ) {
       return true;
-    } else if (this.g8.h()) {
-      var a = this.g8.g();
-      if ((!this.ib.f7(this.i9.k(a)))) {
+    } else if (this.g9.h()) {
+      var a = this.g9.g();
+      if ((!this.ic.f7(this.ia.k(a)))) {
         continue;
       }
-      this.ia = a;
+      this.ib = a;
       this.eZ = true;
       return true;
     } else {
@@ -10281,7 +10281,7 @@ $p.h = (function() {
 $p.g = (function() {
   if (this.h()) {
     this.eZ = false;
-    return this.ia;
+    return this.ib;
   } else {
     return $m_sc_Iterator$().Z.g();
   }
@@ -10296,9 +10296,9 @@ var $d_sc_Iterator$$anon$8 = new $TypeData().i($c_sc_Iterator$$anon$8, "scala.co
 /** @constructor */
 function $c_sc_Iterator$$anon$9(outer, f$2) {
   this.f0 = null;
-  this.ic = null;
+  this.id = null;
   this.f0 = outer;
-  this.ic = f$2;
+  this.id = f$2;
 }
 $p = $c_sc_Iterator$$anon$9.prototype = new $h_sc_AbstractIterator();
 $p.constructor = $c_sc_Iterator$$anon$9;
@@ -10313,7 +10313,7 @@ $p.h = (function() {
   return this.f0.h();
 });
 $p.g = (function() {
-  return this.ic.k(this.f0.g());
+  return this.id.k(this.f0.g());
 });
 var $d_sc_Iterator$$anon$9 = new $TypeData().i($c_sc_Iterator$$anon$9, "scala.collection.Iterator$$anon$9", ({
   dJ: 1,
@@ -10538,7 +10538,7 @@ function $f_sc_LinearSeqOps__apply__I__O($thiz, n) {
   if ((n < 0)) {
     throw new $c_jl_IndexOutOfBoundsException(("" + n));
   }
-  var skipped = $thiz.jn(n);
+  var skipped = $thiz.jo(n);
   if (skipped.l()) {
     throw new $c_jl_IndexOutOfBoundsException(("" + n));
   }
@@ -10625,7 +10625,7 @@ var $d_sc_StrictOptimizedLinearSeqOps$$anon$1 = new $TypeData().i($c_sc_StrictOp
 /** @constructor */
 function $c_sci_LazyList$LazyBuilder() {
   this.dC = null;
-  this.im = null;
+  this.io = null;
   this.kS();
 }
 $p = $c_sci_LazyList$LazyBuilder.prototype = new $h_O();
@@ -10638,18 +10638,18 @@ $p.b3 = (function(size) {
 });
 $p.kS = (function() {
   var deferred = new $c_sci_LazyList$LazyBuilder$DeferredState();
-  this.im = ($m_sci_LazyList$(), $ct_sci_LazyList__O__(new $c_sci_LazyList(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => deferred.h1()))));
+  this.io = ($m_sci_LazyList$(), $ct_sci_LazyList__O__(new $c_sci_LazyList(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => deferred.h2()))));
   this.dC = deferred;
 });
 $p.m5 = (function() {
-  this.dC.h7(new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => $m_sci_LazyList$().x)));
-  return this.im;
+  this.dC.h8(new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => $m_sci_LazyList$().x)));
+  return this.io;
 });
 $p.kE = (function(elem) {
   var deferred = new $c_sci_LazyList$LazyBuilder$DeferredState();
-  this.dC.h7(new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => {
+  this.dC.h8(new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => {
     $m_sci_LazyList$();
-    return $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), elem, ($m_sci_LazyList$(), $ct_sci_LazyList__O__(new $c_sci_LazyList(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => deferred.h1())))));
+    return $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), elem, ($m_sci_LazyList$(), $ct_sci_LazyList__O__(new $c_sci_LazyList(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => deferred.h2())))));
   })));
   this.dC = deferred;
   return this;
@@ -10657,7 +10657,7 @@ $p.kE = (function(elem) {
 $p.ku = (function(xs) {
   if ((xs.s() !== 0)) {
     var deferred = new $c_sci_LazyList$LazyBuilder$DeferredState();
-    this.dC.h7(new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => $m_sci_LazyList$().hf(xs.f(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => deferred.h1()))))));
+    this.dC.h8(new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => $m_sci_LazyList$().hg(xs.f(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => deferred.h2()))))));
     this.dC = deferred;
   }
   return this;
@@ -10710,9 +10710,9 @@ var $d_sci_LazyList$LazyIterator = new $TypeData().i($c_sci_LazyList$LazyIterato
 }));
 /** @constructor */
 function $c_sci_List$() {
-  this.io = null;
+  this.ip = null;
   $n_sci_List$ = this;
-  this.io = new $c_T2($m_sci_Nil$(), $m_sci_Nil$());
+  this.ip = new $c_T2($m_sci_Nil$(), $m_sci_Nil$());
 }
 $p = $c_sci_List$.prototype = new $h_O();
 $p.constructor = $c_sci_List$;
@@ -10721,7 +10721,7 @@ function $h_sci_List$() {
 }
 $h_sci_List$.prototype = $p;
 $p.cU = (function(elems) {
-  return $m_sci_Nil$().hd(elems);
+  return $m_sci_Nil$().he(elems);
 });
 $p.ar = (function() {
   return new $c_scm_ListBuffer();
@@ -10730,7 +10730,7 @@ $p.be = (function() {
   return $m_sci_Nil$();
 });
 $p.aI = (function(source) {
-  return $m_sci_Nil$().hd(source);
+  return $m_sci_Nil$().he(source);
 });
 var $d_sci_List$ = new $TypeData().i($c_sci_List$, "scala.collection.immutable.List$", ({
   ea: 1,
@@ -10782,9 +10782,9 @@ function $m_sci_Seq$() {
 }
 /** @constructor */
 function $c_scm_ArrayBuffer$() {
-  this.ip = null;
+  this.iq = null;
   $n_scm_ArrayBuffer$ = this;
-  this.ip = new $ac_O(0);
+  this.iq = new $ac_O(0);
 }
 $p = $c_scm_ArrayBuffer$.prototype = new $h_O();
 $p.constructor = $c_scm_ArrayBuffer$;
@@ -10793,19 +10793,19 @@ function $h_scm_ArrayBuffer$() {
 }
 $h_scm_ArrayBuffer$.prototype = $p;
 $p.cU = (function(elems) {
-  return this.jz(elems);
+  return this.jA(elems);
 });
-$p.jz = (function(coll) {
+$p.jA = (function(coll) {
   var k = coll.s();
   if ((k >= 0)) {
-    var array = this.jT(this.ip, 0, k);
+    var array = this.jT(this.iq, 0, k);
     var actual = ($is_sc_Iterable(coll) ? coll.bP(array, 0, 2147483647) : coll.f().bP(array, 0, 2147483647));
     if ((actual !== k)) {
       throw $ct_jl_IllegalStateException__T__(new $c_jl_IllegalStateException(), ((("Copied " + actual) + " of ") + k));
     }
     return $ct_scm_ArrayBuffer__AO__I__(new $c_scm_ArrayBuffer(), array, k);
   } else {
-    return $ct_scm_ArrayBuffer__(new $c_scm_ArrayBuffer()).iW(coll);
+    return $ct_scm_ArrayBuffer__(new $c_scm_ArrayBuffer()).iX(coll);
   }
 });
 $p.ar = (function() {
@@ -10840,7 +10840,7 @@ $p.be = (function() {
   return $ct_scm_ArrayBuffer__(new $c_scm_ArrayBuffer());
 });
 $p.aI = (function(source) {
-  return this.jz(source);
+  return this.jA(source);
 });
 var $d_scm_ArrayBuffer$ = new $TypeData().i($c_scm_ArrayBuffer$, "scala.collection.mutable.ArrayBuffer$", ({
   ef: 1,
@@ -10962,7 +10962,7 @@ $p.g = (function() {
   if ((!this.h())) {
     return $m_sc_Iterator$().Z.g();
   } else {
-    var r = this.h2(this.cm);
+    var r = this.h3(this.cm);
     this.cm = this.cm.aM;
     return r;
   }
@@ -11024,7 +11024,7 @@ function $h_scm_ListBuffer$() {
 }
 $h_scm_ListBuffer$.prototype = $p;
 $p.cU = (function(elems) {
-  return new $c_scm_ListBuffer().fq(elems);
+  return new $c_scm_ListBuffer().fr(elems);
 });
 $p.ar = (function() {
   return $ct_scm_GrowableBuilder__scm_Growable__(new $c_scm_GrowableBuilder(), new $c_scm_ListBuffer());
@@ -11033,7 +11033,7 @@ $p.be = (function() {
   return new $c_scm_ListBuffer();
 });
 $p.aI = (function(source) {
-  return new $c_scm_ListBuffer().fq(source);
+  return new $c_scm_ListBuffer().fr(source);
 });
 var $d_scm_ListBuffer$ = new $TypeData().i($c_scm_ListBuffer$, "scala.collection.mutable.ListBuffer$", ({
   eA: 1,
@@ -11051,12 +11051,12 @@ function $m_scm_ListBuffer$() {
 }
 /** @constructor */
 function $c_scm_MutationTracker$CheckedIterator(underlying, mutationCount) {
-  this.gs = null;
-  this.iB = null;
-  this.iA = 0;
-  this.gs = underlying;
-  this.iB = mutationCount;
-  this.iA = (mutationCount.bO() | 0);
+  this.gt = null;
+  this.iC = null;
+  this.iB = 0;
+  this.gt = underlying;
+  this.iC = mutationCount;
+  this.iB = (mutationCount.bO() | 0);
 }
 $p = $c_scm_MutationTracker$CheckedIterator.prototype = new $h_sc_AbstractIterator();
 $p.constructor = $c_scm_MutationTracker$CheckedIterator;
@@ -11065,11 +11065,11 @@ function $h_scm_MutationTracker$CheckedIterator() {
 }
 $h_scm_MutationTracker$CheckedIterator.prototype = $p;
 $p.h = (function() {
-  $m_scm_MutationTracker$().gW(this.iA, (this.iB.bO() | 0), "mutation occurred during iteration");
-  return this.gs.h();
+  $m_scm_MutationTracker$().gX(this.iB, (this.iC.bO() | 0), "mutation occurred during iteration");
+  return this.gt.h();
 });
 $p.g = (function() {
-  return this.gs.g();
+  return this.gt.g();
 });
 var $d_scm_MutationTracker$CheckedIterator = new $TypeData().i($c_scm_MutationTracker$CheckedIterator, "scala.collection.mutable.MutationTracker$CheckedIterator", ({
   eC: 1,
@@ -11107,11 +11107,11 @@ function $isArrayOf_s_reflect_ClassTag(obj, depth) {
 /** @constructor */
 function $c_sr_ScalaRunTime$$anon$1(x$2) {
   this.ee = 0;
-  this.iI = 0;
-  this.iJ = null;
-  this.iJ = x$2;
+  this.iJ = 0;
+  this.iK = null;
+  this.iK = x$2;
   this.ee = 0;
-  this.iI = x$2.a3();
+  this.iJ = x$2.a3();
 }
 $p = $c_sr_ScalaRunTime$$anon$1.prototype = new $h_sc_AbstractIterator();
 $p.constructor = $c_sr_ScalaRunTime$$anon$1;
@@ -11120,10 +11120,10 @@ function $h_sr_ScalaRunTime$$anon$1() {
 }
 $h_sr_ScalaRunTime$$anon$1.prototype = $p;
 $p.h = (function() {
-  return (this.ee < this.iI);
+  return (this.ee < this.iJ);
 });
 $p.g = (function() {
-  var result = this.iJ.a4(this.ee);
+  var result = this.iK.a4(this.ee);
   this.ee = ((1 + this.ee) | 0);
   return result;
 });
@@ -11144,16 +11144,16 @@ function $h_sjs_js_WrappedArray$() {
 }
 $h_sjs_js_WrappedArray$.prototype = $p;
 $p.cU = (function(elems) {
-  return this.jA(elems);
+  return this.jB(elems);
 });
 $p.ar = (function() {
   return $ct_sjs_js_WrappedArray__(new $c_sjs_js_WrappedArray());
 });
-$p.jA = (function(source) {
+$p.jB = (function(source) {
   return $f_scm_Growable__addAll__sc_IterableOnce__scm_Growable($ct_sjs_js_WrappedArray__(new $c_sjs_js_WrappedArray()), source).at();
 });
 $p.aI = (function(source) {
-  return this.jA(source);
+  return this.jB(source);
 });
 $p.be = (function() {
   return $ct_sjs_js_WrappedArray__(new $c_sjs_js_WrappedArray());
@@ -11182,16 +11182,16 @@ function $h_sjsr_WrappedVarArgs$() {
 }
 $h_sjsr_WrappedVarArgs$.prototype = $p;
 $p.cU = (function(elems) {
-  return this.h6(elems);
+  return this.h7(elems);
 });
-$p.h6 = (function(source) {
+$p.h7 = (function(source) {
   return this.ar().aU(source).at();
 });
 $p.ar = (function() {
   return new $c_scm_Builder$$anon$1($ct_sjs_js_WrappedArray__sjs_js_Array__(new $c_sjs_js_WrappedArray(), []), new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$1$2$2) => $ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), x$1$2$2.cO))));
 });
 $p.aI = (function(source) {
-  return this.h6(source);
+  return this.h7(source);
 });
 $p.be = (function() {
   return $ct_sjsr_WrappedVarArgs__(new $c_sjsr_WrappedVarArgs());
@@ -11370,8 +11370,8 @@ var $d_Lscalatags_generic_StylePair = new $TypeData().i($c_Lscalatags_generic_St
 }));
 /** @constructor */
 function $c_Lcom_dewdrop_loliga_model_Link$PlugLink(params) {
+  this.fx = null;
   this.fw = null;
-  this.fv = null;
   this.eL = null;
   this.eL = params;
   $ct_Lcom_dewdrop_loliga_model_Link$LinkImpl__T__sci_Seq__(this, "plug.php", params.bS(new $c_T2("p", "refl")));
@@ -11441,7 +11441,7 @@ function $f_jl_Double__toString__T($thiz) {
   return ("" + $thiz);
 }
 function $f_jl_Double__compareTo__O__I($thiz, o) {
-  return $m_jl_Double$().jf($thiz, o);
+  return $m_jl_Double$().jg($thiz, o);
 }
 function $isArrayOf_jl_Double(obj, depth) {
   return (!(!(((obj && obj.$classData) && (obj.$classData.D === depth)) && obj.$classData.B.n.b0)));
@@ -11474,7 +11474,7 @@ function $f_jl_Float__toString__T($thiz) {
   return ("" + $thiz);
 }
 function $f_jl_Float__compareTo__O__I($thiz, o) {
-  return $m_jl_Double$().jf($thiz, o);
+  return $m_jl_Double$().jg($thiz, o);
 }
 function $isArrayOf_jl_Float(obj, depth) {
   return (!(!(((obj && obj.$classData) && (obj.$classData.D === depth)) && obj.$classData.B.n.b1)));
@@ -11524,7 +11524,7 @@ function $f_jl_Long__hashCode__I($thiz, $thizhi) {
   return ($thiz ^ $thizhi);
 }
 function $f_jl_Long__toString__T($thiz, $thizhi) {
-  return $m_RTLong$().hk($thiz, $thizhi);
+  return $m_RTLong$().hl($thiz, $thizhi);
 }
 function $f_jl_Long__compareTo__O__I($thiz, $thizhi, o) {
   var $x_1 = o;
@@ -11596,7 +11596,7 @@ function $f_T__getChars__I__I__AC__I__V($thiz, srcBegin, srcEnd, dst, dstBegin) 
   }
 }
 function $f_T__indexOf__I__I($thiz, ch) {
-  var str = $m_jl_Character$().hl(ch);
+  var str = $m_jl_Character$().hm(ch);
   return ($thiz.indexOf(str) | 0);
 }
 function $f_T__repeat__I__T($thiz, count) {
@@ -11661,19 +11661,19 @@ class $c_ju_IllegalFormatException extends $c_jl_IllegalArgumentException {
 class $c_ju_regex_PatternSyntaxException extends $c_jl_IllegalArgumentException {
   constructor(desc, regex, index) {
     super();
-    this.hZ = null;
-    this.i1 = null;
-    this.i0 = 0;
-    this.hZ = desc;
-    this.i1 = regex;
-    this.i0 = index;
+    this.i0 = null;
+    this.i2 = null;
+    this.i1 = 0;
+    this.i0 = desc;
+    this.i2 = regex;
+    this.i1 = index;
     $ct_jl_Throwable__T__jl_Throwable__Z__Z__(this, null, null, true, true);
   }
   b9() {
-    var idx = this.i0;
-    var re = this.i1;
+    var idx = this.i1;
+    var re = this.i2;
     var indexHint = ((idx < 0) ? "" : (" near index " + idx));
-    var base = (((this.hZ + indexHint) + "\n") + re);
+    var base = (((this.i0 + indexHint) + "\n") + re);
     return ((((idx >= 0) && (re !== null)) && (idx < re.length)) ? (((base + "\n") + $f_T__repeat__I__T(" ", idx)) + "^") : base);
   }
 }
@@ -11917,14 +11917,14 @@ function $p_sc_IndexedSeqView$IndexedSeqViewIterator__formatRange$1__I__I($thiz,
   return ((value < 0) ? 0 : ((value > $thiz.bn) ? $thiz.bn : value));
 }
 function $ct_sc_IndexedSeqView$IndexedSeqViewIterator__sc_IndexedSeqView__($thiz, self) {
-  $thiz.g4 = self;
+  $thiz.g5 = self;
   $thiz.ci = 0;
   $thiz.bn = self.i();
   return $thiz;
 }
 /** @constructor */
 function $c_sc_IndexedSeqView$IndexedSeqViewIterator() {
-  this.g4 = null;
+  this.g5 = null;
   this.ci = 0;
   this.bn = 0;
 }
@@ -11942,7 +11942,7 @@ $p.h = (function() {
 });
 $p.g = (function() {
   if ((this.bn > 0)) {
-    var r = this.g4.u(this.ci);
+    var r = this.g5.u(this.ci);
     this.ci = ((1 + this.ci) | 0);
     this.bn = ((this.bn - 1) | 0);
     return r;
@@ -11975,14 +11975,14 @@ var $d_sc_IndexedSeqView$IndexedSeqViewIterator = new $TypeData().i($c_sc_Indexe
   a: 1
 }));
 function $ct_sc_IndexedSeqView$IndexedSeqViewReverseIterator__sc_IndexedSeqView__($thiz, self) {
-  $thiz.g5 = self;
+  $thiz.g6 = self;
   $thiz.aP = self.i();
   $thiz.d7 = (($thiz.aP - 1) | 0);
   return $thiz;
 }
 /** @constructor */
 function $c_sc_IndexedSeqView$IndexedSeqViewReverseIterator() {
-  this.g5 = null;
+  this.g6 = null;
   this.aP = 0;
   this.d7 = 0;
 }
@@ -11997,7 +11997,7 @@ $p.h = (function() {
 });
 $p.g = (function() {
   if ((this.aP > 0)) {
-    var r = this.g5.u(this.d7);
+    var r = this.g6.u(this.d7);
     this.d7 = ((this.d7 - 1) | 0);
     this.aP = ((this.aP - 1) | 0);
     return r;
@@ -12089,22 +12089,22 @@ function $f_sc_StrictOptimizedSeqOps__appended__O__O($thiz, elem) {
   return b.at();
 }
 function $p_sci_ArraySeq$__emptyImpl$lzycompute__sci_ArraySeq$ofRef($thiz) {
-  if ((!$thiz.gh)) {
-    $thiz.gi = new $c_sci_ArraySeq$ofRef(new $ac_O(0));
-    $thiz.gh = true;
+  if ((!$thiz.gi)) {
+    $thiz.gj = new $c_sci_ArraySeq$ofRef(new $ac_O(0));
+    $thiz.gi = true;
   }
-  return $thiz.gi;
+  return $thiz.gj;
 }
 function $p_sci_ArraySeq$__emptyImpl__sci_ArraySeq$ofRef($thiz) {
-  return ((!$thiz.gh) ? $p_sci_ArraySeq$__emptyImpl$lzycompute__sci_ArraySeq$ofRef($thiz) : $thiz.gi);
+  return ((!$thiz.gi) ? $p_sci_ArraySeq$__emptyImpl$lzycompute__sci_ArraySeq$ofRef($thiz) : $thiz.gj);
 }
 /** @constructor */
 function $c_sci_ArraySeq$() {
-  this.gi = null;
   this.gj = null;
-  this.gh = false;
+  this.gk = null;
+  this.gi = false;
   $n_sci_ArraySeq$ = this;
-  this.gj = new $c_sc_ClassTagSeqFactory$AnySeqDelegate(this);
+  this.gk = new $c_sc_ClassTagSeqFactory$AnySeqDelegate(this);
 }
 $p = $c_sci_ArraySeq$.prototype = new $h_O();
 $p.constructor = $c_sci_ArraySeq$;
@@ -12112,8 +12112,8 @@ $p.constructor = $c_sci_ArraySeq$;
 function $h_sci_ArraySeq$() {
 }
 $h_sci_ArraySeq$.prototype = $p;
-$p.h4 = (function(it, tag) {
-  return ((it instanceof $c_sci_ArraySeq) ? it : this.dl($m_s_Array$().jy(it, tag)));
+$p.h5 = (function(it, tag) {
+  return ((it instanceof $c_sci_ArraySeq) ? it : this.dl($m_s_Array$().jz(it, tag)));
 });
 $p.fl = (function(evidence$2) {
   return new $c_scm_Builder$$anon$1(($m_scm_ArrayBuffer$(), new $c_scm_ArrayBuffer$$anon$1()), new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((b$2$2) => $m_sci_ArraySeq$().dl($f_sc_IterableOnceOps__toArray__s_reflect_ClassTag__O(b$2$2, evidence$2)))));
@@ -12145,10 +12145,10 @@ $p.dl = (function(x) {
     throw new $c_s_MatchError(x);
   }
 });
-$p.h3 = (function(it, evidence$5) {
-  return this.h4(it, evidence$5);
+$p.h4 = (function(it, evidence$5) {
+  return this.h5(it, evidence$5);
 });
-$p.jo = (function(evidence$6) {
+$p.jp = (function(evidence$6) {
   return $p_sci_ArraySeq$__emptyImpl__sci_ArraySeq$ofRef(this);
 });
 var $d_sci_ArraySeq$ = new $TypeData().i($c_sci_ArraySeq$, "scala.collection.immutable.ArraySeq$", ({
@@ -12173,14 +12173,14 @@ function $isArrayOf_sci_Iterable(obj, depth) {
   return (!(!(((obj && obj.$classData) && (obj.$classData.D === depth)) && obj.$classData.B.n.z)));
 }
 function $ct_scm_ArrayBuilder__($thiz) {
-  $thiz.gm = 0;
-  $thiz.iq = 0;
+  $thiz.gn = 0;
+  $thiz.ir = 0;
   return $thiz;
 }
 /** @constructor */
 function $c_scm_ArrayBuilder() {
-  this.gm = 0;
-  this.iq = 0;
+  this.gn = 0;
+  this.ir = 0;
 }
 $p = $c_scm_ArrayBuilder.prototype = new $h_O();
 $p.constructor = $c_scm_ArrayBuilder;
@@ -12189,17 +12189,17 @@ function $h_scm_ArrayBuilder() {
 }
 $h_scm_ArrayBuilder.prototype = $p;
 $p.b3 = (function(size) {
-  if ((this.gm < size)) {
+  if ((this.gn < size)) {
     this.m3(size);
   }
 });
 /** @constructor */
 function $c_scm_ArraySeq$() {
-  this.go = null;
-  this.is = null;
+  this.gp = null;
+  this.it = null;
   $n_scm_ArraySeq$ = this;
-  this.go = new $c_sc_ClassTagSeqFactory$AnySeqDelegate(this);
-  this.is = new $c_scm_ArraySeq$ofRef(new $ac_O(0));
+  this.gp = new $c_sc_ClassTagSeqFactory$AnySeqDelegate(this);
+  this.it = new $c_scm_ArraySeq$ofRef(new $ac_O(0));
 }
 $p = $c_scm_ArraySeq$.prototype = new $h_O();
 $p.constructor = $c_scm_ArraySeq$;
@@ -12208,7 +12208,7 @@ function $h_scm_ArraySeq$() {
 }
 $h_scm_ArraySeq$.prototype = $p;
 $p.lj = (function(it, evidence$2) {
-  return this.fj($m_s_Array$().jy(it, evidence$2));
+  return this.fj($m_s_Array$().jz(it, evidence$2));
 });
 $p.fl = (function(evidence$3) {
   return new $c_scm_Builder$$anon$1(new $c_scm_ArrayBuilder$generic(evidence$3.aC()), new $c_sr_AbstractFunction1_$$Lambda$7afc3dd0acc1681fb022ef921c83979087aaa919(((x$2$2) => $m_scm_ArraySeq$().fj(x$2$2))));
@@ -12240,11 +12240,11 @@ $p.fj = (function(x) {
     throw new $c_s_MatchError(x);
   }
 });
-$p.h3 = (function(it, evidence$5) {
+$p.h4 = (function(it, evidence$5) {
   return this.lj(it, evidence$5);
 });
-$p.jo = (function(evidence$6) {
-  return this.is;
+$p.jp = (function(evidence$6) {
+  return this.it;
 });
 var $d_scm_ArraySeq$ = new $TypeData().i($c_scm_ArraySeq$, "scala.collection.mutable.ArraySeq$", ({
   ek: 1,
@@ -12275,7 +12275,7 @@ $p.constructor = $c_scm_HashSet$$anon$1;
 function $h_scm_HashSet$$anon$1() {
 }
 $h_scm_HashSet$$anon$1.prototype = $p;
-$p.h2 = (function(nd) {
+$p.h3 = (function(nd) {
   return nd.dG;
 });
 var $d_scm_HashSet$$anon$1 = new $TypeData().i($c_scm_HashSet$$anon$1, "scala.collection.mutable.HashSet$$anon$1", ({
@@ -12300,7 +12300,7 @@ $p.constructor = $c_scm_HashSet$$anon$2;
 function $h_scm_HashSet$$anon$2() {
 }
 $h_scm_HashSet$$anon$2.prototype = $p;
-$p.h2 = (function(nd) {
+$p.h3 = (function(nd) {
   return nd;
 });
 var $d_scm_HashSet$$anon$2 = new $TypeData().i($c_scm_HashSet$$anon$2, "scala.collection.mutable.HashSet$$anon$2", ({
@@ -12317,11 +12317,11 @@ function $c_scm_HashSet$$anon$3(outer) {
   this.cm = null;
   this.eb = 0;
   this.ea = null;
-  this.gr = 0;
-  this.iz = null;
-  this.iz = outer;
+  this.gs = 0;
+  this.iA = null;
+  this.iA = outer;
   $ct_scm_HashSet$HashSetIterator__scm_HashSet__(this, outer);
-  this.gr = 0;
+  this.gs = 0;
 }
 $p = $c_scm_HashSet$$anon$3.prototype = new $h_scm_HashSet$HashSetIterator();
 $p.constructor = $c_scm_HashSet$$anon$3;
@@ -12330,10 +12330,10 @@ function $h_scm_HashSet$$anon$3() {
 }
 $h_scm_HashSet$$anon$3.prototype = $p;
 $p.o = (function() {
-  return this.gr;
+  return this.gs;
 });
-$p.h2 = (function(nd) {
-  this.gr = this.iz.fp(nd.cn);
+$p.h3 = (function(nd) {
+  this.gs = this.iA.fq(nd.cn);
   return this;
 });
 var $d_scm_HashSet$$anon$3 = new $TypeData().i($c_scm_HashSet$$anon$3, "scala.collection.mutable.HashSet$$anon$3", ({
@@ -12346,8 +12346,8 @@ var $d_scm_HashSet$$anon$3 = new $TypeData().i($c_scm_HashSet$$anon$3, "scala.co
 }));
 /** @constructor */
 function $c_s_math_LowPriorityOrderingImplicits$$anon$2(outer, asComparable$1) {
-  this.iC = null;
-  this.iC = asComparable$1;
+  this.iD = null;
+  this.iD = asComparable$1;
 }
 $p = $c_s_math_LowPriorityOrderingImplicits$$anon$2.prototype = new $h_O();
 $p.constructor = $c_s_math_LowPriorityOrderingImplicits$$anon$2;
@@ -12359,7 +12359,7 @@ $p.bZ = (function(other) {
   return $f_s_math_Ordering__isReverseOf__s_math_Ordering__Z(this, other);
 });
 $p.ac = (function(x, y) {
-  return $dp_compareTo__O__I(this.iC.k(x), y);
+  return $dp_compareTo__O__I(this.iD.k(x), y);
 });
 var $d_s_math_LowPriorityOrderingImplicits$$anon$2 = new $TypeData().i($c_s_math_LowPriorityOrderingImplicits$$anon$2, "scala.math.LowPriorityOrderingImplicits$$anon$2", ({
   eG: 1,
@@ -12371,10 +12371,10 @@ var $d_s_math_LowPriorityOrderingImplicits$$anon$2 = new $TypeData().i($c_s_math
 }));
 /** @constructor */
 function $c_s_math_Ordering$$anon$1(outer, f$1) {
-  this.iD = null;
-  this.gt = null;
-  this.iD = outer;
-  this.gt = f$1;
+  this.iE = null;
+  this.gu = null;
+  this.iE = outer;
+  this.gu = f$1;
 }
 $p = $c_s_math_Ordering$$anon$1.prototype = new $h_O();
 $p.constructor = $c_s_math_Ordering$$anon$1;
@@ -12386,7 +12386,7 @@ $p.bZ = (function(other) {
   return $f_s_math_Ordering__isReverseOf__s_math_Ordering__Z(this, other);
 });
 $p.ac = (function(x, y) {
-  return this.iD.ac(this.gt.k(x), this.gt.k(y));
+  return this.iE.ac(this.gu.k(x), this.gu.k(y));
 });
 var $d_s_math_Ordering$$anon$1 = new $TypeData().i($c_s_math_Ordering$$anon$1, "scala.math.Ordering$$anon$1", ({
   eI: 1,
@@ -12397,7 +12397,7 @@ var $d_s_math_Ordering$$anon$1 = new $TypeData().i($c_s_math_Ordering$$anon$1, "
   a: 1
 }));
 function $f_s_math_Ordering$CachedReverse__isReverseOf__s_math_Ordering__Z($thiz, other) {
-  return (other === $thiz.iE);
+  return (other === $thiz.iF);
 }
 /** @constructor */
 function $c_s_math_Ordering$Reverse(outer) {
@@ -12482,7 +12482,7 @@ var $d_s_reflect_ClassTag$GenericClassTag = new $TypeData().i($c_s_reflect_Class
 function $c_Lscalatags_generic_Styles$$anon$1(outer) {
   this.ek = null;
   this.ej = null;
-  this.gS = null;
+  this.gT = null;
   if ((outer === null)) {
   }
   $ct_Lscalatags_generic_PixelStyle__T__T__(this, "marginRight", "margin-right");
@@ -12504,12 +12504,12 @@ var $d_Lscalatags_generic_Styles$$anon$1 = new $TypeData().i($c_Lscalatags_gener
 class $c_ju_DuplicateFormatFlagsException extends $c_ju_IllegalFormatException {
   constructor(f) {
     super();
-    this.hw = null;
-    this.hw = f;
+    this.hx = null;
+    this.hx = f;
     $ct_jl_Throwable__T__jl_Throwable__Z__Z__(this, null, null, true, true);
   }
   b9() {
-    return (("Flags = '" + this.hw) + "'");
+    return (("Flags = '" + this.hx) + "'");
   }
 }
 var $d_ju_DuplicateFormatFlagsException = new $TypeData().i($c_ju_DuplicateFormatFlagsException, "java.util.DuplicateFormatFlagsException", ({
@@ -12524,14 +12524,14 @@ var $d_ju_DuplicateFormatFlagsException = new $TypeData().i($c_ju_DuplicateForma
 class $c_ju_FormatFlagsConversionMismatchException extends $c_ju_IllegalFormatException {
   constructor(f, c) {
     super();
-    this.hy = null;
-    this.hx = 0;
-    this.hy = f;
-    this.hx = c;
+    this.hz = null;
+    this.hy = 0;
+    this.hz = f;
+    this.hy = c;
     $ct_jl_Throwable__T__jl_Throwable__Z__Z__(this, null, null, true, true);
   }
   b9() {
-    return ((("Conversion = " + $cToS(this.hx)) + ", Flags = ") + this.hy);
+    return ((("Conversion = " + $cToS(this.hy)) + ", Flags = ") + this.hz);
   }
 }
 var $d_ju_FormatFlagsConversionMismatchException = new $TypeData().i($c_ju_FormatFlagsConversionMismatchException, "java.util.FormatFlagsConversionMismatchException", ({
@@ -12546,12 +12546,12 @@ var $d_ju_FormatFlagsConversionMismatchException = new $TypeData().i($c_ju_Forma
 class $c_ju_IllegalFormatArgumentIndexException extends $c_ju_IllegalFormatException {
   constructor(msg) {
     super();
-    this.hC = null;
-    this.hC = msg;
+    this.hD = null;
+    this.hD = msg;
     $ct_jl_Throwable__T__jl_Throwable__Z__Z__(this, null, null, true, true);
   }
   b9() {
-    return this.hC;
+    return this.hD;
   }
 }
 var $d_ju_IllegalFormatArgumentIndexException = new $TypeData().i($c_ju_IllegalFormatArgumentIndexException, "java.util.IllegalFormatArgumentIndexException", ({
@@ -12566,12 +12566,12 @@ var $d_ju_IllegalFormatArgumentIndexException = new $TypeData().i($c_ju_IllegalF
 class $c_ju_IllegalFormatCodePointException extends $c_ju_IllegalFormatException {
   constructor(c) {
     super();
-    this.hD = 0;
-    this.hD = c;
+    this.hE = 0;
+    this.hE = c;
     $ct_jl_Throwable__T__jl_Throwable__Z__Z__(this, null, null, true, true);
   }
   b9() {
-    var i = this.hD;
+    var i = this.hE;
     return ("Code point = 0x" + (i >>> 0.0).toString(16));
   }
 }
@@ -12587,14 +12587,14 @@ var $d_ju_IllegalFormatCodePointException = new $TypeData().i($c_ju_IllegalForma
 class $c_ju_IllegalFormatConversionException extends $c_ju_IllegalFormatException {
   constructor(c, arg) {
     super();
-    this.hF = 0;
-    this.hE = null;
-    this.hF = c;
-    this.hE = arg;
+    this.hG = 0;
+    this.hF = null;
+    this.hG = c;
+    this.hF = arg;
     $ct_jl_Throwable__T__jl_Throwable__Z__Z__(this, null, null, true, true);
   }
   b9() {
-    return ((("" + $cToS(this.hF)) + " != ") + this.hE.q.N);
+    return ((("" + $cToS(this.hG)) + " != ") + this.hF.q.N);
   }
 }
 var $d_ju_IllegalFormatConversionException = new $TypeData().i($c_ju_IllegalFormatConversionException, "java.util.IllegalFormatConversionException", ({
@@ -12609,12 +12609,12 @@ var $d_ju_IllegalFormatConversionException = new $TypeData().i($c_ju_IllegalForm
 class $c_ju_IllegalFormatFlagsException extends $c_ju_IllegalFormatException {
   constructor(f) {
     super();
-    this.hG = null;
-    this.hG = f;
+    this.hH = null;
+    this.hH = f;
     $ct_jl_Throwable__T__jl_Throwable__Z__Z__(this, null, null, true, true);
   }
   b9() {
-    return (("Flags = '" + this.hG) + "'");
+    return (("Flags = '" + this.hH) + "'");
   }
 }
 var $d_ju_IllegalFormatFlagsException = new $TypeData().i($c_ju_IllegalFormatFlagsException, "java.util.IllegalFormatFlagsException", ({
@@ -12629,12 +12629,12 @@ var $d_ju_IllegalFormatFlagsException = new $TypeData().i($c_ju_IllegalFormatFla
 class $c_ju_IllegalFormatPrecisionException extends $c_ju_IllegalFormatException {
   constructor(p) {
     super();
-    this.hH = 0;
-    this.hH = p;
+    this.hI = 0;
+    this.hI = p;
     $ct_jl_Throwable__T__jl_Throwable__Z__Z__(this, null, null, true, true);
   }
   b9() {
-    return ("" + this.hH);
+    return ("" + this.hI);
   }
 }
 var $d_ju_IllegalFormatPrecisionException = new $TypeData().i($c_ju_IllegalFormatPrecisionException, "java.util.IllegalFormatPrecisionException", ({
@@ -12649,12 +12649,12 @@ var $d_ju_IllegalFormatPrecisionException = new $TypeData().i($c_ju_IllegalForma
 class $c_ju_IllegalFormatWidthException extends $c_ju_IllegalFormatException {
   constructor(w) {
     super();
-    this.hI = 0;
-    this.hI = w;
+    this.hJ = 0;
+    this.hJ = w;
     $ct_jl_Throwable__T__jl_Throwable__Z__Z__(this, null, null, true, true);
   }
   b9() {
-    return ("" + this.hI);
+    return ("" + this.hJ);
   }
 }
 var $d_ju_IllegalFormatWidthException = new $TypeData().i($c_ju_IllegalFormatWidthException, "java.util.IllegalFormatWidthException", ({
@@ -12669,12 +12669,12 @@ var $d_ju_IllegalFormatWidthException = new $TypeData().i($c_ju_IllegalFormatWid
 class $c_ju_MissingFormatArgumentException extends $c_ju_IllegalFormatException {
   constructor(s) {
     super();
-    this.hJ = null;
-    this.hJ = s;
+    this.hK = null;
+    this.hK = s;
     $ct_jl_Throwable__T__jl_Throwable__Z__Z__(this, null, null, true, true);
   }
   b9() {
-    return (("Format specifier '" + this.hJ) + "'");
+    return (("Format specifier '" + this.hK) + "'");
   }
 }
 var $d_ju_MissingFormatArgumentException = new $TypeData().i($c_ju_MissingFormatArgumentException, "java.util.MissingFormatArgumentException", ({
@@ -12689,12 +12689,12 @@ var $d_ju_MissingFormatArgumentException = new $TypeData().i($c_ju_MissingFormat
 class $c_ju_MissingFormatWidthException extends $c_ju_IllegalFormatException {
   constructor(s) {
     super();
-    this.hK = null;
-    this.hK = s;
+    this.hL = null;
+    this.hL = s;
     $ct_jl_Throwable__T__jl_Throwable__Z__Z__(this, null, null, true, true);
   }
   b9() {
-    return this.hK;
+    return this.hL;
   }
 }
 var $d_ju_MissingFormatWidthException = new $TypeData().i($c_ju_MissingFormatWidthException, "java.util.MissingFormatWidthException", ({
@@ -12709,12 +12709,12 @@ var $d_ju_MissingFormatWidthException = new $TypeData().i($c_ju_MissingFormatWid
 class $c_ju_UnknownFormatConversionException extends $c_ju_IllegalFormatException {
   constructor(s) {
     super();
-    this.hL = null;
-    this.hL = s;
+    this.hM = null;
+    this.hM = s;
     $ct_jl_Throwable__T__jl_Throwable__Z__Z__(this, null, null, true, true);
   }
   b9() {
-    return (("Conversion = '" + this.hL) + "'");
+    return (("Conversion = '" + this.hM) + "'");
   }
 }
 var $d_ju_UnknownFormatConversionException = new $TypeData().i($c_ju_UnknownFormatConversionException, "java.util.UnknownFormatConversionException", ({
@@ -12731,8 +12731,8 @@ function $c_sc_ArrayOps$ArrayIterator$mcB$sp(xs$mcB$sp) {
   this.bm = null;
   this.v = 0;
   this.bb = 0;
-  this.fW = null;
-  this.fW = xs$mcB$sp;
+  this.fX = null;
+  this.fX = xs$mcB$sp;
   $ct_sc_ArrayOps$ArrayIterator__O__(this, xs$mcB$sp);
 }
 $p = $c_sc_ArrayOps$ArrayIterator$mcB$sp.prototype = new $h_sc_ArrayOps$ArrayIterator();
@@ -12742,10 +12742,10 @@ function $h_sc_ArrayOps$ArrayIterator$mcB$sp() {
 }
 $h_sc_ArrayOps$ArrayIterator$mcB$sp.prototype = $p;
 $p.lM = (function() {
-  if ((this.v >= this.fW.a.length)) {
+  if ((this.v >= this.fX.a.length)) {
     $m_sc_Iterator$().Z.g();
   }
-  var r = this.fW.a[this.v];
+  var r = this.fX.a[this.v];
   this.v = ((1 + this.v) | 0);
   return r;
 });
@@ -12766,8 +12766,8 @@ function $c_sc_ArrayOps$ArrayIterator$mcC$sp(xs$mcC$sp) {
   this.bm = null;
   this.v = 0;
   this.bb = 0;
-  this.fX = null;
-  this.fX = xs$mcC$sp;
+  this.fY = null;
+  this.fY = xs$mcC$sp;
   $ct_sc_ArrayOps$ArrayIterator__O__(this, xs$mcC$sp);
 }
 $p = $c_sc_ArrayOps$ArrayIterator$mcC$sp.prototype = new $h_sc_ArrayOps$ArrayIterator();
@@ -12777,10 +12777,10 @@ function $h_sc_ArrayOps$ArrayIterator$mcC$sp() {
 }
 $h_sc_ArrayOps$ArrayIterator$mcC$sp.prototype = $p;
 $p.lN = (function() {
-  if ((this.v >= this.fX.a.length)) {
+  if ((this.v >= this.fY.a.length)) {
     $m_sc_Iterator$().Z.g();
   }
-  var r = this.fX.a[this.v];
+  var r = this.fY.a[this.v];
   this.v = ((1 + this.v) | 0);
   return r;
 });
@@ -12801,8 +12801,8 @@ function $c_sc_ArrayOps$ArrayIterator$mcD$sp(xs$mcD$sp) {
   this.bm = null;
   this.v = 0;
   this.bb = 0;
-  this.fY = null;
-  this.fY = xs$mcD$sp;
+  this.fZ = null;
+  this.fZ = xs$mcD$sp;
   $ct_sc_ArrayOps$ArrayIterator__O__(this, xs$mcD$sp);
 }
 $p = $c_sc_ArrayOps$ArrayIterator$mcD$sp.prototype = new $h_sc_ArrayOps$ArrayIterator();
@@ -12812,10 +12812,10 @@ function $h_sc_ArrayOps$ArrayIterator$mcD$sp() {
 }
 $h_sc_ArrayOps$ArrayIterator$mcD$sp.prototype = $p;
 $p.lO = (function() {
-  if ((this.v >= this.fY.a.length)) {
+  if ((this.v >= this.fZ.a.length)) {
     $m_sc_Iterator$().Z.g();
   }
-  var r = this.fY.a[this.v];
+  var r = this.fZ.a[this.v];
   this.v = ((1 + this.v) | 0);
   return r;
 });
@@ -12836,8 +12836,8 @@ function $c_sc_ArrayOps$ArrayIterator$mcF$sp(xs$mcF$sp) {
   this.bm = null;
   this.v = 0;
   this.bb = 0;
-  this.fZ = null;
-  this.fZ = xs$mcF$sp;
+  this.g0 = null;
+  this.g0 = xs$mcF$sp;
   $ct_sc_ArrayOps$ArrayIterator__O__(this, xs$mcF$sp);
 }
 $p = $c_sc_ArrayOps$ArrayIterator$mcF$sp.prototype = new $h_sc_ArrayOps$ArrayIterator();
@@ -12847,10 +12847,10 @@ function $h_sc_ArrayOps$ArrayIterator$mcF$sp() {
 }
 $h_sc_ArrayOps$ArrayIterator$mcF$sp.prototype = $p;
 $p.lP = (function() {
-  if ((this.v >= this.fZ.a.length)) {
+  if ((this.v >= this.g0.a.length)) {
     $m_sc_Iterator$().Z.g();
   }
-  var r = this.fZ.a[this.v];
+  var r = this.g0.a[this.v];
   this.v = ((1 + this.v) | 0);
   return r;
 });
@@ -12871,8 +12871,8 @@ function $c_sc_ArrayOps$ArrayIterator$mcI$sp(xs$mcI$sp) {
   this.bm = null;
   this.v = 0;
   this.bb = 0;
-  this.g0 = null;
-  this.g0 = xs$mcI$sp;
+  this.g1 = null;
+  this.g1 = xs$mcI$sp;
   $ct_sc_ArrayOps$ArrayIterator__O__(this, xs$mcI$sp);
 }
 $p = $c_sc_ArrayOps$ArrayIterator$mcI$sp.prototype = new $h_sc_ArrayOps$ArrayIterator();
@@ -12882,10 +12882,10 @@ function $h_sc_ArrayOps$ArrayIterator$mcI$sp() {
 }
 $h_sc_ArrayOps$ArrayIterator$mcI$sp.prototype = $p;
 $p.lQ = (function() {
-  if ((this.v >= this.g0.a.length)) {
+  if ((this.v >= this.g1.a.length)) {
     $m_sc_Iterator$().Z.g();
   }
-  var r = this.g0.a[this.v];
+  var r = this.g1.a[this.v];
   this.v = ((1 + this.v) | 0);
   return r;
 });
@@ -12906,8 +12906,8 @@ function $c_sc_ArrayOps$ArrayIterator$mcJ$sp(xs$mcJ$sp) {
   this.bm = null;
   this.v = 0;
   this.bb = 0;
-  this.g1 = null;
-  this.g1 = xs$mcJ$sp;
+  this.g2 = null;
+  this.g2 = xs$mcJ$sp;
   $ct_sc_ArrayOps$ArrayIterator__O__(this, xs$mcJ$sp);
 }
 $p = $c_sc_ArrayOps$ArrayIterator$mcJ$sp.prototype = new $h_sc_ArrayOps$ArrayIterator();
@@ -12917,10 +12917,10 @@ function $h_sc_ArrayOps$ArrayIterator$mcJ$sp() {
 }
 $h_sc_ArrayOps$ArrayIterator$mcJ$sp.prototype = $p;
 $p.lR = (function() {
-  if ((this.v >= ((this.g1.a.length >>> 1) | 0))) {
+  if ((this.v >= ((this.g2.a.length >>> 1) | 0))) {
     $m_sc_Iterator$().Z.g();
   }
-  var $x_1 = this.g1.a;
+  var $x_1 = this.g2.a;
   var $x_2 = (this.v << 1);
   var r_$_lo = $x_1[$x_2];
   var r_$_hi = $x_1[(($x_2 + 1) | 0)];
@@ -12944,8 +12944,8 @@ function $c_sc_ArrayOps$ArrayIterator$mcS$sp(xs$mcS$sp) {
   this.bm = null;
   this.v = 0;
   this.bb = 0;
-  this.g2 = null;
-  this.g2 = xs$mcS$sp;
+  this.g3 = null;
+  this.g3 = xs$mcS$sp;
   $ct_sc_ArrayOps$ArrayIterator__O__(this, xs$mcS$sp);
 }
 $p = $c_sc_ArrayOps$ArrayIterator$mcS$sp.prototype = new $h_sc_ArrayOps$ArrayIterator();
@@ -12955,10 +12955,10 @@ function $h_sc_ArrayOps$ArrayIterator$mcS$sp() {
 }
 $h_sc_ArrayOps$ArrayIterator$mcS$sp.prototype = $p;
 $p.lS = (function() {
-  if ((this.v >= this.g2.a.length)) {
+  if ((this.v >= this.g3.a.length)) {
     $m_sc_Iterator$().Z.g();
   }
-  var r = this.g2.a[this.v];
+  var r = this.g3.a[this.v];
   this.v = ((1 + this.v) | 0);
   return r;
 });
@@ -12979,8 +12979,8 @@ function $c_sc_ArrayOps$ArrayIterator$mcV$sp(xs$mcV$sp) {
   this.bm = null;
   this.v = 0;
   this.bb = 0;
-  this.i3 = null;
-  this.i3 = xs$mcV$sp;
+  this.i4 = null;
+  this.i4 = xs$mcV$sp;
   $ct_sc_ArrayOps$ArrayIterator__O__(this, xs$mcV$sp);
 }
 $p = $c_sc_ArrayOps$ArrayIterator$mcV$sp.prototype = new $h_sc_ArrayOps$ArrayIterator();
@@ -12990,7 +12990,7 @@ function $h_sc_ArrayOps$ArrayIterator$mcV$sp() {
 }
 $h_sc_ArrayOps$ArrayIterator$mcV$sp.prototype = $p;
 $p.lT = (function() {
-  if ((this.v >= this.i3.a.length)) {
+  if ((this.v >= this.i4.a.length)) {
     $m_sc_Iterator$().Z.g();
   }
   this.v = ((1 + this.v) | 0);
@@ -13012,8 +13012,8 @@ function $c_sc_ArrayOps$ArrayIterator$mcZ$sp(xs$mcZ$sp) {
   this.bm = null;
   this.v = 0;
   this.bb = 0;
-  this.g3 = null;
-  this.g3 = xs$mcZ$sp;
+  this.g4 = null;
+  this.g4 = xs$mcZ$sp;
   $ct_sc_ArrayOps$ArrayIterator__O__(this, xs$mcZ$sp);
 }
 $p = $c_sc_ArrayOps$ArrayIterator$mcZ$sp.prototype = new $h_sc_ArrayOps$ArrayIterator();
@@ -13023,10 +13023,10 @@ function $h_sc_ArrayOps$ArrayIterator$mcZ$sp() {
 }
 $h_sc_ArrayOps$ArrayIterator$mcZ$sp.prototype = $p;
 $p.lU = (function() {
-  if ((this.v >= this.g3.a.length)) {
+  if ((this.v >= this.g4.a.length)) {
     $m_sc_Iterator$().Z.g();
   }
-  var r = this.g3.a[this.v];
+  var r = this.g4.a[this.v];
   this.v = ((1 + this.v) | 0);
   return r;
 });
@@ -13044,8 +13044,8 @@ var $d_sc_ArrayOps$ArrayIterator$mcZ$sp = new $TypeData().i($c_sc_ArrayOps$Array
 }));
 /** @constructor */
 function $c_sc_Iterable$$anon$1(a$1) {
-  this.i4 = null;
-  this.i4 = a$1;
+  this.i5 = null;
+  this.i5 = a$1;
 }
 $p = $c_sc_Iterable$$anon$1.prototype = new $h_sc_AbstractIterable();
 $p.constructor = $c_sc_Iterable$$anon$1;
@@ -13054,7 +13054,7 @@ function $h_sc_Iterable$$anon$1() {
 }
 $h_sc_Iterable$$anon$1.prototype = $p;
 $p.f = (function() {
-  return new $c_sc_Iterator$$anon$20(this.i4);
+  return new $c_sc_Iterator$$anon$20(this.i5);
 });
 $p.s = (function() {
   return 1;
@@ -13079,15 +13079,15 @@ function $isArrayOf_sc_View(obj, depth) {
 }
 /** @constructor */
 function $c_scm_ArrayBuilder$generic(elementClass) {
-  this.gm = 0;
-  this.iq = 0;
+  this.gn = 0;
+  this.ir = 0;
   this.dF = null;
-  this.ir = false;
-  this.gn = null;
+  this.is = false;
+  this.go = null;
   this.dF = elementClass;
   $ct_scm_ArrayBuilder__(this);
-  this.ir = (elementClass === $d_C.l());
-  this.gn = [];
+  this.is = (elementClass === $d_C.l());
+  this.go = [];
 }
 $p = $c_scm_ArrayBuilder$generic.prototype = new $h_scm_ArrayBuilder();
 $p.constructor = $c_scm_ArrayBuilder$generic;
@@ -13095,15 +13095,15 @@ $p.constructor = $c_scm_ArrayBuilder$generic;
 function $h_scm_ArrayBuilder$generic() {
 }
 $h_scm_ArrayBuilder$generic.prototype = $p;
-$p.iY = (function(elem) {
-  var unboxedElem = (this.ir ? $uC(elem) : ((elem === null) ? this.dF.q.z : elem));
-  this.gn.push(unboxedElem);
+$p.iZ = (function(elem) {
+  var unboxedElem = (this.is ? $uC(elem) : ((elem === null) ? this.dF.q.z : elem));
+  this.go.push(unboxedElem);
   return this;
 });
 $p.kv = (function(xs) {
   var it = xs.f();
   while (it.h()) {
-    this.iY(it.g());
+    this.iZ(it.g());
   }
   return this;
 });
@@ -13111,7 +13111,7 @@ $p.m3 = (function(size) {
 });
 $p.at = (function() {
   var elemRuntimeClass = ((this.dF === $d_V.l()) ? $d_jl_Void.l() : (((this.dF === $d_sr_Null$.l()) || (this.dF === $d_sr_Nothing$.l())) ? $d_O.l() : this.dF));
-  return elemRuntimeClass.q.r().w(this.gn);
+  return elemRuntimeClass.q.r().w(this.go);
 });
 $p.m = (function() {
   return "ArrayBuilder.generic";
@@ -13120,7 +13120,7 @@ $p.aU = (function(elems) {
   return this.kv(elems);
 });
 $p.az = (function(elem) {
-  return this.iY(elem);
+  return this.iZ(elem);
 });
 var $d_scm_ArrayBuilder$generic = new $TypeData().i($c_scm_ArrayBuilder$generic, "scala.collection.mutable.ArrayBuilder$generic", ({
   ej: 1,
@@ -13133,14 +13133,14 @@ var $d_scm_ArrayBuilder$generic = new $TypeData().i($c_scm_ArrayBuilder$generic,
 }));
 /** @constructor */
 function $c_scm_CheckedIndexedSeqView$CheckedIterator(self, mutationCount) {
-  this.g4 = null;
+  this.g5 = null;
   this.ci = 0;
   this.bn = 0;
-  this.iv = null;
-  this.iu = 0;
-  this.iv = mutationCount;
+  this.iw = null;
+  this.iv = 0;
+  this.iw = mutationCount;
   $ct_sc_IndexedSeqView$IndexedSeqViewIterator__sc_IndexedSeqView__(this, self);
-  this.iu = (mutationCount.bO() | 0);
+  this.iv = (mutationCount.bO() | 0);
 }
 $p = $c_scm_CheckedIndexedSeqView$CheckedIterator.prototype = new $h_sc_IndexedSeqView$IndexedSeqViewIterator();
 $p.constructor = $c_scm_CheckedIndexedSeqView$CheckedIterator;
@@ -13149,7 +13149,7 @@ function $h_scm_CheckedIndexedSeqView$CheckedIterator() {
 }
 $h_scm_CheckedIndexedSeqView$CheckedIterator.prototype = $p;
 $p.h = (function() {
-  $m_scm_MutationTracker$().gW(this.iu, (this.iv.bO() | 0), "mutation occurred during iteration");
+  $m_scm_MutationTracker$().gX(this.iv, (this.iw.bO() | 0), "mutation occurred during iteration");
   return (this.bn > 0);
 });
 var $d_scm_CheckedIndexedSeqView$CheckedIterator = new $TypeData().i($c_scm_CheckedIndexedSeqView$CheckedIterator, "scala.collection.mutable.CheckedIndexedSeqView$CheckedIterator", ({
@@ -13163,14 +13163,14 @@ var $d_scm_CheckedIndexedSeqView$CheckedIterator = new $TypeData().i($c_scm_Chec
 }));
 /** @constructor */
 function $c_scm_CheckedIndexedSeqView$CheckedReverseIterator(self, mutationCount) {
-  this.g5 = null;
+  this.g6 = null;
   this.aP = 0;
   this.d7 = 0;
-  this.ix = null;
-  this.iw = 0;
-  this.ix = mutationCount;
+  this.iy = null;
+  this.ix = 0;
+  this.iy = mutationCount;
   $ct_sc_IndexedSeqView$IndexedSeqViewReverseIterator__sc_IndexedSeqView__(this, self);
-  this.iw = (mutationCount.bO() | 0);
+  this.ix = (mutationCount.bO() | 0);
 }
 $p = $c_scm_CheckedIndexedSeqView$CheckedReverseIterator.prototype = new $h_sc_IndexedSeqView$IndexedSeqViewReverseIterator();
 $p.constructor = $c_scm_CheckedIndexedSeqView$CheckedReverseIterator;
@@ -13179,7 +13179,7 @@ function $h_scm_CheckedIndexedSeqView$CheckedReverseIterator() {
 }
 $h_scm_CheckedIndexedSeqView$CheckedReverseIterator.prototype = $p;
 $p.h = (function() {
-  $m_scm_MutationTracker$().gW(this.iw, (this.ix.bO() | 0), "mutation occurred during iteration");
+  $m_scm_MutationTracker$().gX(this.ix, (this.iy.bO() | 0), "mutation occurred during iteration");
   return (this.aP > 0);
 });
 var $d_scm_CheckedIndexedSeqView$CheckedReverseIterator = new $TypeData().i($c_scm_CheckedIndexedSeqView$CheckedReverseIterator, "scala.collection.mutable.CheckedIndexedSeqView$CheckedReverseIterator", ({
@@ -13501,9 +13501,9 @@ function $f_sci_StrictOptimizedSeqOps__distinctBy__F1__O($thiz, f) {
 }
 /** @constructor */
 function $c_s_math_Ordering$Int$() {
-  this.iE = null;
+  this.iF = null;
   $n_s_math_Ordering$Int$ = this;
-  this.iE = new $c_s_math_Ordering$Reverse(this);
+  this.iF = new $c_s_math_Ordering$Reverse(this);
 }
 $p = $c_s_math_Ordering$Int$.prototype = new $h_O();
 $p.constructor = $c_s_math_Ordering$Int$;
@@ -14262,7 +14262,7 @@ function $f_sc_Seq__equals__O__Z($thiz, o) {
     return true;
   } else {
     if ($is_sc_Seq(o)) {
-      if (o.gV($thiz)) {
+      if (o.gW($thiz)) {
         return $thiz.eI(o);
       }
     }
@@ -14276,30 +14276,30 @@ function $isArrayOf_sc_Seq(obj, depth) {
   return (!(!(((obj && obj.$classData) && (obj.$classData.D === depth)) && obj.$classData.B.n.k)));
 }
 function $p_sc_SeqView$Sorted___sorted$lzycompute__sc_Seq($thiz) {
-  if ((!$thiz.g9)) {
+  if ((!$thiz.ga)) {
     var len = $thiz.c5;
     if ((len === 0)) {
       var res = $m_sci_Nil$();
     } else if ((len === 1)) {
-      var res = $m_sci_Nil$().hd($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$thiz.e5.t()]));
+      var res = $m_sci_Nil$().he($ct_sjsr_WrappedVarArgs__sjs_js_Array__(new $c_sjsr_WrappedVarArgs(), [$thiz.e5.t()]));
     } else {
       var arr = new $ac_O(len);
       $thiz.e5.bP(arr, 0, 2147483647);
       $m_ju_Arrays$().dP(arr, $thiz.dB);
       var res = $m_sci_ArraySeq$().dl(arr);
     }
-    $thiz.ga = true;
+    $thiz.gb = true;
     $thiz.e5 = null;
-    $thiz.gb = res;
-    $thiz.g9 = true;
+    $thiz.gc = res;
+    $thiz.ga = true;
   }
-  return $thiz.gb;
+  return $thiz.gc;
 }
 function $ct_sc_SeqView$Sorted__sc_SeqOps__I__s_math_Ordering__($thiz, underlying, len, ord) {
   $thiz.e5 = underlying;
   $thiz.c5 = len;
   $thiz.dB = ord;
-  $thiz.ga = false;
+  $thiz.gb = false;
   return $thiz;
 }
 function $ct_sc_SeqView$Sorted__sc_SeqOps__s_math_Ordering__($thiz, underlying, ord) {
@@ -14308,12 +14308,12 @@ function $ct_sc_SeqView$Sorted__sc_SeqOps__s_math_Ordering__($thiz, underlying, 
 }
 /** @constructor */
 function $c_sc_SeqView$Sorted() {
-  this.gb = null;
+  this.gc = null;
   this.e5 = null;
   this.c5 = 0;
   this.dB = null;
+  this.gb = false;
   this.ga = false;
-  this.g9 = false;
 }
 $p = $c_sc_SeqView$Sorted.prototype = new $h_O();
 $p.constructor = $c_sc_SeqView$Sorted;
@@ -14375,21 +14375,21 @@ $p.dk = (function() {
 $p.dQ = (function(evidence$2) {
   return $f_sc_IterableOnceOps__toArray__s_reflect_ClassTag__O(this, evidence$2);
 });
-$p.fo = (function() {
-  return ((!this.g9) ? $p_sc_SeqView$Sorted___sorted$lzycompute__sc_Seq(this) : this.gb);
+$p.fp = (function() {
+  return ((!this.ga) ? $p_sc_SeqView$Sorted___sorted$lzycompute__sc_Seq(this) : this.gc);
 });
 $p.jR = (function() {
   var orig = this.e5;
-  return (this.ga ? this.fo() : orig);
+  return (this.gb ? this.fp() : orig);
 });
 $p.u = (function(i) {
-  return this.fo().u(i);
+  return this.fp().u(i);
 });
 $p.i = (function() {
   return this.c5;
 });
 $p.f = (function() {
-  return $m_sc_Iterator$().Z.eA(new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => this.fo().f())));
+  return $m_sc_Iterator$().Z.eA(new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => this.fp().f())));
 });
 $p.s = (function() {
   return this.c5;
@@ -14397,7 +14397,7 @@ $p.s = (function() {
 $p.l = (function() {
   return (this.c5 === 0);
 });
-$p.hh = (function(ord1) {
+$p.hi = (function(ord1) {
   var x$2 = this.dB;
   if (((ord1 === null) ? (x$2 === null) : ord1.e(x$2))) {
     return this;
@@ -14412,7 +14412,7 @@ $p.a7 = (function(f) {
   return $ct_sc_SeqView$Map__sc_SeqOps__F1__(new $c_sc_SeqView$Map(), this, f);
 });
 $p.b4 = (function(ord) {
-  return this.hh(ord);
+  return this.hi(ord);
 });
 $p.aB = (function() {
   return new $c_sc_SeqView$Sorted$ReverseSorted(this);
@@ -14430,19 +14430,19 @@ var $d_sc_SeqView$Sorted = new $TypeData().i($c_sc_SeqView$Sorted, "scala.collec
   a: 1
 }));
 function $p_sc_SeqView$Sorted$ReverseSorted___reversed$lzycompute__sc_SeqView$Reverse($thiz) {
-  if ((!$thiz.gd)) {
-    $thiz.gc = $ct_sc_SeqView$Reverse__sc_SeqOps__(new $c_sc_SeqView$Reverse(), $thiz.bD.fo());
-    $thiz.gd = true;
+  if ((!$thiz.ge)) {
+    $thiz.gd = $ct_sc_SeqView$Reverse__sc_SeqOps__(new $c_sc_SeqView$Reverse(), $thiz.bD.fp());
+    $thiz.ge = true;
   }
-  return $thiz.gc;
+  return $thiz.gd;
 }
 function $p_sc_SeqView$Sorted$ReverseSorted___reversed__sc_SeqView$Reverse($thiz) {
-  return ((!$thiz.gd) ? $p_sc_SeqView$Sorted$ReverseSorted___reversed$lzycompute__sc_SeqView$Reverse($thiz) : $thiz.gc);
+  return ((!$thiz.ge) ? $p_sc_SeqView$Sorted$ReverseSorted___reversed$lzycompute__sc_SeqView$Reverse($thiz) : $thiz.gd);
 }
 /** @constructor */
 function $c_sc_SeqView$Sorted$ReverseSorted(outer) {
-  this.gc = null;
-  this.gd = false;
+  this.gd = null;
+  this.ge = false;
   this.bD = null;
   this.bD = outer;
 }
@@ -14521,7 +14521,7 @@ $p.s = (function() {
 $p.l = (function() {
   return (this.bD.c5 === 0);
 });
-$p.hh = (function(ord1) {
+$p.hi = (function(ord1) {
   var x$2 = this.bD.dB;
   if (((ord1 === null) ? (x$2 === null) : ord1.e(x$2))) {
     return this.bD;
@@ -14536,7 +14536,7 @@ $p.a7 = (function(f) {
   return $ct_sc_SeqView$Map__sc_SeqOps__F1__(new $c_sc_SeqView$Map(), this, f);
 });
 $p.b4 = (function(ord) {
-  return this.hh(ord);
+  return this.hi(ord);
 });
 $p.aB = (function() {
   return this.bD;
@@ -14555,8 +14555,8 @@ var $d_sc_SeqView$Sorted$ReverseSorted = new $TypeData().i($c_sc_SeqView$Sorted$
 }));
 /** @constructor */
 function $c_sc_View$$anon$1(it$1) {
-  this.ig = null;
-  this.ig = it$1;
+  this.ih = null;
+  this.ih = it$1;
 }
 $p = $c_sc_View$$anon$1.prototype = new $h_sc_AbstractView();
 $p.constructor = $c_sc_View$$anon$1;
@@ -14565,7 +14565,7 @@ function $h_sc_View$$anon$1() {
 }
 $h_sc_View$$anon$1.prototype = $p;
 $p.f = (function() {
-  return this.ig.bO();
+  return this.ih.bO();
 });
 var $d_sc_View$$anon$1 = new $TypeData().i($c_sc_View$$anon$1, "scala.collection.View$$anon$1", ({
   dS: 1,
@@ -14582,9 +14582,9 @@ var $d_sc_View$$anon$1 = new $TypeData().i($c_sc_View$$anon$1, "scala.collection
 /** @constructor */
 function $c_sc_View$DistinctBy(underlying, f) {
   this.f2 = null;
-  this.ih = null;
+  this.ii = null;
   this.f2 = underlying;
-  this.ih = f;
+  this.ii = f;
 }
 $p = $c_sc_View$DistinctBy.prototype = new $h_sc_AbstractView();
 $p.constructor = $c_sc_View$DistinctBy;
@@ -14593,7 +14593,7 @@ function $h_sc_View$DistinctBy() {
 }
 $h_sc_View$DistinctBy.prototype = $p;
 $p.f = (function() {
-  return new $c_sc_Iterator$$anon$8(this.f2.f(), this.ih);
+  return new $c_sc_Iterator$$anon$8(this.f2.f(), this.ii);
 });
 $p.s = (function() {
   return ((this.f2.s() === 0) ? 0 : (-1));
@@ -14615,12 +14615,12 @@ var $d_sc_View$DistinctBy = new $TypeData().i($c_sc_View$DistinctBy, "scala.coll
 }));
 /** @constructor */
 function $c_sc_View$Filter(underlying, p, isFlipped) {
-  this.ge = null;
-  this.ij = null;
-  this.ii = false;
-  this.ge = underlying;
-  this.ij = p;
-  this.ii = isFlipped;
+  this.gf = null;
+  this.ik = null;
+  this.ij = false;
+  this.gf = underlying;
+  this.ik = p;
+  this.ij = isFlipped;
 }
 $p = $c_sc_View$Filter.prototype = new $h_sc_AbstractView();
 $p.constructor = $c_sc_View$Filter;
@@ -14629,10 +14629,10 @@ function $h_sc_View$Filter() {
 }
 $h_sc_View$Filter.prototype = $p;
 $p.f = (function() {
-  return new $c_sc_Iterator$$anon$6(this.ge.f(), this.ij, this.ii);
+  return new $c_sc_Iterator$$anon$6(this.gf.f(), this.ik, this.ij);
 });
 $p.s = (function() {
-  return ((this.ge.s() === 0) ? 0 : (-1));
+  return ((this.gf.s() === 0) ? 0 : (-1));
 });
 $p.l = (function() {
   return (!this.f().h());
@@ -14651,10 +14651,10 @@ var $d_sc_View$Filter = new $TypeData().i($c_sc_View$Filter, "scala.collection.V
 }));
 /** @constructor */
 function $c_sc_View$FlatMap(underlying, f) {
-  this.gf = null;
-  this.ik = null;
-  this.gf = underlying;
-  this.ik = f;
+  this.gg = null;
+  this.il = null;
+  this.gg = underlying;
+  this.il = f;
 }
 $p = $c_sc_View$FlatMap.prototype = new $h_sc_AbstractView();
 $p.constructor = $c_sc_View$FlatMap;
@@ -14663,10 +14663,10 @@ function $h_sc_View$FlatMap() {
 }
 $h_sc_View$FlatMap.prototype = $p;
 $p.f = (function() {
-  return new $c_sc_Iterator$$anon$10(this.gf.f(), this.ik);
+  return new $c_sc_Iterator$$anon$10(this.gg.f(), this.il);
 });
 $p.s = (function() {
-  return ((this.gf.s() === 0) ? 0 : (-1));
+  return ((this.gg.s() === 0) ? 0 : (-1));
 });
 $p.l = (function() {
   return (!this.f().h());
@@ -14759,7 +14759,7 @@ $p.constructor = $c_sc_AbstractSeq;
 function $h_sc_AbstractSeq() {
 }
 $h_sc_AbstractSeq.prototype = $p;
-$p.gV = (function(that) {
+$p.gW = (function(that) {
   return true;
 });
 $p.e = (function(o) {
@@ -15258,14 +15258,14 @@ var $d_sc_IndexedSeqView$Map = new $TypeData().i($c_sc_IndexedSeqView$Map, "scal
   m: 1
 }));
 function $ct_sc_IndexedSeqView$Reverse__sc_IndexedSeqOps__($thiz, underlying) {
-  $thiz.g6 = underlying;
+  $thiz.g7 = underlying;
   $ct_sc_SeqView$Reverse__sc_SeqOps__($thiz, underlying);
   return $thiz;
 }
 /** @constructor */
 function $c_sc_IndexedSeqView$Reverse() {
   this.cF = null;
-  this.g6 = null;
+  this.g7 = null;
 }
 $p = $c_sc_IndexedSeqView$Reverse.prototype = new $h_sc_SeqView$Reverse();
 $p.constructor = $c_sc_IndexedSeqView$Reverse;
@@ -15299,7 +15299,7 @@ $p.s = (function() {
   return this.i();
 });
 $p.bT = (function() {
-  var x1 = this.g6;
+  var x1 = this.g7;
   return ($is_sc_IndexedSeqView(x1) ? x1 : $ct_sc_IndexedSeqView$Reverse__sc_IndexedSeqOps__(new $c_sc_IndexedSeqView$Reverse(), this));
 });
 $p.cu = (function(f) {
@@ -15349,9 +15349,9 @@ $p.dk = (function() {
 });
 /** @constructor */
 function $c_scm_ArrayBufferView(underlying, mutationCount) {
-  this.gl = null;
+  this.gm = null;
   this.e8 = null;
-  this.gl = underlying;
+  this.gm = underlying;
   this.e8 = mutationCount;
 }
 $p = $c_scm_ArrayBufferView.prototype = new $h_sc_AbstractIndexedSeqView();
@@ -15361,10 +15361,10 @@ function $h_scm_ArrayBufferView() {
 }
 $h_scm_ArrayBufferView.prototype = $p;
 $p.u = (function(n) {
-  return this.gl.u(n);
+  return this.gm.u(n);
 });
 $p.i = (function() {
-  return this.gl.aK;
+  return this.gm.aK;
 });
 $p.bt = (function() {
   return "ArrayBufferView";
@@ -15423,8 +15423,8 @@ function $f_sci_IndexedSeq__sameElements__sc_IterableOnce__Z($thiz, o) {
       var equal = (length === o.i());
       if (equal) {
         var index = 0;
-        var a = $thiz.gT();
-        var b = o.gT();
+        var a = $thiz.gU();
+        var b = o.gU();
         var preferredLength = ((a < b) ? a : b);
         var hi = (length >> 31);
         var hi$1 = (preferredLength >> 31);
@@ -15531,10 +15531,10 @@ var $d_scm_CheckedIndexedSeqView$Map = new $TypeData().i($c_scm_CheckedIndexedSe
 /** @constructor */
 function $c_scm_CheckedIndexedSeqView$Reverse(underlying, mutationCount) {
   this.cF = null;
-  this.g6 = null;
-  this.iy = null;
+  this.g7 = null;
+  this.iz = null;
   this.dd = null;
-  this.iy = underlying;
+  this.iz = underlying;
   this.dd = mutationCount;
   $ct_sc_IndexedSeqView$Reverse__sc_IndexedSeqOps__(this, underlying);
 }
@@ -15554,7 +15554,7 @@ $p.cb = (function(f) {
   return new $c_scm_CheckedIndexedSeqView$Map(this, f, this.dd);
 });
 $p.bT = (function() {
-  var x1 = this.iy;
+  var x1 = this.iz;
   return ($is_sc_IndexedSeqView(x1) ? x1 : new $c_scm_CheckedIndexedSeqView$Reverse(this, this.dd));
 });
 $p.cu = (function(f) {
@@ -15842,29 +15842,29 @@ $p.cV = (function(z, op) {
 $p.bt = (function() {
   return "LazyList";
 });
-$p.jK = (function(suffix) {
+$p.jL = (function(suffix) {
   $m_sci_LazyList$();
   return $ct_sci_LazyList__O__(new $c_sci_LazyList(), new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => {
     if ((this.a6() === $m_sci_LazyList$().x)) {
       var x1 = suffix.bO();
-      return ((x1 instanceof $c_sci_LazyList) ? x1 : ((x1.s() === 0) ? $m_sci_LazyList$().x : $m_sci_LazyList$().he(x1.f())));
+      return ((x1 instanceof $c_sci_LazyList) ? x1 : ((x1.s() === 0) ? $m_sci_LazyList$().x : $m_sci_LazyList$().hf(x1.f())));
     } else {
       $m_sci_LazyList$();
-      return $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), this.t(), this.al().jK(suffix));
+      return $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), this.t(), this.al().jL(suffix));
     }
   })));
 });
 $p.kI = (function(elem) {
-  return (((this.aw !== $m_sci_LazyList$Uninitialized$()) && (this.a6() === $m_sci_LazyList$().x)) ? ($m_sci_LazyList$(), $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), elem, $m_sci_LazyList$().x)) : this.jK(new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => new $c_sc_Iterator$$anon$20(elem)))));
+  return (((this.aw !== $m_sci_LazyList$Uninitialized$()) && (this.a6() === $m_sci_LazyList$().x)) ? ($m_sci_LazyList$(), $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), elem, $m_sci_LazyList$().x)) : this.jL(new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => new $c_sc_Iterator$$anon$20(elem)))));
 });
-$p.fn = (function(p) {
-  return new $c_T2(this.jw(p), this.la(p));
+$p.fo = (function(p) {
+  return new $c_T2(this.jx(p), this.la(p));
 });
-$p.jw = (function(pred) {
-  return (((this.aw !== $m_sci_LazyList$Uninitialized$()) && (this.a6() === $m_sci_LazyList$().x)) ? $m_sci_LazyList$().x : $m_sci_LazyList$().hg(this, pred, false));
+$p.jx = (function(pred) {
+  return (((this.aw !== $m_sci_LazyList$Uninitialized$()) && (this.a6() === $m_sci_LazyList$().x)) ? $m_sci_LazyList$().x : $m_sci_LazyList$().hh(this, pred, false));
 });
 $p.la = (function(pred) {
-  return (((this.aw !== $m_sci_LazyList$Uninitialized$()) && (this.a6() === $m_sci_LazyList$().x)) ? $m_sci_LazyList$().x : $m_sci_LazyList$().hg(this, pred, true));
+  return (((this.aw !== $m_sci_LazyList$Uninitialized$()) && (this.a6() === $m_sci_LazyList$().x)) ? $m_sci_LazyList$().x : $m_sci_LazyList$().hh(this, pred, true));
 });
 $p.lC = (function(f) {
   return (((this.aw !== $m_sci_LazyList$Uninitialized$()) && (this.a6() === $m_sci_LazyList$().x)) ? $m_sci_LazyList$().x : $p_sci_LazyList__mapImpl__F1__sci_LazyList(this, f));
@@ -15884,7 +15884,7 @@ $p.eB = (function(p) {
     }
   }
 });
-$p.jx = (function(f) {
+$p.jy = (function(f) {
   return (((this.aw !== $m_sci_LazyList$Uninitialized$()) && (this.a6() === $m_sci_LazyList$().x)) ? $m_sci_LazyList$().x : $m_sci_LazyList$().jS(this, f));
 });
 $p.l3 = (function(n) {
@@ -15904,14 +15904,14 @@ $p.k = (function(v1) {
 $p.aB = (function() {
   return $p_sci_LazyList__reverseOnto__sci_LazyList__sci_LazyList(this, $m_sci_LazyList$().x);
 });
-$p.jn = (function(n) {
+$p.jo = (function(n) {
   return this.l3(n);
 });
 $p.bY = (function(asIterable) {
-  return this.jx(asIterable);
+  return this.jy(asIterable);
 });
 $p.b8 = (function(f) {
-  return this.jx(f);
+  return this.jy(f);
 });
 $p.a7 = (function(f) {
   return this.lC(f);
@@ -15921,7 +15921,7 @@ $p.bS = (function(elem) {
   return $ct_sci_LazyList__O__sci_LazyList__(new $c_sci_LazyList(), elem, this);
 });
 $p.aN = (function(pred) {
-  return this.jw(pred);
+  return this.jx(pred);
 });
 $p.bN = (function(elem) {
   return this.kI(elem);
@@ -15963,7 +15963,7 @@ function $isArrayOf_sci_WrappedString(obj, depth) {
   return (!(!(((obj && obj.$classData) && (obj.$classData.D === depth)) && obj.$classData.B.n.ed)));
 }
 function $ct_sjsr_WrappedVarArgs__sjs_js_Array__($thiz, array) {
-  $thiz.gu = array;
+  $thiz.gv = array;
   return $thiz;
 }
 function $ct_sjsr_WrappedVarArgs__($thiz) {
@@ -15972,7 +15972,7 @@ function $ct_sjsr_WrappedVarArgs__($thiz) {
 }
 /** @constructor */
 function $c_sjsr_WrappedVarArgs() {
-  this.gu = null;
+  this.gv = null;
 }
 $p = $c_sjsr_WrappedVarArgs.prototype = new $h_O();
 $p.constructor = $c_sjsr_WrappedVarArgs;
@@ -15992,7 +15992,7 @@ $p.bS = (function(elem) {
 $p.bN = (function(elem) {
   return $f_sc_StrictOptimizedSeqOps__appended__O__O(this, elem);
 });
-$p.fn = (function(p) {
+$p.fo = (function(p) {
   return $f_sc_StrictOptimizedIterableOps__partition__F1__T2(this, p);
 });
 $p.a7 = (function(f) {
@@ -16007,14 +16007,14 @@ $p.bY = (function(toIterableOnce) {
 $p.aN = (function(pred) {
   return $f_sc_StrictOptimizedIterableOps__filterImpl__F1__Z__O(this, pred, false);
 });
-$p.gV = (function(that) {
+$p.gW = (function(that) {
   return $f_sci_IndexedSeq__canEqual__O__Z(this, that);
 });
 $p.eI = (function(o) {
   return $f_sci_IndexedSeq__sameElements__sc_IterableOnce__Z(this, o);
 });
-$p.gT = (function() {
-  return $m_sci_IndexedSeqDefaults$().il;
+$p.gU = (function() {
+  return $m_sci_IndexedSeqDefaults$().im;
 });
 $p.f = (function() {
   return $ct_sc_IndexedSeqView$IndexedSeqViewIterator__sc_IndexedSeqView__(new $c_sc_IndexedSeqView$IndexedSeqViewIterator(), new $c_sc_IndexedSeqView$Id(this));
@@ -16078,16 +16078,16 @@ $p.cW = (function() {
   return $m_sjsr_WrappedVarArgs$();
 });
 $p.i = (function() {
-  return (this.gu.length | 0);
+  return (this.gv.length | 0);
 });
 $p.u = (function(idx) {
-  return this.gu[idx];
+  return this.gv[idx];
 });
 $p.bt = (function() {
   return "WrappedVarArgs";
 });
 $p.ca = (function(coll) {
-  return $m_sjsr_WrappedVarArgs$().h6(coll);
+  return $m_sjsr_WrappedVarArgs$().h7(coll);
 });
 $p.ba = (function() {
   return new $c_sc_IndexedSeqView$Id(this);
@@ -16160,11 +16160,11 @@ function $p_scm_HashSet__addElem__O__I__Z($thiz, elem, hash) {
 }
 function $p_scm_HashSet__growTable__I__V($thiz, newlen) {
   var oldlen = $thiz.aL.a.length;
-  $thiz.gq = $p_scm_HashSet__newThreshold__I__I($thiz, newlen);
+  $thiz.gr = $p_scm_HashSet__newThreshold__I__I($thiz, newlen);
   if (($thiz.cM === 0)) {
     $thiz.aL = new ($d_scm_HashSet$Node.r().C)(newlen);
   } else {
-    $thiz.aL = $m_ju_Arrays$().gX($thiz.aL, newlen);
+    $thiz.aL = $m_ju_Arrays$().gY($thiz.aL, newlen);
     var preLow = new $c_scm_HashSet$Node(null, 0, null);
     var preHigh = new $c_scm_HashSet$Node(null, 0, null);
     while ((oldlen < newlen)) {
@@ -16210,12 +16210,12 @@ function $p_scm_HashSet__tableSizeFor__I__I($thiz, capacity) {
   return ((x$1 < 1073741824) ? x$1 : 1073741824);
 }
 function $p_scm_HashSet__newThreshold__I__I($thiz, size) {
-  return $doubleToInt((size * $thiz.gp));
+  return $doubleToInt((size * $thiz.gq));
 }
 function $ct_scm_HashSet__I__D__($thiz, initialCapacity, loadFactor) {
-  $thiz.gp = loadFactor;
+  $thiz.gq = loadFactor;
   $thiz.aL = new ($d_scm_HashSet$Node.r().C)($p_scm_HashSet__tableSizeFor__I__I($thiz, initialCapacity));
-  $thiz.gq = $p_scm_HashSet__newThreshold__I__I($thiz, $thiz.aL.a.length);
+  $thiz.gr = $p_scm_HashSet__newThreshold__I__I($thiz, $thiz.aL.a.length);
   $thiz.cM = 0;
   return $thiz;
 }
@@ -16225,9 +16225,9 @@ function $ct_scm_HashSet__($thiz) {
 }
 /** @constructor */
 function $c_scm_HashSet() {
-  this.gp = 0.0;
+  this.gq = 0.0;
   this.aL = null;
-  this.gq = 0;
+  this.gr = 0;
   this.cM = 0;
 }
 $p = $c_scm_HashSet.prototype = new $h_scm_AbstractSet();
@@ -16248,31 +16248,31 @@ $p.aN = (function(pred) {
 $p.jV = (function() {
   return this.cM;
 });
-$p.fp = (function(originalHash) {
+$p.fq = (function(originalHash) {
   return (originalHash ^ ((originalHash >>> 16) | 0));
 });
 $p.kW = (function(elem) {
-  var hash = this.fp($m_sr_Statics$().A(elem));
+  var hash = this.fq($m_sr_Statics$().A(elem));
   var x1 = this.aL.a[(hash & ((this.aL.a.length - 1) | 0))];
   return (((x1 === null) ? null : x1.lb(elem, hash)) !== null);
 });
 $p.b3 = (function(size) {
-  var target = $p_scm_HashSet__tableSizeFor__I__I(this, $doubleToInt((((1 + size) | 0) / this.gp)));
+  var target = $p_scm_HashSet__tableSizeFor__I__I(this, $doubleToInt((((1 + size) | 0) / this.gq)));
   if ((target > this.aL.a.length)) {
     $p_scm_HashSet__growTable__I__V(this, target);
   }
 });
 $p.f7 = (function(elem) {
-  if ((((1 + this.cM) | 0) >= this.gq)) {
+  if ((((1 + this.cM) | 0) >= this.gr)) {
     $p_scm_HashSet__growTable__I__V(this, (this.aL.a.length << 1));
   }
-  return $p_scm_HashSet__addElem__O__I__Z(this, elem, this.fp($m_sr_Statics$().A(elem)));
+  return $p_scm_HashSet__addElem__O__I__Z(this, elem, this.fq($m_sr_Statics$().A(elem)));
 });
-$p.iX = (function(xs) {
+$p.iY = (function(xs) {
   $f_scm_Builder__sizeHint__sc_IterableOnce__I__V(this, xs, 0);
   if (false) {
     var f = new $c_sr_AbstractFunction2_$$Lambda$b4228bd32034ae3b2f0c5fc896319aa4b79b55f8(((k$2$2, h$2$2) => {
-      $p_scm_HashSet__addElem__O__I__Z(this, k$2$2, this.fp((h$2$2 | 0)));
+      $p_scm_HashSet__addElem__O__I__Z(this, k$2$2, this.fq((h$2$2 | 0)));
     }));
     xs.my.mE(f);
     return this;
@@ -16312,14 +16312,14 @@ $p.bt = (function() {
 $p.o = (function() {
   var setIterator = new $c_scm_HashSet$$anon$1(this);
   var hashIterator = ((!setIterator.h()) ? setIterator : new $c_scm_HashSet$$anon$3(this));
-  return $m_s_util_hashing_MurmurHash3$().k2(hashIterator, $m_s_util_hashing_MurmurHash3$().iM);
+  return $m_s_util_hashing_MurmurHash3$().k2(hashIterator, $m_s_util_hashing_MurmurHash3$().iN);
 });
 $p.az = (function(elem) {
   this.f7(elem);
   return this;
 });
 $p.aU = (function(elems) {
-  return this.iX(elems);
+  return this.iY(elems);
 });
 function $isArrayOf_scm_HashSet(obj, depth) {
   return (!(!(((obj && obj.$classData) && (obj.$classData.D === depth)) && obj.$classData.B.n.bK)));
@@ -16355,286 +16355,286 @@ function $isArrayOf_scm_LinkedHashSet(obj, depth) {
 }
 function $p_Lscalatags_JsDom$all$__h1$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
   if (((128 & $s_RTLong__toInt__I__I__I($thiz.X, $thiz.Y)) === 0)) {
-    $thiz.gB = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "h1", false, $m_Lscalatags_generic_Namespace$().bd);
+    $thiz.gC = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "h1", false, $m_Lscalatags_generic_Namespace$().bd);
     var x$1_$_lo = $thiz.X;
     var x$1_$_hi = $thiz.Y;
     var lo$1 = (128 | x$1_$_lo);
     $thiz.X = lo$1;
     $thiz.Y = x$1_$_hi;
   }
-  return $thiz.gB;
+  return $thiz.gC;
 }
 function $p_Lscalatags_JsDom$all$__h4$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
   if (((1024 & $s_RTLong__toInt__I__I__I($thiz.X, $thiz.Y)) === 0)) {
-    $thiz.gC = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "h4", false, $m_Lscalatags_generic_Namespace$().bd);
+    $thiz.gD = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "h4", false, $m_Lscalatags_generic_Namespace$().bd);
     var x$1_$_lo = $thiz.X;
     var x$1_$_hi = $thiz.Y;
     var lo$1 = (1024 | x$1_$_lo);
     $thiz.X = lo$1;
     $thiz.Y = x$1_$_hi;
   }
-  return $thiz.gC;
+  return $thiz.gD;
 }
 function $p_Lscalatags_JsDom$all$__div$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
   if (((134217728 & $s_RTLong__toInt__I__I__I($thiz.X, $thiz.Y)) === 0)) {
-    $thiz.gA = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "div", false, $m_Lscalatags_generic_Namespace$().bd);
+    $thiz.gB = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "div", false, $m_Lscalatags_generic_Namespace$().bd);
     var x$1_$_lo = $thiz.X;
     var x$1_$_hi = $thiz.Y;
     var lo$1 = (134217728 | x$1_$_lo);
     $thiz.X = lo$1;
     $thiz.Y = x$1_$_hi;
   }
-  return $thiz.gA;
+  return $thiz.gB;
 }
 function $p_Lscalatags_JsDom$all$__a$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
   if (((268435456 & $s_RTLong__toInt__I__I__I($thiz.X, $thiz.Y)) === 0)) {
-    $thiz.gw = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "a", false, $m_Lscalatags_generic_Namespace$().bd);
+    $thiz.gx = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "a", false, $m_Lscalatags_generic_Namespace$().bd);
     var x$1_$_lo = $thiz.X;
     var x$1_$_hi = $thiz.Y;
     var lo$1 = (268435456 | x$1_$_lo);
     $thiz.X = lo$1;
     $thiz.Y = x$1_$_hi;
   }
-  return $thiz.gw;
+  return $thiz.gx;
 }
 function $p_Lscalatags_JsDom$all$__small$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
   if ((((-2147483648) & $s_RTLong__toInt__I__I__I($thiz.X, $thiz.Y)) === 0)) {
-    $thiz.gL = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "small", false, $m_Lscalatags_generic_Namespace$().bd);
+    $thiz.gM = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "small", false, $m_Lscalatags_generic_Namespace$().bd);
     var x$1_$_lo = $thiz.X;
     var x$1_$_hi = $thiz.Y;
     var lo$1 = ((-2147483648) | x$1_$_lo);
     $thiz.X = lo$1;
     $thiz.Y = x$1_$_hi;
   }
-  return $thiz.gL;
+  return $thiz.gM;
 }
 function $p_Lscalatags_JsDom$all$__b$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
   var x_$_lo = $thiz.X;
   var x_$_hi = $thiz.Y;
   if (((64 & x_$_hi) === 0)) {
-    $thiz.gx = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "b", false, $m_Lscalatags_generic_Namespace$().bd);
+    $thiz.gy = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "b", false, $m_Lscalatags_generic_Namespace$().bd);
     var x$1_$_lo = $thiz.X;
     var x$1_$_hi = $thiz.Y;
     var hi$1 = (64 | x$1_$_hi);
     $thiz.X = x$1_$_lo;
     $thiz.Y = hi$1;
   }
-  return $thiz.gx;
+  return $thiz.gy;
 }
 function $p_Lscalatags_JsDom$all$__span$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
   var x_$_lo = $thiz.X;
   var x_$_hi = $thiz.Y;
   if (((256 & x_$_hi) === 0)) {
-    $thiz.gM = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "span", false, $m_Lscalatags_generic_Namespace$().bd);
+    $thiz.gN = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "span", false, $m_Lscalatags_generic_Namespace$().bd);
     var x$1_$_lo = $thiz.X;
     var x$1_$_hi = $thiz.Y;
     var hi$1 = (256 | x$1_$_hi);
     $thiz.X = x$1_$_lo;
     $thiz.Y = hi$1;
   }
-  return $thiz.gM;
+  return $thiz.gN;
 }
 function $p_Lscalatags_JsDom$all$__br$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
   var x_$_lo = $thiz.X;
   var x_$_hi = $thiz.Y;
   if (((512 & x_$_hi) === 0)) {
-    $thiz.gy = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "br", true, $m_Lscalatags_generic_Namespace$().bd);
+    $thiz.gz = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "br", true, $m_Lscalatags_generic_Namespace$().bd);
     var x$1_$_lo = $thiz.X;
     var x$1_$_hi = $thiz.Y;
     var hi$1 = (512 | x$1_$_hi);
     $thiz.X = x$1_$_lo;
     $thiz.Y = hi$1;
   }
-  return $thiz.gy;
+  return $thiz.gz;
 }
 function $p_Lscalatags_JsDom$all$__img$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
   var x_$_lo = $thiz.X;
   var x_$_hi = $thiz.Y;
   if (((8192 & x_$_hi) === 0)) {
-    $thiz.gE = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "img", true, $m_Lscalatags_generic_Namespace$().bd);
+    $thiz.gF = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "img", true, $m_Lscalatags_generic_Namespace$().bd);
     var x$1_$_lo = $thiz.X;
     var x$1_$_hi = $thiz.Y;
     var hi$1 = (8192 | x$1_$_hi);
     $thiz.X = x$1_$_lo;
     $thiz.Y = hi$1;
   }
-  return $thiz.gE;
+  return $thiz.gF;
 }
 function $p_Lscalatags_JsDom$all$__label$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
   if (((64 & $s_RTLong__toInt__I__I__I($thiz.aD, $thiz.aE)) === 0)) {
-    $thiz.gG = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "label", false, $m_Lscalatags_generic_Namespace$().bd);
+    $thiz.gH = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "label", false, $m_Lscalatags_generic_Namespace$().bd);
     var x$1_$_lo = $thiz.aD;
     var x$1_$_hi = $thiz.aE;
     var lo$1 = (64 | x$1_$_lo);
     $thiz.aD = lo$1;
     $thiz.aE = x$1_$_hi;
   }
-  return $thiz.gG;
+  return $thiz.gH;
 }
 function $p_Lscalatags_JsDom$all$__input$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
   if (((128 & $s_RTLong__toInt__I__I__I($thiz.aD, $thiz.aE)) === 0)) {
-    $thiz.gF = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "input", true, $m_Lscalatags_generic_Namespace$().bd);
+    $thiz.gG = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "input", true, $m_Lscalatags_generic_Namespace$().bd);
     var x$1_$_lo = $thiz.aD;
     var x$1_$_hi = $thiz.aE;
     var lo$1 = (128 | x$1_$_lo);
     $thiz.aD = lo$1;
     $thiz.aE = x$1_$_hi;
   }
-  return $thiz.gF;
+  return $thiz.gG;
 }
 function $p_Lscalatags_JsDom$all$__select$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
   if (((512 & $s_RTLong__toInt__I__I__I($thiz.aD, $thiz.aE)) === 0)) {
-    $thiz.gK = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "select", false, $m_Lscalatags_generic_Namespace$().bd);
+    $thiz.gL = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "select", false, $m_Lscalatags_generic_Namespace$().bd);
     var x$1_$_lo = $thiz.aD;
     var x$1_$_hi = $thiz.aE;
     var lo$1 = (512 | x$1_$_lo);
     $thiz.aD = lo$1;
     $thiz.aE = x$1_$_hi;
   }
-  return $thiz.gK;
+  return $thiz.gL;
 }
 function $p_Lscalatags_JsDom$all$__option$lzycompute__Lscalatags_JsDom$TypedTag($thiz) {
   if (((4096 & $s_RTLong__toInt__I__I__I($thiz.aD, $thiz.aE)) === 0)) {
-    $thiz.gJ = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "option", false, $m_Lscalatags_generic_Namespace$().bd);
+    $thiz.gK = $f_Lscalatags_jsdom_TagFactory__typedTag__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag($thiz, "option", false, $m_Lscalatags_generic_Namespace$().bd);
     var x$1_$_lo = $thiz.aD;
     var x$1_$_hi = $thiz.aE;
     var lo$1 = (4096 | x$1_$_lo);
     $thiz.aD = lo$1;
     $thiz.aE = x$1_$_hi;
   }
-  return $thiz.gJ;
+  return $thiz.gK;
 }
 function $p_Lscalatags_JsDom$all$__marginRight$lzycompute__Lscalatags_generic_StyleMisc$MarginAuto($thiz) {
   var x_$_lo = $thiz.aD;
   var x_$_hi = $thiz.aE;
   if ((((-2147483648) & x_$_hi) === 0)) {
-    $thiz.gH = new $c_Lscalatags_generic_Styles$$anon$1($thiz);
+    $thiz.gI = new $c_Lscalatags_generic_Styles$$anon$1($thiz);
     var x$1_$_lo = $thiz.aD;
     var x$1_$_hi = $thiz.aE;
     var hi$1 = ((-2147483648) | x$1_$_hi);
     $thiz.aD = x$1_$_lo;
     $thiz.aE = hi$1;
   }
-  return $thiz.gH;
+  return $thiz.gI;
 }
 function $p_Lscalatags_JsDom$all$__href$lzycompute__Lscalatags_generic_Attr($thiz) {
   if (((134217728 & $s_RTLong__toInt__I__I__I($thiz.cR, $thiz.cS)) === 0)) {
-    $thiz.gD = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "href", null, false);
+    $thiz.gE = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "href", null, false);
     var x$1_$_lo = $thiz.cR;
     var x$1_$_hi = $thiz.cS;
     var lo$1 = (134217728 | x$1_$_lo);
     $thiz.cR = lo$1;
     $thiz.cS = x$1_$_hi;
   }
-  return $thiz.gD;
+  return $thiz.gE;
 }
 function $p_Lscalatags_JsDom$all$__src$lzycompute__Lscalatags_generic_Attr($thiz) {
   if (((1073741824 & $s_RTLong__toInt__I__I__I($thiz.cR, $thiz.cS)) === 0)) {
-    $thiz.gN = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "src", null, false);
+    $thiz.gO = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "src", null, false);
     var x$1_$_lo = $thiz.cR;
     var x$1_$_hi = $thiz.cS;
     var lo$1 = (1073741824 | x$1_$_lo);
     $thiz.cR = lo$1;
     $thiz.cS = x$1_$_hi;
   }
-  return $thiz.gN;
+  return $thiz.gO;
 }
 function $p_Lscalatags_JsDom$all$__name$lzycompute__Lscalatags_generic_Attr($thiz) {
   if (((8192 & $s_RTLong__toInt__I__I__I($thiz.an, $thiz.ao)) === 0)) {
-    $thiz.gI = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "name", null, false);
+    $thiz.gJ = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "name", null, false);
     var x$1_$_lo = $thiz.an;
     var x$1_$_hi = $thiz.ao;
     var lo$1 = (8192 | x$1_$_lo);
     $thiz.an = lo$1;
     $thiz.ao = x$1_$_hi;
   }
-  return $thiz.gI;
+  return $thiz.gJ;
 }
 function $p_Lscalatags_JsDom$all$__type$lzycompute__Lscalatags_generic_Attr($thiz) {
   if (((2097152 & $s_RTLong__toInt__I__I__I($thiz.an, $thiz.ao)) === 0)) {
-    $thiz.gP = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "type", null, false);
+    $thiz.gQ = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "type", null, false);
     var x$1_$_lo = $thiz.an;
     var x$1_$_hi = $thiz.ao;
     var lo$1 = (2097152 | x$1_$_lo);
     $thiz.an = lo$1;
     $thiz.ao = x$1_$_hi;
   }
-  return $thiz.gP;
+  return $thiz.gQ;
 }
 function $p_Lscalatags_JsDom$all$__value$lzycompute__Lscalatags_generic_Attr($thiz) {
   if (((8388608 & $s_RTLong__toInt__I__I__I($thiz.an, $thiz.ao)) === 0)) {
-    $thiz.gQ = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "value", null, false);
+    $thiz.gR = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "value", null, false);
     var x$1_$_lo = $thiz.an;
     var x$1_$_hi = $thiz.ao;
     var lo$1 = (8388608 | x$1_$_lo);
     $thiz.an = lo$1;
     $thiz.ao = x$1_$_hi;
   }
-  return $thiz.gQ;
+  return $thiz.gR;
 }
 function $p_Lscalatags_JsDom$all$__widthA$lzycompute__Lscalatags_generic_Attr($thiz) {
   if (((16777216 & $s_RTLong__toInt__I__I__I($thiz.an, $thiz.ao)) === 0)) {
-    $thiz.gR = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "width", null, false);
+    $thiz.gS = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "width", null, false);
     var x$1_$_lo = $thiz.an;
     var x$1_$_hi = $thiz.ao;
     var lo$1 = (16777216 | x$1_$_lo);
     $thiz.an = lo$1;
     $thiz.ao = x$1_$_hi;
   }
-  return $thiz.gR;
+  return $thiz.gS;
 }
 function $p_Lscalatags_JsDom$all$__class$lzycompute__Lscalatags_generic_Attr($thiz) {
   if (((67108864 & $s_RTLong__toInt__I__I__I($thiz.an, $thiz.ao)) === 0)) {
-    $thiz.gz = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "class", null, false);
+    $thiz.gA = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "class", null, false);
     var x$1_$_lo = $thiz.an;
     var x$1_$_hi = $thiz.ao;
     var lo$1 = (67108864 | x$1_$_lo);
     $thiz.an = lo$1;
     $thiz.ao = x$1_$_hi;
   }
-  return $thiz.gz;
+  return $thiz.gA;
 }
 function $p_Lscalatags_JsDom$all$__title$lzycompute__Lscalatags_generic_Attr($thiz) {
   var x_$_lo = $thiz.an;
   var x_$_hi = $thiz.ao;
   if (((128 & x_$_hi) === 0)) {
-    $thiz.gO = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "title", null, false);
+    $thiz.gP = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "title", null, false);
     var x$1_$_lo = $thiz.an;
     var x$1_$_hi = $thiz.ao;
     var hi$1 = (128 | x$1_$_hi);
     $thiz.an = x$1_$_lo;
     $thiz.ao = hi$1;
   }
-  return $thiz.gO;
+  return $thiz.gP;
 }
 /** @constructor */
 function $c_Lscalatags_JsDom$all$() {
   this.p = null;
-  this.iS = null;
+  this.iT = null;
   this.kr = null;
-  this.iR = null;
-  this.gB = null;
+  this.iS = null;
   this.gC = null;
-  this.gA = null;
-  this.gw = null;
-  this.gL = null;
+  this.gD = null;
+  this.gB = null;
   this.gx = null;
   this.gM = null;
   this.gy = null;
-  this.gE = null;
-  this.gG = null;
-  this.gF = null;
-  this.gK = null;
-  this.gJ = null;
-  this.gH = null;
-  this.gD = null;
   this.gN = null;
+  this.gz = null;
+  this.gF = null;
+  this.gH = null;
+  this.gG = null;
+  this.gL = null;
+  this.gK = null;
   this.gI = null;
-  this.gP = null;
+  this.gE = null;
+  this.gO = null;
+  this.gJ = null;
   this.gQ = null;
   this.gR = null;
-  this.gz = null;
-  this.gO = null;
+  this.gS = null;
+  this.gA = null;
+  this.gP = null;
   this.X = 0;
   this.Y = 0;
   this.aD = 0;
@@ -16655,19 +16655,19 @@ function $h_Lscalatags_JsDom$all$() {
 }
 $h_Lscalatags_JsDom$all$.prototype = $p;
 $p.lo = (function() {
-  return (((128 & $s_RTLong__toInt__I__I__I(this.X, this.Y)) === 0) ? $p_Lscalatags_JsDom$all$__h1$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gB);
+  return (((128 & $s_RTLong__toInt__I__I__I(this.X, this.Y)) === 0) ? $p_Lscalatags_JsDom$all$__h1$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gC);
 });
-$p.jF = (function() {
-  return (((1024 & $s_RTLong__toInt__I__I__I(this.X, this.Y)) === 0) ? $p_Lscalatags_JsDom$all$__h4$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gC);
+$p.jG = (function() {
+  return (((1024 & $s_RTLong__toInt__I__I__I(this.X, this.Y)) === 0) ? $p_Lscalatags_JsDom$all$__h4$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gD);
 });
 $p.V = (function() {
-  return (((134217728 & $s_RTLong__toInt__I__I__I(this.X, this.Y)) === 0) ? $p_Lscalatags_JsDom$all$__div$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gA);
+  return (((134217728 & $s_RTLong__toInt__I__I__I(this.X, this.Y)) === 0) ? $p_Lscalatags_JsDom$all$__div$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gB);
 });
 $p.dK = (function() {
-  return (((268435456 & $s_RTLong__toInt__I__I__I(this.X, this.Y)) === 0) ? $p_Lscalatags_JsDom$all$__a$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gw);
+  return (((268435456 & $s_RTLong__toInt__I__I__I(this.X, this.Y)) === 0) ? $p_Lscalatags_JsDom$all$__a$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gx);
 });
 $p.mc = (function() {
-  return ((((-2147483648) & $s_RTLong__toInt__I__I__I(this.X, this.Y)) === 0) ? $p_Lscalatags_JsDom$all$__small$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gL);
+  return ((((-2147483648) & $s_RTLong__toInt__I__I__I(this.X, this.Y)) === 0) ? $p_Lscalatags_JsDom$all$__small$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gM);
 });
 $p.kQ = (function() {
   var x_$_lo = this.X;
@@ -16675,7 +16675,7 @@ $p.kQ = (function() {
   if (((64 & x_$_hi) === 0)) {
     return $p_Lscalatags_JsDom$all$__b$lzycompute__Lscalatags_JsDom$TypedTag(this);
   } else {
-    return this.gx;
+    return this.gy;
   }
 });
 $p.dj = (function() {
@@ -16684,16 +16684,16 @@ $p.dj = (function() {
   if (((256 & x_$_hi) === 0)) {
     return $p_Lscalatags_JsDom$all$__span$lzycompute__Lscalatags_JsDom$TypedTag(this);
   } else {
-    return this.gM;
+    return this.gN;
   }
 });
-$p.jd = (function() {
+$p.je = (function() {
   var x_$_lo = this.X;
   var x_$_hi = this.Y;
   if (((512 & x_$_hi) === 0)) {
     return $p_Lscalatags_JsDom$all$__br$lzycompute__Lscalatags_JsDom$TypedTag(this);
   } else {
-    return this.gy;
+    return this.gz;
   }
 });
 $p.fg = (function() {
@@ -16702,20 +16702,20 @@ $p.fg = (function() {
   if (((8192 & x_$_hi) === 0)) {
     return $p_Lscalatags_JsDom$all$__img$lzycompute__Lscalatags_JsDom$TypedTag(this);
   } else {
-    return this.gE;
+    return this.gF;
   }
 });
 $p.ly = (function() {
-  return (((64 & $s_RTLong__toInt__I__I__I(this.aD, this.aE)) === 0) ? $p_Lscalatags_JsDom$all$__label$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gG);
+  return (((64 & $s_RTLong__toInt__I__I__I(this.aD, this.aE)) === 0) ? $p_Lscalatags_JsDom$all$__label$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gH);
 });
 $p.lt = (function() {
-  return (((128 & $s_RTLong__toInt__I__I__I(this.aD, this.aE)) === 0) ? $p_Lscalatags_JsDom$all$__input$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gF);
+  return (((128 & $s_RTLong__toInt__I__I__I(this.aD, this.aE)) === 0) ? $p_Lscalatags_JsDom$all$__input$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gG);
 });
 $p.ma = (function() {
-  return (((512 & $s_RTLong__toInt__I__I__I(this.aD, this.aE)) === 0) ? $p_Lscalatags_JsDom$all$__select$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gK);
+  return (((512 & $s_RTLong__toInt__I__I__I(this.aD, this.aE)) === 0) ? $p_Lscalatags_JsDom$all$__select$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gL);
 });
 $p.jN = (function() {
-  return (((4096 & $s_RTLong__toInt__I__I__I(this.aD, this.aE)) === 0) ? $p_Lscalatags_JsDom$all$__option$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gJ);
+  return (((4096 & $s_RTLong__toInt__I__I__I(this.aD, this.aE)) === 0) ? $p_Lscalatags_JsDom$all$__option$lzycompute__Lscalatags_JsDom$TypedTag(this) : this.gK);
 });
 $p.lE = (function() {
   var x_$_lo = this.aD;
@@ -16723,29 +16723,29 @@ $p.lE = (function() {
   if ((((-2147483648) & x_$_hi) === 0)) {
     return $p_Lscalatags_JsDom$all$__marginRight$lzycompute__Lscalatags_generic_StyleMisc$MarginAuto(this);
   } else {
-    return this.gH;
+    return this.gI;
   }
 });
 $p.eD = (function() {
-  return (((134217728 & $s_RTLong__toInt__I__I__I(this.cR, this.cS)) === 0) ? $p_Lscalatags_JsDom$all$__href$lzycompute__Lscalatags_generic_Attr(this) : this.gD);
+  return (((134217728 & $s_RTLong__toInt__I__I__I(this.cR, this.cS)) === 0) ? $p_Lscalatags_JsDom$all$__href$lzycompute__Lscalatags_generic_Attr(this) : this.gE);
 });
-$p.fr = (function() {
-  return (((1073741824 & $s_RTLong__toInt__I__I__I(this.cR, this.cS)) === 0) ? $p_Lscalatags_JsDom$all$__src$lzycompute__Lscalatags_generic_Attr(this) : this.gN);
+$p.fs = (function() {
+  return (((1073741824 & $s_RTLong__toInt__I__I__I(this.cR, this.cS)) === 0) ? $p_Lscalatags_JsDom$all$__src$lzycompute__Lscalatags_generic_Attr(this) : this.gO);
 });
 $p.lI = (function() {
-  return (((8192 & $s_RTLong__toInt__I__I__I(this.an, this.ao)) === 0) ? $p_Lscalatags_JsDom$all$__name$lzycompute__Lscalatags_generic_Attr(this) : this.gI);
+  return (((8192 & $s_RTLong__toInt__I__I__I(this.an, this.ao)) === 0) ? $p_Lscalatags_JsDom$all$__name$lzycompute__Lscalatags_generic_Attr(this) : this.gJ);
 });
 $p.mq = (function() {
-  return (((2097152 & $s_RTLong__toInt__I__I__I(this.an, this.ao)) === 0) ? $p_Lscalatags_JsDom$all$__type$lzycompute__Lscalatags_generic_Attr(this) : this.gP);
+  return (((2097152 & $s_RTLong__toInt__I__I__I(this.an, this.ao)) === 0) ? $p_Lscalatags_JsDom$all$__type$lzycompute__Lscalatags_generic_Attr(this) : this.gQ);
 });
 $p.k4 = (function() {
-  return (((8388608 & $s_RTLong__toInt__I__I__I(this.an, this.ao)) === 0) ? $p_Lscalatags_JsDom$all$__value$lzycompute__Lscalatags_generic_Attr(this) : this.gQ);
+  return (((8388608 & $s_RTLong__toInt__I__I__I(this.an, this.ao)) === 0) ? $p_Lscalatags_JsDom$all$__value$lzycompute__Lscalatags_generic_Attr(this) : this.gR);
 });
-$p.hn = (function() {
-  return (((16777216 & $s_RTLong__toInt__I__I__I(this.an, this.ao)) === 0) ? $p_Lscalatags_JsDom$all$__widthA$lzycompute__Lscalatags_generic_Attr(this) : this.gR);
+$p.ho = (function() {
+  return (((16777216 & $s_RTLong__toInt__I__I__I(this.an, this.ao)) === 0) ? $p_Lscalatags_JsDom$all$__widthA$lzycompute__Lscalatags_generic_Attr(this) : this.gS);
 });
 $p.z = (function() {
-  return (((67108864 & $s_RTLong__toInt__I__I__I(this.an, this.ao)) === 0) ? $p_Lscalatags_JsDom$all$__class$lzycompute__Lscalatags_generic_Attr(this) : this.gz);
+  return (((67108864 & $s_RTLong__toInt__I__I__I(this.an, this.ao)) === 0) ? $p_Lscalatags_JsDom$all$__class$lzycompute__Lscalatags_generic_Attr(this) : this.gA);
 });
 $p.mo = (function() {
   var x_$_lo = this.an;
@@ -16753,7 +16753,7 @@ $p.mo = (function() {
   if (((128 & x_$_hi) === 0)) {
     return $p_Lscalatags_JsDom$all$__title$lzycompute__Lscalatags_generic_Attr(this);
   } else {
-    return this.gO;
+    return this.gP;
   }
 });
 var $d_Lscalatags_JsDom$all$ = new $TypeData().i($c_Lscalatags_JsDom$all$, "scalatags.JsDom$all$", ({
@@ -16800,7 +16800,7 @@ function $h_sci_ArraySeq() {
 }
 $h_sci_ArraySeq.prototype = $p;
 $p.ff = (function(coll) {
-  return $m_sci_ArraySeq$().h4(coll, this.ap());
+  return $m_sci_ArraySeq$().h5(coll, this.ap());
 });
 $p.bR = (function() {
   return $m_sci_ArraySeq$().fl(this.ap());
@@ -16808,7 +16808,7 @@ $p.bR = (function() {
 $p.bQ = (function(f) {
   return $f_sci_StrictOptimizedSeqOps__distinctBy__F1__O(this, f);
 });
-$p.fn = (function(p) {
+$p.fo = (function(p) {
   return $f_sc_StrictOptimizedIterableOps__partition__F1__T2(this, p);
 });
 $p.b8 = (function(f) {
@@ -16820,7 +16820,7 @@ $p.bY = (function(toIterableOnce) {
 $p.aN = (function(pred) {
   return $f_sc_StrictOptimizedIterableOps__filterImpl__F1__Z__O(this, pred, false);
 });
-$p.gV = (function(that) {
+$p.gW = (function(that) {
   return $f_sci_IndexedSeq__canEqual__O__Z(this, that);
 });
 $p.eI = (function(o) {
@@ -16846,7 +16846,7 @@ $p.s = (function() {
   return this.i();
 });
 $p.cW = (function() {
-  return $m_sci_ArraySeq$().gj;
+  return $m_sci_ArraySeq$().gk;
 });
 $p.lB = (function(f) {
   var a = new $ac_O(this.i());
@@ -16918,7 +16918,7 @@ $p.bP = (function(xs, start, len) {
   }
   return copied;
 });
-$p.gT = (function() {
+$p.gU = (function() {
   return 2147483647;
 });
 $p.aJ = (function(ord) {
@@ -16942,7 +16942,7 @@ $p.ba = (function() {
   return new $c_sc_IndexedSeqView$Id(this);
 });
 $p.ca = (function(coll) {
-  return $m_sci_ArraySeq$().h4(coll, this.ap());
+  return $m_sci_ArraySeq$().h5(coll, this.ap());
 });
 $p.b4 = (function(ord) {
   return this.aJ(ord);
@@ -16960,7 +16960,7 @@ $p.a7 = (function(f) {
   return this.lB(f);
 });
 $p.aA = (function() {
-  return $m_sci_ArraySeq$().gj;
+  return $m_sci_ArraySeq$().gk;
 });
 function $isArrayOf_sci_ArraySeq(obj, depth) {
   return (!(!(((obj && obj.$classData) && (obj.$classData.D === depth)) && obj.$classData.B.n.Y)));
@@ -17012,9 +17012,9 @@ $p.s = (function() {
   return this.i();
 });
 $p.cW = (function() {
-  return $m_scm_ArraySeq$().go;
+  return $m_scm_ArraySeq$().gp;
 });
-$p.jC = (function(coll) {
+$p.jD = (function(coll) {
   var evidence$1 = this.ap();
   var capacity = 0;
   var size = 0;
@@ -17071,13 +17071,13 @@ $p.b4 = (function(ord) {
   return this.mj(ord);
 });
 $p.ca = (function(coll) {
-  return this.jC(coll);
+  return this.jD(coll);
 });
 $p.ff = (function(coll) {
-  return this.jC(coll);
+  return this.jD(coll);
 });
 $p.aA = (function() {
-  return $m_scm_ArraySeq$().go;
+  return $m_scm_ArraySeq$().gp;
 });
 function $isArrayOf_scm_ArraySeq(obj, depth) {
   return (!(!(((obj && obj.$classData) && (obj.$classData.D === depth)) && obj.$classData.B.n.a0)));
@@ -17098,10 +17098,10 @@ $p.i = (function() {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.jb(this.bE, this$1.am);
+  return this$1.jc(this.bE, this$1.am);
 });
 $p.e = (function(that) {
-  return ((that instanceof $c_sci_ArraySeq$ofBoolean) ? $m_ju_Arrays$().ju(this.bE, that.bE) : $f_sc_Seq__equals__O__Z(this, that));
+  return ((that instanceof $c_sci_ArraySeq$ofBoolean) ? $m_ju_Arrays$().jv(this.bE, that.bE) : $f_sc_Seq__equals__O__Z(this, that));
 });
 $p.aJ = (function(ord) {
   if ((this.bE.a.length <= 1)) {
@@ -17109,7 +17109,7 @@ $p.aJ = (function(ord) {
   } else if ((ord === $m_s_math_Ordering$Boolean$())) {
     var this$1 = this.bE;
     var a = this$1.af();
-    $m_s_util_Sorting$().hi(a, 0, a.a.length, $m_s_math_Ordering$Boolean$());
+    $m_s_util_Sorting$().hj(a, 0, a.a.length, $m_s_math_Ordering$Boolean$());
     return new $c_sci_ArraySeq$ofBoolean(a);
   } else {
     return $c_sci_ArraySeq.prototype.aJ.call(this, ord);
@@ -17224,10 +17224,10 @@ $p.eq = (function(i) {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j3(this.bF, this$1.am);
+  return this$1.j4(this.bF, this$1.am);
 });
 $p.e = (function(that) {
-  return ((that instanceof $c_sci_ArraySeq$ofByte) ? $m_ju_Arrays$().jp(this.bF, that.bF) : $f_sc_Seq__equals__O__Z(this, that));
+  return ((that instanceof $c_sci_ArraySeq$ofByte) ? $m_ju_Arrays$().jq(this.bF, that.bF) : $f_sc_Seq__equals__O__Z(this, that));
 });
 $p.aJ = (function(ord) {
   if ((this.bF.a.length <= 1)) {
@@ -17347,10 +17347,10 @@ $p.er = (function(i) {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j4(this.bq, this$1.am);
+  return this$1.j5(this.bq, this$1.am);
 });
 $p.e = (function(that) {
-  return ((that instanceof $c_sci_ArraySeq$ofChar) ? $m_ju_Arrays$().jq(this.bq, that.bq) : $f_sc_Seq__equals__O__Z(this, that));
+  return ((that instanceof $c_sci_ArraySeq$ofChar) ? $m_ju_Arrays$().jr(this.bq, that.bq) : $f_sc_Seq__equals__O__Z(this, that));
 });
 $p.aJ = (function(ord) {
   if ((this.bq.a.length <= 1)) {
@@ -17470,7 +17470,7 @@ $p.i = (function() {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j5(this.c6, this$1.am);
+  return this$1.j6(this.c6, this$1.am);
 });
 $p.e = (function(that) {
   if ((that instanceof $c_sci_ArraySeq$ofDouble)) {
@@ -17594,7 +17594,7 @@ $p.i = (function() {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j6(this.c7, this$1.am);
+  return this$1.j7(this.c7, this$1.am);
 });
 $p.e = (function(that) {
   if ((that instanceof $c_sci_ArraySeq$ofFloat)) {
@@ -17718,10 +17718,10 @@ $p.i = (function() {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j7(this.bG, this$1.am);
+  return this$1.j8(this.bG, this$1.am);
 });
 $p.e = (function(that) {
-  return ((that instanceof $c_sci_ArraySeq$ofInt) ? $m_ju_Arrays$().jr(this.bG, that.bG) : $f_sc_Seq__equals__O__Z(this, that));
+  return ((that instanceof $c_sci_ArraySeq$ofInt) ? $m_ju_Arrays$().js(this.bG, that.bG) : $f_sc_Seq__equals__O__Z(this, that));
 });
 $p.aJ = (function(ord) {
   if ((this.bG.a.length <= 1)) {
@@ -17841,10 +17841,10 @@ $p.i = (function() {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j8(this.bH, this$1.am);
+  return this$1.j9(this.bH, this$1.am);
 });
 $p.e = (function(that) {
-  return ((that instanceof $c_sci_ArraySeq$ofLong) ? $m_ju_Arrays$().js(this.bH, that.bH) : $f_sc_Seq__equals__O__Z(this, that));
+  return ((that instanceof $c_sci_ArraySeq$ofLong) ? $m_ju_Arrays$().jt(this.bH, that.bH) : $f_sc_Seq__equals__O__Z(this, that));
 });
 $p.aJ = (function(ord) {
   if ((((this.bH.a.length >>> 1) | 0) <= 1)) {
@@ -17978,10 +17978,10 @@ $p.u = (function(i) {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j2(this.bW, this$1.am);
+  return this$1.j3(this.bW, this$1.am);
 });
 $p.e = (function(that) {
-  return ((that instanceof $c_sci_ArraySeq$ofRef) ? $m_s_Array$().jv(this.bW, that.bW) : $f_sc_Seq__equals__O__Z(this, that));
+  return ((that instanceof $c_sci_ArraySeq$ofRef) ? $m_s_Array$().jw(this.bW, that.bW) : $f_sc_Seq__equals__O__Z(this, that));
 });
 $p.k1 = (function(ord) {
   if ((this.bW.a.length <= 1)) {
@@ -18059,10 +18059,10 @@ $p.es = (function(i) {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j9(this.bI, this$1.am);
+  return this$1.ja(this.bI, this$1.am);
 });
 $p.e = (function(that) {
-  return ((that instanceof $c_sci_ArraySeq$ofShort) ? $m_ju_Arrays$().jt(this.bI, that.bI) : $f_sc_Seq__equals__O__Z(this, that));
+  return ((that instanceof $c_sci_ArraySeq$ofShort) ? $m_ju_Arrays$().ju(this.bI, that.bI) : $f_sc_Seq__equals__O__Z(this, that));
 });
 $p.aJ = (function(ord) {
   if ((this.bI.a.length <= 1)) {
@@ -18179,7 +18179,7 @@ $p.i = (function() {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.ja(this.db, this$1.am);
+  return this$1.jb(this.db, this$1.am);
 });
 $p.e = (function(that) {
   return ((that instanceof $c_sci_ArraySeq$ofUnit) ? (this.db.a.length === that.db.a.length) : $f_sc_Seq__equals__O__Z(this, that));
@@ -18392,7 +18392,7 @@ $p.l = (function() {
 $p.lX = (function(elem) {
   return new $c_sci_$colon$colon(elem, this);
 });
-$p.hd = (function(prefix) {
+$p.he = (function(prefix) {
   if ((prefix instanceof $c_sci_List)) {
     return this.ks(prefix);
   }
@@ -18401,7 +18401,7 @@ $p.hd = (function(prefix) {
   }
   if ((prefix instanceof $c_scm_ListBuffer)) {
     if (this.l()) {
-      return prefix.hj();
+      return prefix.hk();
     }
   }
   var iter = prefix.f();
@@ -18504,9 +18504,9 @@ $p.eB = (function(p) {
 $p.bt = (function() {
   return "List";
 });
-$p.fn = (function(p) {
+$p.fo = (function(p) {
   if (this.l()) {
-    return $m_sci_List$().io;
+    return $m_sci_List$().ip;
   } else {
     var x1 = $f_sc_StrictOptimizedIterableOps__partition__F1__T2(this, p);
     if ((x1 !== null)) {
@@ -18528,7 +18528,7 @@ $p.e = (function(o) {
 $p.k = (function(v1) {
   return $f_sc_LinearSeqOps__apply__I__O(this, (v1 | 0));
 });
-$p.jn = (function(n) {
+$p.jo = (function(n) {
   return $p_sc_StrictOptimizedLinearSeqOps__loop$2__I__sc_LinearSeq__sc_LinearSeq(this, n, this);
 });
 $p.aN = (function(pred) {
@@ -18568,10 +18568,10 @@ $p.i = (function() {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.jb(this.cG, this$1.am);
+  return this$1.jc(this.cG, this$1.am);
 });
 $p.e = (function(that) {
-  return ((that instanceof $c_scm_ArraySeq$ofBoolean) ? $m_ju_Arrays$().ju(this.cG, that.cG) : $c_scm_ArraySeq.prototype.e.call(this, that));
+  return ((that instanceof $c_scm_ArraySeq$ofBoolean) ? $m_ju_Arrays$().jv(this.cG, that.cG) : $c_scm_ArraySeq.prototype.e.call(this, that));
 });
 $p.f = (function() {
   return new $c_sc_ArrayOps$ArrayIterator$mcZ$sp(this.cG);
@@ -18642,10 +18642,10 @@ $p.eq = (function(index) {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j3(this.cH, this$1.am);
+  return this$1.j4(this.cH, this$1.am);
 });
 $p.e = (function(that) {
-  return ((that instanceof $c_scm_ArraySeq$ofByte) ? $m_ju_Arrays$().jp(this.cH, that.cH) : $c_scm_ArraySeq.prototype.e.call(this, that));
+  return ((that instanceof $c_scm_ArraySeq$ofByte) ? $m_ju_Arrays$().jq(this.cH, that.cH) : $c_scm_ArraySeq.prototype.e.call(this, that));
 });
 $p.f = (function() {
   return new $c_sc_ArrayOps$ArrayIterator$mcB$sp(this.cH);
@@ -18713,10 +18713,10 @@ $p.er = (function(index) {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j4(this.br, this$1.am);
+  return this$1.j5(this.br, this$1.am);
 });
 $p.e = (function(that) {
-  return ((that instanceof $c_scm_ArraySeq$ofChar) ? $m_ju_Arrays$().jq(this.br, that.br) : $c_scm_ArraySeq.prototype.e.call(this, that));
+  return ((that instanceof $c_scm_ArraySeq$ofChar) ? $m_ju_Arrays$().jr(this.br, that.br) : $c_scm_ArraySeq.prototype.e.call(this, that));
 });
 $p.f = (function() {
   return new $c_sc_ArrayOps$ArrayIterator$mcC$sp(this.br);
@@ -18729,7 +18729,7 @@ $p.cq = (function(sb, start, sep, end) {
   var len = this.br.a.length;
   if ((len !== 0)) {
     if ((sep === "")) {
-      jsb.j0(this.br);
+      jsb.j1(this.br);
     } else {
       jsb.i();
       var c = this.br.a[0];
@@ -18810,7 +18810,7 @@ $p.i = (function() {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j5(this.bJ, this$1.am);
+  return this$1.j6(this.bJ, this$1.am);
 });
 $p.e = (function(that) {
   if ((that instanceof $c_scm_ArraySeq$ofDouble)) {
@@ -18896,7 +18896,7 @@ $p.i = (function() {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j6(this.bK, this$1.am);
+  return this$1.j7(this.bK, this$1.am);
 });
 $p.e = (function(that) {
   if ((that instanceof $c_scm_ArraySeq$ofFloat)) {
@@ -18982,10 +18982,10 @@ $p.i = (function() {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j7(this.cI, this$1.am);
+  return this$1.j8(this.cI, this$1.am);
 });
 $p.e = (function(that) {
-  return ((that instanceof $c_scm_ArraySeq$ofInt) ? $m_ju_Arrays$().jr(this.cI, that.cI) : $c_scm_ArraySeq.prototype.e.call(this, that));
+  return ((that instanceof $c_scm_ArraySeq$ofInt) ? $m_ju_Arrays$().js(this.cI, that.cI) : $c_scm_ArraySeq.prototype.e.call(this, that));
 });
 $p.f = (function() {
   return new $c_sc_ArrayOps$ArrayIterator$mcI$sp(this.cI);
@@ -19053,10 +19053,10 @@ $p.i = (function() {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j8(this.cJ, this$1.am);
+  return this$1.j9(this.cJ, this$1.am);
 });
 $p.e = (function(that) {
-  return ((that instanceof $c_scm_ArraySeq$ofLong) ? $m_ju_Arrays$().js(this.cJ, that.cJ) : $c_scm_ArraySeq.prototype.e.call(this, that));
+  return ((that instanceof $c_scm_ArraySeq$ofLong) ? $m_ju_Arrays$().jt(this.cJ, that.cJ) : $c_scm_ArraySeq.prototype.e.call(this, that));
 });
 $p.f = (function() {
   return new $c_sc_ArrayOps$ArrayIterator$mcJ$sp(this.cJ);
@@ -19132,10 +19132,10 @@ $p.u = (function(index) {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j2(this.ck, this$1.am);
+  return this$1.j3(this.ck, this$1.am);
 });
 $p.e = (function(that) {
-  return ((that instanceof $c_scm_ArraySeq$ofRef) ? $m_s_Array$().jv(this.ck, that.ck) : $c_scm_ArraySeq.prototype.e.call(this, that));
+  return ((that instanceof $c_scm_ArraySeq$ofRef) ? $m_s_Array$().jw(this.ck, that.ck) : $c_scm_ArraySeq.prototype.e.call(this, that));
 });
 $p.f = (function() {
   return $ct_sc_ArrayOps$ArrayIterator__O__(new $c_sc_ArrayOps$ArrayIterator(), this.ck);
@@ -19197,10 +19197,10 @@ $p.es = (function(index) {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.j9(this.cK, this$1.am);
+  return this$1.ja(this.cK, this$1.am);
 });
 $p.e = (function(that) {
-  return ((that instanceof $c_scm_ArraySeq$ofShort) ? $m_ju_Arrays$().jt(this.cK, that.cK) : $c_scm_ArraySeq.prototype.e.call(this, that));
+  return ((that instanceof $c_scm_ArraySeq$ofShort) ? $m_ju_Arrays$().ju(this.cK, that.cK) : $c_scm_ArraySeq.prototype.e.call(this, that));
 });
 $p.f = (function() {
   return new $c_sc_ArrayOps$ArrayIterator$mcS$sp(this.cK);
@@ -19265,7 +19265,7 @@ $p.i = (function() {
 });
 $p.o = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
-  return this$1.ja(this.dc, this$1.am);
+  return this$1.jb(this.dc, this$1.am);
 });
 $p.e = (function(that) {
   return ((that instanceof $c_scm_ArraySeq$ofUnit) ? (this.dc.a.length === that.dc.a.length) : $c_scm_ArraySeq.prototype.e.call(this, that));
@@ -19321,9 +19321,9 @@ var $d_scm_ArraySeq$ofUnit = new $TypeData().i($c_scm_ArraySeq$ofUnit, "scala.co
 }));
 /** @constructor */
 function $c_sci_$colon$colon(head, next) {
-  this.gg = null;
+  this.gh = null;
   this.bp = null;
-  this.gg = head;
+  this.gh = head;
   this.bp = next;
 }
 $p = $c_sci_$colon$colon.prototype = new $h_sci_List();
@@ -19333,7 +19333,7 @@ function $h_sci_$colon$colon() {
 }
 $h_sci_$colon$colon.prototype = $p;
 $p.t = (function() {
-  return this.gg;
+  return this.gh;
 });
 $p.a2 = (function() {
   return "::";
@@ -19344,7 +19344,7 @@ $p.a3 = (function() {
 $p.a4 = (function(x$1) {
   switch (x$1) {
     case 0: {
-      return this.gg;
+      return this.gh;
       break;
     }
     case 1: {
@@ -19542,16 +19542,16 @@ $p.dQ = (function(ct) {
 $p.mp = (function() {
   var len = this.ax.i();
   var arr = new $ac_C(len);
-  this.ax.jD(0, len, arr, 0);
+  this.ax.jE(0, len, arr, 0);
   return arr;
 });
-$p.j1 = (function(xs) {
+$p.j2 = (function(xs) {
   if (false) {
     var this$3 = this.ax;
     var str = xs.mz;
     this$3.j = (("" + this$3.j) + str);
   } else if ((xs instanceof $c_scm_ArraySeq$ofChar)) {
-    this.ax.j0(xs.br);
+    this.ax.j1(xs.br);
   } else if ((xs instanceof $c_scm_StringBuilder)) {
     var this$4 = this.ax;
     var s = xs.ax;
@@ -19589,17 +19589,17 @@ $p.az = (function(elem) {
   return this.kC($uC(elem));
 });
 $p.ca = (function(coll) {
-  return $ct_scm_StringBuilder__(new $c_scm_StringBuilder()).j1(coll);
+  return $ct_scm_StringBuilder__(new $c_scm_StringBuilder()).j2(coll);
 });
 $p.ff = (function(coll) {
-  return $ct_scm_StringBuilder__(new $c_scm_StringBuilder()).j1(coll);
+  return $ct_scm_StringBuilder__(new $c_scm_StringBuilder()).j2(coll);
 });
 $p.k = (function(v1) {
   var i = (v1 | 0);
-  return $bC(this.ax.je(i));
+  return $bC(this.ax.jf(i));
 });
 $p.u = (function(i) {
-  return $bC(this.ax.je(i));
+  return $bC(this.ax.jf(i));
 });
 function $isArrayOf_scm_StringBuilder(obj, depth) {
   return (!(!(((obj && obj.$classData) && (obj.$classData.D === depth)) && obj.$classData.B.n.bN)));
@@ -19636,7 +19636,7 @@ var $d_scm_StringBuilder = new $TypeData().i($c_scm_StringBuilder, "scala.collec
   a: 1
 }));
 function $p_scm_ListBuffer__copyElems__V($thiz) {
-  var buf = new $c_scm_ListBuffer().fq($thiz);
+  var buf = new $c_scm_ListBuffer().fr($thiz);
   $thiz.bL = buf.bL;
   $thiz.co = buf.co;
   $thiz.f3 = false;
@@ -19701,11 +19701,11 @@ $p.s = (function() {
 $p.l = (function() {
   return (this.bM === 0);
 });
-$p.hj = (function() {
+$p.hk = (function() {
   this.f3 = (!this.l());
   return this.bL;
 });
-$p.iZ = (function(elem) {
+$p.j0 = (function(elem) {
   $p_scm_ListBuffer__ensureUnaliased__V(this);
   var last1 = new $c_sci_$colon$colon(elem, $m_sci_Nil$());
   if ((this.bM === 0)) {
@@ -19717,7 +19717,7 @@ $p.iZ = (function(elem) {
   this.bM = ((1 + this.bM) | 0);
   return this;
 });
-$p.fq = (function(xs) {
+$p.fr = (function(xs) {
   var it = xs.f();
   if (it.h()) {
     var len = 1;
@@ -19737,7 +19737,7 @@ $p.fq = (function(xs) {
 $p.ky = (function(xs) {
   var it = xs.f();
   if (it.h()) {
-    var fresh = new $c_scm_ListBuffer().fq(it);
+    var fresh = new $c_scm_ListBuffer().fr(it);
     $p_scm_ListBuffer__ensureUnaliased__V(this);
     if ((this.bM === 0)) {
       this.bL = fresh.bL;
@@ -19756,10 +19756,10 @@ $p.aU = (function(elems) {
   return this.ky(elems);
 });
 $p.az = (function(elem) {
-  return this.iZ(elem);
+  return this.j0(elem);
 });
 $p.at = (function() {
-  return this.hj();
+  return this.hk();
 });
 $p.k = (function(v1) {
   var i = (v1 | 0);
@@ -19853,10 +19853,10 @@ $p.aN = (function(pred) {
   return $f_sc_StrictOptimizedIterableOps__filterImpl__F1__Z__O(this, pred, false);
 });
 $p.f = (function() {
-  return this.hm().f();
+  return this.hn().f();
 });
 $p.aS = (function() {
-  return this.hm().aS();
+  return this.hn().aS();
 });
 $p.bw = (function() {
   return $ct_sc_IndexedSeqView$Reverse__sc_IndexedSeqOps__(new $c_sc_IndexedSeqView$Reverse(), this);
@@ -19874,28 +19874,28 @@ $p.aQ = (function(len) {
 $p.s = (function() {
   return this.aK;
 });
-$p.gZ = (function(n) {
+$p.h0 = (function(n) {
   this.c9 = $m_scm_ArrayBuffer$().jT(this.c9, this.aK, n);
 });
 $p.b3 = (function(size) {
   if (((size > this.aK) && (size >= 1))) {
-    this.gZ(size);
+    this.h0(size);
   }
 });
 $p.u = (function(n) {
   var hi = ((1 + n) | 0);
   if ((n < 0)) {
-    throw $m_scg_CommonErrors$().jG(n, ((this.aK - 1) | 0));
+    throw $m_scg_CommonErrors$().jH(n, ((this.aK - 1) | 0));
   }
   if ((hi > this.aK)) {
-    throw $m_scg_CommonErrors$().jG(((hi - 1) | 0), ((this.aK - 1) | 0));
+    throw $m_scg_CommonErrors$().jH(((hi - 1) | 0), ((this.aK - 1) | 0));
   }
   return this.c9.a[n];
 });
 $p.i = (function() {
   return this.aK;
 });
-$p.hm = (function() {
+$p.hn = (function() {
   return new $c_scm_ArrayBufferView(this, new $c_sr_AbstractFunction0_$$Lambda$07eded5776954a9c145e92c329afd52873ad179c((() => this.dE)));
 });
 $p.cW = (function() {
@@ -19905,18 +19905,18 @@ $p.kF = (function(elem) {
   this.dE = ((1 + this.dE) | 0);
   var newSize = ((1 + this.aK) | 0);
   if ((this.c9.a.length <= ((newSize - 1) | 0))) {
-    this.gZ(newSize);
+    this.h0(newSize);
   }
   this.aK = newSize;
   this.c9.a[((newSize - 1) | 0)] = elem;
   return this;
 });
-$p.iW = (function(elems) {
+$p.iX = (function(elems) {
   if ((elems instanceof $c_scm_ArrayBuffer)) {
     var elemsLength = elems.aK;
     if ((elemsLength > 0)) {
       this.dE = ((1 + this.dE) | 0);
-      this.gZ(((this.aK + elemsLength) | 0));
+      this.h0(((this.aK + elemsLength) | 0));
       $m_s_Array$().ah(elems.c9, 0, this.c9, this.aK, elemsLength);
       this.aK = ((this.aK + elemsLength) | 0);
     }
@@ -19944,7 +19944,7 @@ $p.cV = (function(z, op) {
   return $p_scm_ArrayBuffer__foldl__I__I__O__F2__O(this, 0, this.aK, z, op);
 });
 $p.aU = (function(elems) {
-  return this.iW(elems);
+  return this.iX(elems);
 });
 $p.az = (function(elem) {
   return this.kF(elem);
@@ -19953,7 +19953,7 @@ $p.aA = (function() {
   return $m_scm_ArrayBuffer$();
 });
 $p.ba = (function() {
-  return this.hm();
+  return this.hn();
 });
 $p.k = (function(v1) {
   return this.u((v1 | 0));
